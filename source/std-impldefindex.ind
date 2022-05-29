@@ -1,0 +1,514 @@
+\begin{theindex}
+
+  \item \texttt  {\#pragma}, \hyperpage{461}
+
+  \indexspace
+
+  \item additional execution policies supported by parallel algorithms, 
+		\hyperpage{767}, \hyperpage{1152}
+  \item additional \texttt  {file_type} enumerators for file systems supporting additional types of file, 
+		\hyperpage{1598}
+  \item additional formats for \texttt  {time_get::do_get_date}, 
+		\hyperpage{1476}
+  \item additional supported forms of preprocessing directive, 
+		\hyperpage{449}
+  \item algorithms for producing the standard random number distributions, 
+		\hyperpage{1298}
+  \item alignment, \hyperpage{68}
+  \item alignment additional values, \hyperpage{68}
+  \item alignment of bit-fields within a class object, \hyperpage{281}
+  \item allocation of bit-fields within a class object, \hyperpage{281}
+  \item any use of an invalid pointer other than to perform indirection or deallocate, 
+		\hyperpage{65}
+  \item argument values to construct \texttt  {ios_base::failure}, 
+		\hyperpage{1503}
+  \item assignability of placeholder objects, \hyperpage{755}
+
+  \indexspace
+
+  \item behavior of iostream classes when \texttt  {traits::pos_type} is not \texttt  {streampos} or when \texttt  {traits::\discretionary {}{}{}{}off_type} is not \texttt  {streamoff}, 
+		\hyperpage{1486}
+  \item behavior of non-standard attributes, \hyperpage{240}
+  \item behavior of \texttt  {strstreambuf::setbuf}, \hyperpage{1813}
+  \item bits in a byte, \hyperpage{59}
+
+  \indexspace
+
+  \item choice of larger or smaller value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {floating-point-literal}}}, 
+		\hyperpage{25}
+  \item code unit sequence for \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}}, 
+		\hyperpage{28}
+  \item code unit sequence for non-representable \leavevmode {\color  {grammar-gray}\textsf  {\textit  {string-literal}}}, 
+		\hyperpage{27}
+  \item column value of \texttt  {source_location::current}, 
+		\hyperpage{522}
+  \item conversions between pointers and integers, \hyperpage{126}
+  \item converting function pointer to object pointer and vice versa, 
+		\hyperpage{126}
+
+  \indexspace
+
+  \item default configuration of a pool, \hyperpage{628}
+  \item default \texttt  {next_buffer_size} for a \texttt  {monotonic_buffer_resource}, 
+		\hyperpage{629}
+  \item default number of buckets in \texttt  {unordered_map}, 
+		\hyperpage{932}
+  \item default number of buckets in \texttt  {unordered_multimap}, 
+		\hyperpage{938, 939}
+  \item default number of buckets in \texttt  {unordered_multiset}, 
+		\hyperpage{948, 949}
+  \item default number of buckets in \texttt  {unordered_set}, 
+		\hyperpage{943, 944}
+  \item default value for \texttt  {least_max_value} template parameter of \texttt  {counting_semaphore}, 
+		\hyperpage{1733}
+  \item defining \texttt  {main} in freestanding environment, 
+		\hyperpage{86}
+  \item definition and meaning of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptSTDC\kern .5pt\textunderscore \kern .5pt\textunderscore }, 
+		\hyperpage{463}, \hyperpage{1803}
+  \item definition and meaning of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptSTDC_VERSION\kern .5pt\textunderscore \kern .5pt\textunderscore }, 
+		\hyperpage{463}
+  \item definition of \texttt  {NULL}, \hyperpage{497}, 
+		\hyperpage{1804}
+  \item derived type for \texttt  {typeid}, \hyperpage{123}
+  \item diagnostic message, \hyperpage{4}
+  \item dynamic initialization of static inline variables before \texttt  {main}, 
+		\hyperpage{88}
+  \item dynamic initialization of static variables before \texttt  {main}, 
+		\hyperpage{88}
+  \item dynamic initialization of thread-local variables before entry, 
+		\hyperpage{88}
+
+  \indexspace
+
+  \item effect of calling associated Laguerre polynomials with \texttt  {n >= 128} or \texttt  {m >= 128}, 
+		\hyperpage{1348}
+  \item effect of calling associated Legendre polynomials with \texttt  {l >= 128}, 
+		\hyperpage{1348}
+  \item effect of calling \texttt  {basic_filebuf::setbuf} with nonzero arguments, 
+		\hyperpage{1564}
+  \item effect of calling \texttt  {basic_filebuf::sync} when a get area exists, 
+		\hyperpage{1565}
+  \item effect of calling \texttt  {basic_streambuf::setbuf} with nonzero arguments, 
+		\hyperpage{1544}
+  \item effect of calling cylindrical Bessel functions of the first kind with \texttt  {nu >= 128}, 
+		\hyperpage{1350}
+  \item effect of calling cylindrical Neumann functions with \texttt  {nu >= 128}, 
+		\hyperpage{1350}
+  \item effect of calling Hermite polynomials with \texttt  {n >= 128}, 
+		\hyperpage{1351}
+  \item effect of calling \texttt  {ios_base::sync_with_stdio} after any input or output operation on standard streams, 
+		\hyperpage{1497}
+  \item effect of calling irregular modified cylindrical Bessel functions with \texttt  {nu >= 128}, 
+		\hyperpage{1350}
+  \item effect of calling Laguerre polynomials with \texttt  {n >= 128}, 
+		\hyperpage{1352}
+  \item effect of calling Legendre polynomials with \texttt  {l >= 128}, 
+		\hyperpage{1352}
+  \item effect of calling regular modified cylindrical Bessel functions with \texttt  {nu >= 128}, 
+		\hyperpage{1350}
+  \item effect of calling spherical associated Legendre functions with \texttt  {l >= 128}, 
+		\hyperpage{1353}
+  \item effect of calling spherical Bessel functions with \texttt  {n >= 128}, 
+		\hyperpage{1352}
+  \item effect of calling spherical Neumann functions with \texttt  {n >= 128}, 
+		\hyperpage{1353}
+  \item effect of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}} on encoding state, 
+		\hyperpage{28}
+  \item effect of \texttt  {filesystem::copy}, \hyperpage{1610}
+  \item effect on C locale of calling \texttt  {locale::global}, 
+		\hyperpage{1452}
+  \item encoding assumption for \texttt  {format} width computation, 
+		\hyperpage{775}
+  \item \texttt  {error_category} for errors originating outside the operating system, 
+		\hyperpage{493}
+  \item exception type when \texttt  {random_device} constructor fails, 
+		\hyperpage{1296}
+  \item exception type when \texttt  {random_device::operator()} fails, 
+		\hyperpage{1296}
+  \item exception type when \texttt  {shared_ptr} constructor fails, 
+		\hyperpage{606}
+  \item exceptions thrown by standard library functions that have a potentially-throwing exception specification, 
+		\hyperpage{493}
+  \item exit status, \hyperpage{512}
+  \item extended signed integer types, \hyperpage{74}
+
+  \indexspace
+
+  \item file type of the file argument of \texttt  {filesystem::status}, 
+		\hyperpage{1620}
+  \item formatted character sequence generated by \texttt  {time_put::do_put} in C locale, 
+		\hyperpage{1478}
+  \item forward progress guarantees for implicit threads of parallel algorithms (if not defined for \texttt  {thread}), 
+		\hyperpage{1151}
+
+  \indexspace
+
+  \item growth factor for \texttt  {monotonic_buffer_resource}, 
+		\hyperpage{629}
+
+  \indexspace
+
+  \item headers for freestanding implementation, \hyperpage{475}
+  \item how \texttt  {random_device::operator()} generates values, 
+		\hyperpage{1296}
+  \item how the set of importable headers is determined, 
+		\hyperpage{251}
+
+  \indexspace
+
+  \item integer-class type, \hyperpage{982}
+  \item interactive device, \hyperpage{11}
+  \item interpretation of the path character sequence with format \texttt  {path::auto_format}, 
+		\hyperpage{1597}
+
+  \indexspace
+
+  \item largest supported value to configure the largest allocation satisfied directly by a pool, 
+		\hyperpage{627}
+  \item largest supported value to configure the maximum number of blocks to replenish a pool, 
+		\hyperpage{627}
+  \item last enumerator of \texttt  {launch}, \hyperpage{1738}
+  \item linkage of \texttt  {main}, \hyperpage{86}
+  \item linkage of names from C standard library, \hyperpage{476}
+  \item linkage of objects between C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} and other languages, 
+		\hyperpage{239}
+  \item locale names, \hyperpage{1451}
+  \item lvalue-to-rvalue conversion of an invalid pointer value, 
+		\hyperpage{95}
+
+  \indexspace
+
+  \item manner of search for included source file, \hyperpage{452}
+  \item mapping from name to catalog when calling \texttt  {mes\-sages::do_open}, 
+		\hyperpage{1484}
+  \item mapping header name to header or external source file, 
+		\hyperpage{18}
+  \item mapping of pointer to integer, \hyperpage{125}
+  \item mapping physical source file characters to translation character set, 
+		\hyperpage{13}, \hyperpage{1785}
+  \item mapping to message when calling \texttt  {messages::do_get}, 
+		\hyperpage{1484}
+  \item maximum depth of recursive template instantiations, 
+		\hyperpage{412}
+  \item maximum size of an allocated object, \hyperpage{133}, 
+		\hyperpage{518}
+  \item meaning of \texttt  {'}, \texttt  {\textbackslash }, \texttt  {/*}, or \texttt  {//} in a \leavevmode {\color  {grammar-gray}\textsf  {\textit  {q-char-sequence}}} or an \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-char-sequence}}}, 
+		\hyperpage{18}
+  \item meaning of \texttt  {asm} declaration, \hyperpage{236}
+  \item meaning of attribute declaration, \hyperpage{166}
+  \item meaning of dot-dot in \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-directory}}}, 
+		\hyperpage{1585}
+
+  \indexspace
+
+  \item nesting limit for \texttt  {\#include} directives, 
+		\hyperpage{453}
+  \item NTCTS in \texttt  {basic_ostream<charT, traits>\& op\-er\-ator<<(nullptr_t)}, 
+		\hyperpage{1531}
+  \item number of placeholders for bind expressions, \hyperpage{739}, 
+		\hyperpage{754}
+  \item number of threads in a program under a freestanding implementation, 
+		\hyperpage{81}
+
+  \indexspace
+
+  \item operating system on which implementation depends, 
+		\hyperpage{1577}
+  \item ordinary and wide literal encodings, \hyperpage{16}
+
+  \indexspace
+
+  \item parameters to \texttt  {main}, \hyperpage{86}
+  \item passing argument of class type through ellipsis, 
+		\hyperpage{120}
+  \item physical source file characters, \hyperpage{13}
+  \item presence and meaning of \texttt  {native_handle_type} and \texttt  {native_handle}, 
+		\hyperpage{1659}
+
+  \indexspace
+
+  \item rank of extended signed integer type, \hyperpage{78}
+  \item required alignment for \texttt  {atomic_ref} type's operations, 
+		\hyperpage{1682}, \hyperpage{1684}, 
+		\hyperpage{1686, 1687}
+  \item required libraries for freestanding implementation, 
+		\hyperpage{10}
+  \item resource limits on a message catalog, \hyperpage{1485}
+  \item result of \texttt  {filesystem::file_size}, \hyperpage{1615}
+  \item result of inexact floating-point conversion, \hyperpage{97}
+  \item resuming a coroutine on a different execution agent, 
+		\hyperpage{538}
+  \item return value of \texttt  {bad_alloc::what}, \hyperpage{518}
+  \item return value of \texttt  {bad_any_cast::what}, \hyperpage{712}
+  \item return value of \texttt  {bad_array_new_length::what}, 
+		\hyperpage{518}
+  \item return value of \texttt  {bad_cast::what}, \hyperpage{520}
+  \item return value of \texttt  {bad_exception::what}, \hyperpage{524}
+  \item return value of \texttt  {bad_function_call::what}, 
+		\hyperpage{755}
+  \item return value of \texttt  {bad_optional_access::what}, 
+		\hyperpage{697}
+  \item return value of \texttt  {bad_typeid::what}, \hyperpage{521}
+  \item return value of \texttt  {bad_variant_access::what}, 
+		\hyperpage{711}
+  \item return value of \texttt  {bad_weak_ptr::what}, \hyperpage{603}
+  \item return value of \texttt  {char_traits<char16_t>::eof}, 
+		\hyperpage{797}
+  \item return value of \texttt  {char_traits<char32_t>::eof}, 
+		\hyperpage{797}
+  \item return value of \texttt  {char_traits<char8_t>::eof}, 
+		\hyperpage{796}
+  \item return value of \texttt  {exception::what}, \hyperpage{524}
+  \item return value of \texttt  {source_location::current}, 
+		\hyperpage{522}
+  \item return value of \texttt  {type_info::name()}, \hyperpage{520}
+
+  \indexspace
+
+  \item search locations for \texttt  {""} header, \hyperpage{453}
+  \item search locations for \texttt  {<>} header, \hyperpage{452}
+  \item semantics of an access through a volatile glvalue, 
+		\hyperpage{176}
+  \item semantics of linkage specifiers, \hyperpage{237}
+  \item semantics of parallel algorithms invoked with imple\-men\-tation-defined execution policies, 
+		\hyperpage{1152}
+  \item semantics of \texttt  {stacktrace_entry::native_handle}, 
+		\hyperpage{573}
+  \item semantics of \texttt  {token} parameter and default token value used by \texttt  {random_device} constructors, 
+		\hyperpage{1296}
+  \item sequence of places searched for a header, \hyperpage{452}
+  \item set of character types that iostreams templates can be instantiated for, 
+		\hyperpage{1450}, \hyperpage{1486}
+  \item signedness of \texttt  {char}, \hyperpage{177}
+  \item \texttt  {sizeof} applied to fundamental types other than \texttt  {char}, \texttt  {signed char}, and \texttt  {unsigned char}, 
+		\hyperpage{131}
+  \item stack unwinding before invocation of \texttt  {std::terminate}, 
+		\hyperpage{443}, \hyperpage{447}
+  \item \texttt  {stacktrace_entry::native_handle_type}, 
+		\hyperpage{572}
+  \item startup and termination in freestanding environment, 
+		\hyperpage{86}
+  \item strict total order over pointer values, \hyperpage{5}
+  \item string resulting from \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptfunc\kern .5pt\textunderscore \kern .5pt\textunderscore }, 
+		\hyperpage{218}
+  \item support for always lock-free integral atomic types in freestanding environments, 
+		\hyperpage{476}
+  \item support for extended alignments, \hyperpage{68}
+  \item support for \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-import-declaration}}}s with non-C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} language linkage, 
+		\hyperpage{237}
+  \item supported multibyte character encoding rules, \hyperpage{796}
+  \item supported \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s} in addition to any operating system dependent \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s}, 
+		\hyperpage{1584, 1585}
+
+  \indexspace
+
+  \item text of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptDATE\kern .5pt\textunderscore \kern .5pt\textunderscore } when date of translation is not available, 
+		\hyperpage{461}
+  \item text of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptTIME\kern .5pt\textunderscore \kern .5pt\textunderscore } when time of translation is not available, 
+		\hyperpage{462}
+  \item threads and program points at which deferred dynamic initialization is performed, 
+		\hyperpage{88}
+  \item type aliases \texttt  {atomic_signed_lock_free} and \texttt  {atomic_unsigned_lock_free} in freestanding environments, 
+		\hyperpage{476}
+  \item type of a directory-like file, \hyperpage{1605, 1606}
+  \item type of \texttt  {array::const_iterator}, \hyperpage{879}
+  \item type of \texttt  {array::iterator}, \hyperpage{879}
+  \item type of \texttt  {basic_stacktrace::const_iterator}, 
+		\hyperpage{573}
+  \item type of \texttt  {basic_stacktrace::difference_type}, 
+		\hyperpage{573}
+  \item type of \texttt  {basic_stacktrace::size_type}, \hyperpage{573}
+  \item type of \texttt  {basic_string::const_iterator}, 
+		\hyperpage{812}
+  \item type of \texttt  {basic_string::iterator}, \hyperpage{812}
+  \item type of \texttt  {basic_string_view::const_iterator}, 
+		\hyperpage{799}, \hyperpage{802}
+  \item type of \texttt  {default_random_engine}, \hyperpage{1295}
+  \item type of \texttt  {deque::const_iterator}, \hyperpage{882}
+  \item type of \texttt  {deque::difference_type}, \hyperpage{881}
+  \item type of \texttt  {deque::iterator}, \hyperpage{882}
+  \item type of \texttt  {deque::size_type}, \hyperpage{881}
+  \item type of \texttt  {forward_list::const_iterator}, 
+		\hyperpage{886}
+  \item type of \texttt  {forward_list::difference_type}, 
+		\hyperpage{886}
+  \item type of \texttt  {forward_list::iterator}, \hyperpage{886}
+  \item type of \texttt  {forward_list::size_type}, \hyperpage{886}
+  \item type of \texttt  {list::const_iterator}, \hyperpage{893}
+  \item type of \texttt  {list::difference_type}, \hyperpage{893}
+  \item type of \texttt  {list::iterator}, \hyperpage{893}
+  \item type of \texttt  {list::size_type}, \hyperpage{893}
+  \item type of \texttt  {map::const_iterator}, \hyperpage{908}
+  \item type of \texttt  {map::difference_type}, \hyperpage{908}
+  \item type of \texttt  {map::iterator}, \hyperpage{908}
+  \item type of \texttt  {map::size_type}, \hyperpage{908}
+  \item type of \texttt  {multimap::const_iterator}, \hyperpage{914}
+  \item type of \texttt  {multimap::difference_type}, \hyperpage{914}
+  \item type of \texttt  {multimap::iterator}, \hyperpage{914}
+  \item type of \texttt  {multimap::size_type}, \hyperpage{914}
+  \item type of \texttt  {multiset::const_iterator}, \hyperpage{922}
+  \item type of \texttt  {multiset::difference_type}, \hyperpage{921}
+  \item type of \texttt  {multiset::iterator}, \hyperpage{922}
+  \item type of \texttt  {multiset::size_type}, \hyperpage{921}
+  \item type of \texttt  {ptrdiff_t}, \hyperpage{141}, \hyperpage{498}
+  \item type of \texttt  {regex_constants::error_type}, 
+		\hyperpage{1633}
+  \item type of \texttt  {regex_constants::match_flag_type}, 
+		\hyperpage{1631}
+  \item type of \texttt  {set::const_iterator}, \hyperpage{918}
+  \item type of \texttt  {set::difference_type}, \hyperpage{918}
+  \item type of \texttt  {set::iterator}, \hyperpage{918}
+  \item type of \texttt  {set::size_type}, \hyperpage{918}
+  \item type of \texttt  {size_t}, \hyperpage{498}
+  \item type of \texttt  {span::iterator}, \hyperpage{961}, 
+		\hyperpage{966}
+  \item type of \texttt  {streamoff}, \hyperpage{1486}
+  \item type of \texttt  {syntax_option_type}, \hyperpage{1631}
+  \item type of \texttt  {unordered_map::const_iterator}, 
+		\hyperpage{927}
+  \item type of \texttt  {unordered_map::const_local_iterator}, 
+		\hyperpage{927}
+  \item type of \texttt  {unordered_map::difference_type}, 
+		\hyperpage{927}
+  \item type of \texttt  {unordered_map::iterator}, \hyperpage{927}
+  \item type of \texttt  {unordered_map::local_iterator}, 
+		\hyperpage{927}
+  \item type of \texttt  {unordered_map::size_type}, \hyperpage{927}
+  \item type of \texttt  {unordered_multimap::const_iterator}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multimap::const_local_it\-erator}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multimap::difference_type}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multimap::iterator}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multimap::local_iterator}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multimap::size_type}, 
+		\hyperpage{934}
+  \item type of \texttt  {unordered_multiset::const_iterator}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_multiset::const_local_it\-erator}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_multiset::difference_type}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_multiset::iterator}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_multiset::local_iterator}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_multiset::size_type}, 
+		\hyperpage{945}
+  \item type of \texttt  {unordered_set::const_iterator}, 
+		\hyperpage{940}
+  \item type of \texttt  {unordered_set::const_local_iterator}, 
+		\hyperpage{940}
+  \item type of \texttt  {unordered_set::difference_type}, 
+		\hyperpage{940}
+  \item type of \texttt  {unordered_set::iterator}, \hyperpage{940}
+  \item type of \texttt  {unordered_set::local_iterator}, 
+		\hyperpage{940}
+  \item type of \texttt  {unordered_set::size_type}, \hyperpage{940}
+  \item type of \texttt  {vector::const_iterator}, \hyperpage{899}
+  \item type of \texttt  {vector::difference_type}, \hyperpage{899}
+  \item type of \texttt  {vector::iterator}, \hyperpage{899}
+  \item type of \texttt  {vector::size_type}, \hyperpage{899}
+  \item type of \texttt  {vector<bool>::const_iterator}, 
+		\hyperpage{904}
+  \item type of \texttt  {vector<bool>::const_pointer}, \hyperpage{903}
+  \item type of \texttt  {vector<bool>::difference_type}, 
+		\hyperpage{903}
+  \item type of \texttt  {vector<bool>::iterator}, \hyperpage{903}
+  \item type of \texttt  {vector<bool>::pointer}, \hyperpage{903}
+  \item type of \texttt  {vector<bool>::size_type}, \hyperpage{903}
+
+  \indexspace
+
+  \item underlying type for enumeration, \hyperpage{225}
+  \item underlying type of \texttt  {bool}, \hyperpage{75}
+  \item underlying type of \texttt  {char}, \hyperpage{75}
+  \item underlying type of \texttt  {wchar_t}, \hyperpage{75}
+  \item unit suffix when \texttt  {Period::type} is \texttt  {micro}, 
+		\hyperpage{1377}
+
+  \indexspace
+
+  \item value of bit-field that cannot represent
+    \subitem assigned value, \hyperpage{148}
+    \subitem incremented value, \hyperpage{121}
+    \subitem initializer, \hyperpage{204}
+  \item value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}}, 
+		\hyperpage{24}
+  \item value of \texttt  {ctype<char>::table_size}, \hyperpage{1457}
+  \item value of \texttt  {future_errc::broken_promise}, 
+		\hyperpage{1738}
+  \item value of \texttt  {future_errc::future_already_retrieved}, 
+		\hyperpage{1738}
+  \item value of \texttt  {future_errc::no_state}, \hyperpage{1738}
+  \item value of \texttt  {future_errc::promise_already_satisfied}, 
+		\hyperpage{1738}
+  \item value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {has-attribute-expression}}} for non-standard attributes, 
+		\hyperpage{451}
+  \item value of non-encodable character literal or multicharacter literal, 
+		\hyperpage{23}
+  \item value of \texttt  {pow(0,0)}, \hyperpage{1276}
+  \item value of result of inexact integer to floating-point conversion, 
+		\hyperpage{97}
+  \item value representation of floating-point types, \hyperpage{75}
+  \item value representation of pointer types, \hyperpage{77}
+  \item values of a trivially copyable type, \hyperpage{72}
+  \item values of various \texttt  {ATOMIC_..._LOCK_FREE} macros, 
+		\hyperpage{1680}
+
+  \indexspace
+
+  \item whether \texttt  {<cfenv>} functions can be used to manage floating-point status, 
+		\hyperpage{1269}
+  \item whether a given \texttt  {atomic} type's operations are always lock free, 
+		\hyperpage{1688, 1689}, \hyperpage{1692}, 
+		\hyperpage{1694}, \hyperpage{1696}, \hyperpage{1699}, 
+		\hyperpage{1701}
+  \item whether a given \texttt  {atomic_ref} type's operations are always lock free, 
+		\hyperpage{1682}, \hyperpage{1684}, 
+		\hyperpage{1686, 1687}
+  \item whether \texttt  {basic_spanbuf}'s move source is empty after a move, 
+		\hyperpage{1554}
+  \item whether functions from Annex K of the C standard library are declared when C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} headers are included, 
+		\hyperpage{475}
+  \item whether locale object is global or per-thread, \hyperpage{1449}
+  \item whether pragma \texttt  {FENV_ACCESS} is supported, 
+		\hyperpage{1269}
+  \item whether \texttt  {rand} may introduce a data race, 
+		\hyperpage{1319}
+  \item whether sequence pointers are copied by \texttt  {basic_filebuf} move constructor, 
+		\hyperpage{1561}
+  \item whether sequence pointers are copied by \texttt  {basic_stringbuf} move constructor, 
+		\hyperpage{1541}
+  \item whether sequence pointers are initialized to null pointers, 
+		\hyperpage{1540}
+  \item whether source file inclusion of importable header is replaced with \texttt  {import} directive, 
+		\hyperpage{453}
+  \item whether source of translation units must be available to locate template definitions, 
+		\hyperpage{14}
+  \item whether stack is unwound before invoking the function \texttt  {std::terminate} when a \texttt  {noexcept} specification is violated, 
+		\hyperpage{447}
+  \item whether the implementation is hosted or freestanding, 
+		\hyperpage{475}
+  \item whether the lifetime of a parameter ends when the callee returns or at the end of the enclosing full-expression, 
+		\hyperpage{119}
+  \item whether the sources for module units and header units on which the current translation unit has an interface dependency are required to be available during translation, 
+		\hyperpage{14}
+  \item whether the thread that executes \texttt  {main} and the threads created by \texttt  {std::thread} or \texttt  {std::jthread} provide concurrent forward progress guarantees, 
+		\hyperpage{85}
+  \item whether \texttt  {time_get::do_get_year} accepts two-digit year numbers, 
+		\hyperpage{1476}
+  \item whether values are rounded or truncated to the required precision when converting between \texttt  {time_t} values and \texttt  {time_point} objects, 
+		\hyperpage{1381}
+  \item which functions in the C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} standard library may be recursively reentered, 
+		\hyperpage{492}
+  \item which non-standard-layout objects containing no data are considered empty, 
+		\hyperpage{61}
+  \item which scalar types have unique object representations, 
+		\hyperpage{649}
+  \item width of integral type, \hyperpage{75}
+
+\end{theindex}

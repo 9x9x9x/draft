@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning style file ./libraryindex.ist...done (3 attributes redefined, 0 ignored).
+Scanning input file std-libraryindex.idx..............done (10944 entries accepted, 0 rejected).
+Sorting entries................................................................................................................done (162298 comparisons).
+Generating output file std-libraryindex.ind.............done (9585 lines written, 0 warnings).
+Output written in std-libraryindex.ind.
+Transcript written in std-libraryindex.ilg.

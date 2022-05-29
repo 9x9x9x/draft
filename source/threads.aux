@@ -1,0 +1,564 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {33}Concurrency support library}{1659}{chapter.33}\protected@file@percent }
+\newlabel{thread}{{\M@TitleReference {Clause 33}{Concurrency support library}}{1659}{Concurrency support library}{chapter.33}{}}
+\@@wrglom@m{xrefindex}{thread}{thread}{(\ref  {thread})}{}{1659}
+\@writefile{toc}{\contentsline {section}{\numberline {33.1}General}{1659}{section.33.1}\protected@file@percent }
+\newlabel{thread.general}{{\M@TitleReference {33.1}{General}}{1659}{General}{section.33.1}{}}
+\@@wrglom@m{xrefindex}{thread.general}{thread.general}{(\ref  {thread.general})}{}{1659}
+\@writefile{lot}{\contentsline {table}{\numberline {140}{\ignorespaces Thread support library summary \hskip 1em\relax [tab:thread.summary]}}{1659}{table.33.140}\protected@file@percent }
+\newlabel{tab:thread.summary}{{\M@TitleReference {140}{General}}{1659}{Thread support library summary \quad [tab:thread.summary]}{table.33.140}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {33.2}Requirements}{1659}{section.33.2}\protected@file@percent }
+\newlabel{thread.req}{{\M@TitleReference {33.2}{Requirements}}{1659}{Requirements}{section.33.2}{}}
+\@@wrglom@m{xrefindex}{thread.req}{thread.req}{(\ref  {thread.req})}{}{1659}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.2.1}Template parameter names}{1659}{subsection.33.2.1}\protected@file@percent }
+\newlabel{thread.req.paramname}{{\M@TitleReference {33.2.1}{Template parameter names}}{1659}{Template parameter names}{subsection.33.2.1}{}}
+\@@wrglom@m{xrefindex}{thread.req.paramname}{thread.req.paramname}{(\ref  {thread.req.paramname})}{}{1659}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.2.2}Exceptions}{1659}{subsection.33.2.2}\protected@file@percent }
+\newlabel{thread.req.exception}{{\M@TitleReference {33.2.2}{Exceptions}}{1659}{Exceptions}{subsection.33.2.2}{}}
+\@@wrglom@m{xrefindex}{thread.req.exception}{thread.req.exception}{(\ref  {thread.req.exception})}{}{1659}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.2.3}Native handles}{1659}{subsection.33.2.3}\protected@file@percent }
+\newlabel{thread.req.native}{{\M@TitleReference {33.2.3}{Native handles}}{1659}{Native handles}{subsection.33.2.3}{}}
+\@@wrglom@m{xrefindex}{thread.req.native}{thread.req.native}{(\ref  {thread.req.native})}{}{1659}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.2.4}Timing specifications}{1659}{subsection.33.2.4}\protected@file@percent }
+\newlabel{thread.req.timing}{{\M@TitleReference {33.2.4}{Timing specifications}}{1659}{Timing specifications}{subsection.33.2.4}{}}
+\@@wrglom@m{xrefindex}{thread.req.timing}{thread.req.timing}{(\ref  {thread.req.timing})}{}{1659}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.2.5}Requirements for \textit  {Cpp17Lockable} types}{1660}{subsection.33.2.5}\protected@file@percent }
+\newlabel{thread.req.lockable}{{\M@TitleReference {33.2.5}{Requirements for \textit  {Cpp17Lockable} types}}{1660}{Requirements for \oldconcept {Lockable} types}{subsection.33.2.5}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable}{thread.req.lockable}{(\ref  {thread.req.lockable})}{}{1660}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.1}In general}{1660}{subsubsection.33.2.5.1}\protected@file@percent }
+\newlabel{thread.req.lockable.general}{{\M@TitleReference {33.2.5.1}{In general}}{1660}{In general}{subsubsection.33.2.5.1}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.general}{thread.req.lockable.general}{(\ref  {thread.req.lockable.general})}{}{1660}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.2}\textit  {Cpp17BasicLockable} requirements}{1661}{subsubsection.33.2.5.2}\protected@file@percent }
+\newlabel{thread.req.lockable.basic}{{\M@TitleReference {33.2.5.2}{\textit  {Cpp17BasicLockable} requirements}}{1661}{\oldconcept {BasicLockable} requirements}{subsubsection.33.2.5.2}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.basic}{thread.req.lockable.basic}{(\ref  {thread.req.lockable.basic})}{}{1661}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.3}\textit  {Cpp17Lockable} requirements}{1661}{subsubsection.33.2.5.3}\protected@file@percent }
+\newlabel{thread.req.lockable.req}{{\M@TitleReference {33.2.5.3}{\textit  {Cpp17Lockable} requirements}}{1661}{\oldconcept {Lockable} requirements}{subsubsection.33.2.5.3}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.req}{thread.req.lockable.req}{(\ref  {thread.req.lockable.req})}{}{1661}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.4}\textit  {Cpp17TimedLockable} requirements}{1661}{subsubsection.33.2.5.4}\protected@file@percent }
+\newlabel{thread.req.lockable.timed}{{\M@TitleReference {33.2.5.4}{\textit  {Cpp17TimedLockable} requirements}}{1661}{\oldconcept {TimedLockable} requirements}{subsubsection.33.2.5.4}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.timed}{thread.req.lockable.timed}{(\ref  {thread.req.lockable.timed})}{}{1661}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.5}\textit  {Cpp17SharedLockable} requirements}{1662}{subsubsection.33.2.5.5}\protected@file@percent }
+\newlabel{thread.req.lockable.shared}{{\M@TitleReference {33.2.5.5}{\textit  {Cpp17SharedLockable} requirements}}{1662}{\oldconcept {SharedLockable} requirements}{subsubsection.33.2.5.5}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.shared}{thread.req.lockable.shared}{(\ref  {thread.req.lockable.shared})}{}{1662}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.2.5.6}\textit  {Cpp17SharedTimedLockable} requirements}{1662}{subsubsection.33.2.5.6}\protected@file@percent }
+\newlabel{thread.req.lockable.shared.timed}{{\M@TitleReference {33.2.5.6}{\textit  {Cpp17SharedTimedLockable} requirements}}{1662}{\oldconcept {SharedTimedLockable} requirements}{subsubsection.33.2.5.6}{}}
+\@@wrglom@m{xrefindex}{thread.req.lockable.shared.timed}{thread.req.lockable.shared.timed}{(\ref  {thread.req.lockable.shared.timed})}{}{1662}
+\@writefile{toc}{\contentsline {section}{\numberline {33.3}Stop tokens}{1662}{section.33.3}\protected@file@percent }
+\newlabel{thread.stoptoken}{{\M@TitleReference {33.3}{Stop tokens}}{1662}{Stop tokens}{section.33.3}{}}
+\@@wrglom@m{xrefindex}{thread.stoptoken}{thread.stoptoken}{(\ref  {thread.stoptoken})}{}{1662}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.3.1}Introduction}{1662}{subsection.33.3.1}\protected@file@percent }
+\newlabel{thread.stoptoken.intro}{{\M@TitleReference {33.3.1}{Introduction}}{1662}{Introduction}{subsection.33.3.1}{}}
+\@@wrglom@m{xrefindex}{thread.stoptoken.intro}{thread.stoptoken.intro}{(\ref  {thread.stoptoken.intro})}{}{1662}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.3.2}Header \texttt  {<stop_token>} synopsis}{1663}{subsection.33.3.2}\protected@file@percent }
+\newlabel{thread.stoptoken.syn}{{\M@TitleReference {33.3.2}{Header \texttt  {<stop_token>} synopsis}}{1663}{Header \tcode {<stop_token>} synopsis}{subsection.33.3.2}{}}
+\@@wrglom@m{xrefindex}{thread.stoptoken.syn}{thread.stoptoken.syn}{(\ref  {thread.stoptoken.syn})}{}{1663}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.3.3}Class \texttt  {stop_token}}{1663}{subsection.33.3.3}\protected@file@percent }
+\newlabel{stoptoken}{{\M@TitleReference {33.3.3}{Class \texttt  {stop_token}}}{1663}{Class \tcode {stop_token}}{subsection.33.3.3}{}}
+\@@wrglom@m{xrefindex}{stoptoken}{stoptoken}{(\ref  {stoptoken})}{}{1663}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.3.1}General}{1663}{subsubsection.33.3.3.1}\protected@file@percent }
+\newlabel{stoptoken.general}{{\M@TitleReference {33.3.3.1}{General}}{1663}{General}{subsubsection.33.3.3.1}{}}
+\@@wrglom@m{xrefindex}{stoptoken.general}{stoptoken.general}{(\ref  {stoptoken.general})}{}{1663}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.3.2}Constructors, copy, and assignment}{1663}{subsubsection.33.3.3.2}\protected@file@percent }
+\newlabel{stoptoken.cons}{{\M@TitleReference {33.3.3.2}{Constructors, copy, and assignment}}{1663}{Constructors, copy, and assignment}{subsubsection.33.3.3.2}{}}
+\@@wrglom@m{xrefindex}{stoptoken.cons}{stoptoken.cons}{(\ref  {stoptoken.cons})}{}{1663}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.3.3}Members}{1664}{subsubsection.33.3.3.3}\protected@file@percent }
+\newlabel{stoptoken.mem}{{\M@TitleReference {33.3.3.3}{Members}}{1664}{Members}{subsubsection.33.3.3.3}{}}
+\@@wrglom@m{xrefindex}{stoptoken.mem}{stoptoken.mem}{(\ref  {stoptoken.mem})}{}{1664}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.3.4}Non-member functions}{1664}{subsubsection.33.3.3.4}\protected@file@percent }
+\newlabel{stoptoken.nonmembers}{{\M@TitleReference {33.3.3.4}{Non-member functions}}{1664}{Non-member functions}{subsubsection.33.3.3.4}{}}
+\@@wrglom@m{xrefindex}{stoptoken.nonmembers}{stoptoken.nonmembers}{(\ref  {stoptoken.nonmembers})}{}{1664}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.3.4}Class \texttt  {stop_source}}{1664}{subsection.33.3.4}\protected@file@percent }
+\newlabel{stopsource}{{\M@TitleReference {33.3.4}{Class \texttt  {stop_source}}}{1664}{Class \tcode {stop_source}}{subsection.33.3.4}{}}
+\@@wrglom@m{xrefindex}{stopsource}{stopsource}{(\ref  {stopsource})}{}{1664}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.4.1}General}{1664}{subsubsection.33.3.4.1}\protected@file@percent }
+\newlabel{stopsource.general}{{\M@TitleReference {33.3.4.1}{General}}{1664}{General}{subsubsection.33.3.4.1}{}}
+\@@wrglom@m{xrefindex}{stopsource.general}{stopsource.general}{(\ref  {stopsource.general})}{}{1664}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.4.2}Constructors, copy, and assignment}{1665}{subsubsection.33.3.4.2}\protected@file@percent }
+\newlabel{stopsource.cons}{{\M@TitleReference {33.3.4.2}{Constructors, copy, and assignment}}{1665}{Constructors, copy, and assignment}{subsubsection.33.3.4.2}{}}
+\@@wrglom@m{xrefindex}{stopsource.cons}{stopsource.cons}{(\ref  {stopsource.cons})}{}{1665}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.4.3}Members}{1666}{subsubsection.33.3.4.3}\protected@file@percent }
+\newlabel{stopsource.mem}{{\M@TitleReference {33.3.4.3}{Members}}{1666}{Members}{subsubsection.33.3.4.3}{}}
+\@@wrglom@m{xrefindex}{stopsource.mem}{stopsource.mem}{(\ref  {stopsource.mem})}{}{1666}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.4.4}Non-member functions}{1666}{subsubsection.33.3.4.4}\protected@file@percent }
+\newlabel{stopsource.nonmembers}{{\M@TitleReference {33.3.4.4}{Non-member functions}}{1666}{Non-member functions}{subsubsection.33.3.4.4}{}}
+\@@wrglom@m{xrefindex}{stopsource.nonmembers}{stopsource.nonmembers}{(\ref  {stopsource.nonmembers})}{}{1666}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.3.5}Class template \texttt  {stop_callback}}{1666}{subsection.33.3.5}\protected@file@percent }
+\newlabel{stopcallback}{{\M@TitleReference {33.3.5}{Class template \texttt  {stop_callback}}}{1666}{Class template \tcode {stop_callback}}{subsection.33.3.5}{}}
+\@@wrglom@m{xrefindex}{stopcallback}{stopcallback}{(\ref  {stopcallback})}{}{1666}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.5.1}General}{1666}{subsubsection.33.3.5.1}\protected@file@percent }
+\newlabel{stopcallback.general}{{\M@TitleReference {33.3.5.1}{General}}{1666}{General}{subsubsection.33.3.5.1}{}}
+\@@wrglom@m{xrefindex}{stopcallback.general}{stopcallback.general}{(\ref  {stopcallback.general})}{}{1666}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.3.5.2}Constructors and destructor}{1667}{subsubsection.33.3.5.2}\protected@file@percent }
+\newlabel{stopcallback.cons}{{\M@TitleReference {33.3.5.2}{Constructors and destructor}}{1667}{Constructors and destructor}{subsubsection.33.3.5.2}{}}
+\@@wrglom@m{xrefindex}{stopcallback.cons}{stopcallback.cons}{(\ref  {stopcallback.cons})}{}{1667}
+\@writefile{toc}{\contentsline {section}{\numberline {33.4}Threads}{1667}{section.33.4}\protected@file@percent }
+\newlabel{thread.threads}{{\M@TitleReference {33.4}{Threads}}{1667}{Threads}{section.33.4}{}}
+\@@wrglom@m{xrefindex}{thread.threads}{thread.threads}{(\ref  {thread.threads})}{}{1667}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.4.1}General}{1667}{subsection.33.4.1}\protected@file@percent }
+\newlabel{thread.threads.general}{{\M@TitleReference {33.4.1}{General}}{1667}{General}{subsection.33.4.1}{}}
+\@@wrglom@m{xrefindex}{thread.threads.general}{thread.threads.general}{(\ref  {thread.threads.general})}{}{1667}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.4.2}Header \texttt  {<thread>} synopsis}{1667}{subsection.33.4.2}\protected@file@percent }
+\newlabel{thread.syn}{{\M@TitleReference {33.4.2}{Header \texttt  {<thread>} synopsis}}{1667}{Header \tcode {<thread>} synopsis}{subsection.33.4.2}{}}
+\@@wrglom@m{xrefindex}{thread.syn}{thread.syn}{(\ref  {thread.syn})}{}{1667}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.4.3}Class \texttt  {thread}}{1668}{subsection.33.4.3}\protected@file@percent }
+\newlabel{thread.thread.class}{{\M@TitleReference {33.4.3}{Class \texttt  {thread}}}{1668}{Class \tcode {thread}}{subsection.33.4.3}{}}
+\@@wrglom@m{xrefindex}{thread.thread.class}{thread.thread.class}{(\ref  {thread.thread.class})}{}{1668}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.1}General}{1668}{subsubsection.33.4.3.1}\protected@file@percent }
+\newlabel{thread.thread.class.general}{{\M@TitleReference {33.4.3.1}{General}}{1668}{General}{subsubsection.33.4.3.1}{}}
+\@@wrglom@m{xrefindex}{thread.thread.class.general}{thread.thread.class.general}{(\ref  {thread.thread.class.general})}{}{1668}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.2}Class \texttt  {thread::id}}{1668}{subsubsection.33.4.3.2}\protected@file@percent }
+\newlabel{thread.thread.id}{{\M@TitleReference {33.4.3.2}{Class \texttt  {thread::id}}}{1668}{Class \tcode {thread::id}}{subsubsection.33.4.3.2}{}}
+\@@wrglom@m{xrefindex}{thread.thread.id}{thread.thread.id}{(\ref  {thread.thread.id})}{}{1668}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.3}Constructors}{1669}{subsubsection.33.4.3.3}\protected@file@percent }
+\newlabel{thread.thread.constr}{{\M@TitleReference {33.4.3.3}{Constructors}}{1669}{Constructors}{subsubsection.33.4.3.3}{}}
+\@@wrglom@m{xrefindex}{thread.thread.constr}{thread.thread.constr}{(\ref  {thread.thread.constr})}{}{1669}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.4}Destructor}{1670}{subsubsection.33.4.3.4}\protected@file@percent }
+\newlabel{thread.thread.destr}{{\M@TitleReference {33.4.3.4}{Destructor}}{1670}{Destructor}{subsubsection.33.4.3.4}{}}
+\@@wrglom@m{xrefindex}{thread.thread.destr}{thread.thread.destr}{(\ref  {thread.thread.destr})}{}{1670}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.5}Assignment}{1670}{subsubsection.33.4.3.5}\protected@file@percent }
+\newlabel{thread.thread.assign}{{\M@TitleReference {33.4.3.5}{Assignment}}{1670}{Assignment}{subsubsection.33.4.3.5}{}}
+\@@wrglom@m{xrefindex}{thread.thread.assign}{thread.thread.assign}{(\ref  {thread.thread.assign})}{}{1670}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.6}Members}{1670}{subsubsection.33.4.3.6}\protected@file@percent }
+\newlabel{thread.thread.member}{{\M@TitleReference {33.4.3.6}{Members}}{1670}{Members}{subsubsection.33.4.3.6}{}}
+\@@wrglom@m{xrefindex}{thread.thread.member}{thread.thread.member}{(\ref  {thread.thread.member})}{}{1670}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.7}Static members}{1671}{subsubsection.33.4.3.7}\protected@file@percent }
+\newlabel{thread.thread.static}{{\M@TitleReference {33.4.3.7}{Static members}}{1671}{Static members}{subsubsection.33.4.3.7}{}}
+\@@wrglom@m{xrefindex}{thread.thread.static}{thread.thread.static}{(\ref  {thread.thread.static})}{}{1671}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.3.8}Specialized algorithms}{1671}{subsubsection.33.4.3.8}\protected@file@percent }
+\newlabel{thread.thread.algorithm}{{\M@TitleReference {33.4.3.8}{Specialized algorithms}}{1671}{Specialized algorithms}{subsubsection.33.4.3.8}{}}
+\@@wrglom@m{xrefindex}{thread.thread.algorithm}{thread.thread.algorithm}{(\ref  {thread.thread.algorithm})}{}{1671}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.4.4}Class \texttt  {jthread}}{1671}{subsection.33.4.4}\protected@file@percent }
+\newlabel{thread.jthread.class}{{\M@TitleReference {33.4.4}{Class \texttt  {jthread}}}{1671}{Class \tcode {jthread}}{subsection.33.4.4}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.class}{thread.jthread.class}{(\ref  {thread.jthread.class})}{}{1671}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.1}General}{1671}{subsubsection.33.4.4.1}\protected@file@percent }
+\newlabel{thread.jthread.class.general}{{\M@TitleReference {33.4.4.1}{General}}{1671}{General}{subsubsection.33.4.4.1}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.class.general}{thread.jthread.class.general}{(\ref  {thread.jthread.class.general})}{}{1671}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.2}Constructors, move, and assignment}{1672}{subsubsection.33.4.4.2}\protected@file@percent }
+\newlabel{thread.jthread.cons}{{\M@TitleReference {33.4.4.2}{Constructors, move, and assignment}}{1672}{Constructors, move, and assignment}{subsubsection.33.4.4.2}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.cons}{thread.jthread.cons}{(\ref  {thread.jthread.cons})}{}{1672}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.3}Members}{1673}{subsubsection.33.4.4.3}\protected@file@percent }
+\newlabel{thread.jthread.mem}{{\M@TitleReference {33.4.4.3}{Members}}{1673}{Members}{subsubsection.33.4.4.3}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.mem}{thread.jthread.mem}{(\ref  {thread.jthread.mem})}{}{1673}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.4}Stop token handling}{1673}{subsubsection.33.4.4.4}\protected@file@percent }
+\newlabel{thread.jthread.stop}{{\M@TitleReference {33.4.4.4}{Stop token handling}}{1673}{Stop token handling}{subsubsection.33.4.4.4}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.stop}{thread.jthread.stop}{(\ref  {thread.jthread.stop})}{}{1673}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.5}Specialized algorithms}{1674}{subsubsection.33.4.4.5}\protected@file@percent }
+\newlabel{thread.jthread.special}{{\M@TitleReference {33.4.4.5}{Specialized algorithms}}{1674}{Specialized algorithms}{subsubsection.33.4.4.5}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.special}{thread.jthread.special}{(\ref  {thread.jthread.special})}{}{1674}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.4.4.6}Static members}{1674}{subsubsection.33.4.4.6}\protected@file@percent }
+\newlabel{thread.jthread.static}{{\M@TitleReference {33.4.4.6}{Static members}}{1674}{Static members}{subsubsection.33.4.4.6}{}}
+\@@wrglom@m{xrefindex}{thread.jthread.static}{thread.jthread.static}{(\ref  {thread.jthread.static})}{}{1674}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.4.5}Namespace \texttt  {this_thread}}{1674}{subsection.33.4.5}\protected@file@percent }
+\newlabel{thread.thread.this}{{\M@TitleReference {33.4.5}{Namespace \texttt  {this_thread}}}{1674}{Namespace \tcode {this_thread}}{subsection.33.4.5}{}}
+\@@wrglom@m{xrefindex}{thread.thread.this}{thread.thread.this}{(\ref  {thread.thread.this})}{}{1674}
+\@writefile{toc}{\contentsline {section}{\numberline {33.5}Atomic operations}{1674}{section.33.5}\protected@file@percent }
+\newlabel{atomics}{{\M@TitleReference {33.5}{Atomic operations}}{1674}{Atomic operations}{section.33.5}{}}
+\@@wrglom@m{xrefindex}{atomics}{atomics}{(\ref  {atomics})}{}{1674}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.1}General}{1674}{subsection.33.5.1}\protected@file@percent }
+\newlabel{atomics.general}{{\M@TitleReference {33.5.1}{General}}{1674}{General}{subsection.33.5.1}{}}
+\@@wrglom@m{xrefindex}{atomics.general}{atomics.general}{(\ref  {atomics.general})}{}{1674}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.2}Header \texttt  {<atomic>} synopsis}{1674}{subsection.33.5.2}\protected@file@percent }
+\newlabel{atomics.syn}{{\M@TitleReference {33.5.2}{Header \texttt  {<atomic>} synopsis}}{1674}{Header \tcode {<atomic>} synopsis}{subsection.33.5.2}{}}
+\@@wrglom@m{xrefindex}{atomics.syn}{atomics.syn}{(\ref  {atomics.syn})}{}{1674}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.3}Type aliases}{1679}{subsection.33.5.3}\protected@file@percent }
+\newlabel{atomics.alias}{{\M@TitleReference {33.5.3}{Type aliases}}{1679}{Type aliases}{subsection.33.5.3}{}}
+\@@wrglom@m{xrefindex}{atomics.alias}{atomics.alias}{(\ref  {atomics.alias})}{}{1679}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.4}Order and consistency}{1679}{subsection.33.5.4}\protected@file@percent }
+\newlabel{atomics.order}{{\M@TitleReference {33.5.4}{Order and consistency}}{1679}{Order and consistency}{subsection.33.5.4}{}}
+\@@wrglom@m{xrefindex}{atomics.order}{atomics.order}{(\ref  {atomics.order})}{}{1679}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.5}Lock-free property}{1680}{subsection.33.5.5}\protected@file@percent }
+\newlabel{atomics.lockfree}{{\M@TitleReference {33.5.5}{Lock-free property}}{1680}{Lock-free property}{subsection.33.5.5}{}}
+\@@wrglom@m{xrefindex}{atomics.lockfree}{atomics.lockfree}{(\ref  {atomics.lockfree})}{}{1680}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.6}Waiting and notifying}{1681}{subsection.33.5.6}\protected@file@percent }
+\newlabel{atomics.wait}{{\M@TitleReference {33.5.6}{Waiting and notifying}}{1681}{Waiting and notifying}{subsection.33.5.6}{}}
+\@@wrglom@m{xrefindex}{atomics.wait}{atomics.wait}{(\ref  {atomics.wait})}{}{1681}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.7}Class template \texttt  {atomic_ref}}{1682}{subsection.33.5.7}\protected@file@percent }
+\newlabel{atomics.ref.generic}{{\M@TitleReference {33.5.7}{Class template \texttt  {atomic_ref}}}{1682}{Class template \tcode {atomic_ref}}{subsection.33.5.7}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.generic}{atomics.ref.generic}{(\ref  {atomics.ref.generic})}{}{1682}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.1}General}{1682}{subsubsection.33.5.7.1}\protected@file@percent }
+\newlabel{atomics.ref.generic.general}{{\M@TitleReference {33.5.7.1}{General}}{1682}{General}{subsubsection.33.5.7.1}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.generic.general}{atomics.ref.generic.general}{(\ref  {atomics.ref.generic.general})}{}{1682}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.2}Operations}{1682}{subsubsection.33.5.7.2}\protected@file@percent }
+\newlabel{atomics.ref.ops}{{\M@TitleReference {33.5.7.2}{Operations}}{1682}{Operations}{subsubsection.33.5.7.2}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.ops}{atomics.ref.ops}{(\ref  {atomics.ref.ops})}{}{1682}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.3}Specializations for integral types}{1684}{subsubsection.33.5.7.3}\protected@file@percent }
+\newlabel{atomics.ref.int}{{\M@TitleReference {33.5.7.3}{Specializations for integral types}}{1684}{Specializations for integral types}{subsubsection.33.5.7.3}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.int}{atomics.ref.int}{(\ref  {atomics.ref.int})}{}{1684}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.4}Specializations for floating-point types}{1686}{subsubsection.33.5.7.4}\protected@file@percent }
+\newlabel{atomics.ref.float}{{\M@TitleReference {33.5.7.4}{Specializations for floating-point types}}{1686}{Specializations for floating-point types}{subsubsection.33.5.7.4}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.float}{atomics.ref.float}{(\ref  {atomics.ref.float})}{}{1686}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.5}Partial specialization for pointers}{1687}{subsubsection.33.5.7.5}\protected@file@percent }
+\newlabel{atomics.ref.pointer}{{\M@TitleReference {33.5.7.5}{Partial specialization for pointers}}{1687}{Partial specialization for pointers}{subsubsection.33.5.7.5}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.pointer}{atomics.ref.pointer}{(\ref  {atomics.ref.pointer})}{}{1687}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.7.6}Member operators common to integers and pointers to objects}{1688}{subsubsection.33.5.7.6}\protected@file@percent }
+\newlabel{atomics.ref.memop}{{\M@TitleReference {33.5.7.6}{Member operators common to integers and pointers to objects}}{1688}{Member operators common to integers and pointers to objects}{subsubsection.33.5.7.6}{}}
+\@@wrglom@m{xrefindex}{atomics.ref.memop}{atomics.ref.memop}{(\ref  {atomics.ref.memop})}{}{1688}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.8}Class template \texttt  {atomic}}{1688}{subsection.33.5.8}\protected@file@percent }
+\newlabel{atomics.types.generic}{{\M@TitleReference {33.5.8}{Class template \texttt  {atomic}}}{1688}{Class template \tcode {atomic}}{subsection.33.5.8}{}}
+\@@wrglom@m{xrefindex}{atomics.types.generic}{atomics.types.generic}{(\ref  {atomics.types.generic})}{}{1688}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.1}General}{1688}{subsubsection.33.5.8.1}\protected@file@percent }
+\newlabel{atomics.types.generic.general}{{\M@TitleReference {33.5.8.1}{General}}{1688}{General}{subsubsection.33.5.8.1}{}}
+\@@wrglom@m{xrefindex}{atomics.types.generic.general}{atomics.types.generic.general}{(\ref  {atomics.types.generic.general})}{}{1688}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.2}Operations on atomic types}{1689}{subsubsection.33.5.8.2}\protected@file@percent }
+\newlabel{atomics.types.operations}{{\M@TitleReference {33.5.8.2}{Operations on atomic types}}{1689}{Operations on atomic types}{subsubsection.33.5.8.2}{}}
+\@@wrglom@m{xrefindex}{atomics.types.operations}{atomics.types.operations}{(\ref  {atomics.types.operations})}{}{1689}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.3}Specializations for integers}{1692}{subsubsection.33.5.8.3}\protected@file@percent }
+\newlabel{atomics.types.int}{{\M@TitleReference {33.5.8.3}{Specializations for integers}}{1692}{Specializations for integers}{subsubsection.33.5.8.3}{}}
+\@@wrglom@m{xrefindex}{atomics.types.int}{atomics.types.int}{(\ref  {atomics.types.int})}{}{1692}
+\@writefile{lot}{\contentsline {table}{\numberline {141}{\ignorespaces Atomic arithmetic computations \hskip 1em\relax [tab:atomic.types.int.comp]}}{1694}{table.33.141}\protected@file@percent }
+\newlabel{tab:atomic.types.int.comp}{{\M@TitleReference {141}{Specializations for integers}}{1694}{Atomic arithmetic computations \quad [tab:atomic.types.int.comp]}{table.33.141}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.4}Specializations for floating-point types}{1694}{subsubsection.33.5.8.4}\protected@file@percent }
+\newlabel{atomics.types.float}{{\M@TitleReference {33.5.8.4}{Specializations for floating-point types}}{1694}{Specializations for floating-point types}{subsubsection.33.5.8.4}{}}
+\@@wrglom@m{xrefindex}{atomics.types.float}{atomics.types.float}{(\ref  {atomics.types.float})}{}{1694}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.5}Partial specialization for pointers}{1696}{subsubsection.33.5.8.5}\protected@file@percent }
+\newlabel{atomics.types.pointer}{{\M@TitleReference {33.5.8.5}{Partial specialization for pointers}}{1696}{Partial specialization for pointers}{subsubsection.33.5.8.5}{}}
+\@@wrglom@m{xrefindex}{atomics.types.pointer}{atomics.types.pointer}{(\ref  {atomics.types.pointer})}{}{1696}
+\@writefile{lot}{\contentsline {table}{\numberline {142}{\ignorespaces Atomic pointer computations \hskip 1em\relax [tab:atomic.types.pointer.comp]}}{1697}{table.33.142}\protected@file@percent }
+\newlabel{tab:atomic.types.pointer.comp}{{\M@TitleReference {142}{Partial specialization for pointers}}{1697}{Atomic pointer computations \quad [tab:atomic.types.pointer.comp]}{table.33.142}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.6}Member operators common to integers and pointers to objects}{1697}{subsubsection.33.5.8.6}\protected@file@percent }
+\newlabel{atomics.types.memop}{{\M@TitleReference {33.5.8.6}{Member operators common to integers and pointers to objects}}{1697}{Member operators common to integers and pointers to objects}{subsubsection.33.5.8.6}{}}
+\@@wrglom@m{xrefindex}{atomics.types.memop}{atomics.types.memop}{(\ref  {atomics.types.memop})}{}{1697}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.5.8.7}Partial specializations for smart pointers}{1698}{subsubsection.33.5.8.7}\protected@file@percent }
+\newlabel{util.smartptr.atomic}{{\M@TitleReference {33.5.8.7}{Partial specializations for smart pointers}}{1698}{Partial specializations for smart pointers}{subsubsection.33.5.8.7}{}}
+\@@wrglom@m{xrefindex}{util.smartptr.atomic}{util.smartptr.atomic}{(\ref  {util.smartptr.atomic})}{}{1698}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.5.8.7.1}General}{1698}{paragraph.33.5.8.7.1}\protected@file@percent }
+\newlabel{util.smartptr.atomic.general}{{\M@TitleReference {33.5.8.7.1}{General}}{1698}{General}{paragraph.33.5.8.7.1}{}}
+\@@wrglom@m{xrefindex}{util.smartptr.atomic.general}{util.smartptr.atomic.general}{(\ref  {util.smartptr.atomic.general})}{}{1698}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.5.8.7.2}Partial specialization for \texttt  {shared_ptr}}{1699}{paragraph.33.5.8.7.2}\protected@file@percent }
+\newlabel{util.smartptr.atomic.shared}{{\M@TitleReference {33.5.8.7.2}{Partial specialization for \texttt  {shared_ptr}}}{1699}{Partial specialization for \tcode {shared_ptr}}{paragraph.33.5.8.7.2}{}}
+\@@wrglom@m{xrefindex}{util.smartptr.atomic.shared}{util.smartptr.atomic.shared}{(\ref  {util.smartptr.atomic.shared})}{}{1699}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.5.8.7.3}Partial specialization for \texttt  {weak_ptr}}{1701}{paragraph.33.5.8.7.3}\protected@file@percent }
+\newlabel{util.smartptr.atomic.weak}{{\M@TitleReference {33.5.8.7.3}{Partial specialization for \texttt  {weak_ptr}}}{1701}{Partial specialization for \tcode {weak_ptr}}{paragraph.33.5.8.7.3}{}}
+\@@wrglom@m{xrefindex}{util.smartptr.atomic.weak}{util.smartptr.atomic.weak}{(\ref  {util.smartptr.atomic.weak})}{}{1701}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.9}Non-member functions}{1703}{subsection.33.5.9}\protected@file@percent }
+\newlabel{atomics.nonmembers}{{\M@TitleReference {33.5.9}{Non-member functions}}{1703}{Non-member functions}{subsection.33.5.9}{}}
+\@@wrglom@m{xrefindex}{atomics.nonmembers}{atomics.nonmembers}{(\ref  {atomics.nonmembers})}{}{1703}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.10}Flag type and operations}{1703}{subsection.33.5.10}\protected@file@percent }
+\newlabel{atomics.flag}{{\M@TitleReference {33.5.10}{Flag type and operations}}{1703}{Flag type and operations}{subsection.33.5.10}{}}
+\@@wrglom@m{xrefindex}{atomics.flag}{atomics.flag}{(\ref  {atomics.flag})}{}{1703}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.11}Fences}{1705}{subsection.33.5.11}\protected@file@percent }
+\newlabel{atomics.fences}{{\M@TitleReference {33.5.11}{Fences}}{1705}{Fences}{subsection.33.5.11}{}}
+\@@wrglom@m{xrefindex}{atomics.fences}{atomics.fences}{(\ref  {atomics.fences})}{}{1705}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.5.12}C compatibility}{1705}{subsection.33.5.12}\protected@file@percent }
+\newlabel{stdatomic.h.syn}{{\M@TitleReference {33.5.12}{C compatibility}}{1705}{C compatibility}{subsection.33.5.12}{}}
+\@@wrglom@m{xrefindex}{stdatomic.h.syn}{stdatomic.h.syn}{(\ref  {stdatomic.h.syn})}{}{1705}
+\@writefile{toc}{\contentsline {section}{\numberline {33.6}Mutual exclusion}{1707}{section.33.6}\protected@file@percent }
+\newlabel{thread.mutex}{{\M@TitleReference {33.6}{Mutual exclusion}}{1707}{Mutual exclusion}{section.33.6}{}}
+\@@wrglom@m{xrefindex}{thread.mutex}{thread.mutex}{(\ref  {thread.mutex})}{}{1707}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.1}General}{1707}{subsection.33.6.1}\protected@file@percent }
+\newlabel{thread.mutex.general}{{\M@TitleReference {33.6.1}{General}}{1707}{General}{subsection.33.6.1}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.general}{thread.mutex.general}{(\ref  {thread.mutex.general})}{}{1707}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.2}Header \texttt  {<mutex>} synopsis}{1707}{subsection.33.6.2}\protected@file@percent }
+\newlabel{mutex.syn}{{\M@TitleReference {33.6.2}{Header \texttt  {<mutex>} synopsis}}{1707}{Header \tcode {<mutex>} synopsis}{subsection.33.6.2}{}}
+\@@wrglom@m{xrefindex}{mutex.syn}{mutex.syn}{(\ref  {mutex.syn})}{}{1707}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.3}Header \texttt  {<shared_mutex>} synopsis}{1708}{subsection.33.6.3}\protected@file@percent }
+\newlabel{shared.mutex.syn}{{\M@TitleReference {33.6.3}{Header \texttt  {<shared_mutex>} synopsis}}{1708}{Header \tcode {<shared_mutex>} synopsis}{subsection.33.6.3}{}}
+\@@wrglom@m{xrefindex}{shared.mutex.syn}{shared.mutex.syn}{(\ref  {shared.mutex.syn})}{}{1708}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.4}Mutex requirements}{1708}{subsection.33.6.4}\protected@file@percent }
+\newlabel{thread.mutex.requirements}{{\M@TitleReference {33.6.4}{Mutex requirements}}{1708}{Mutex requirements}{subsection.33.6.4}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.requirements}{thread.mutex.requirements}{(\ref  {thread.mutex.requirements})}{}{1708}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.4.1}In general}{1708}{subsubsection.33.6.4.1}\protected@file@percent }
+\newlabel{thread.mutex.requirements.general}{{\M@TitleReference {33.6.4.1}{In general}}{1708}{In general}{subsubsection.33.6.4.1}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.requirements.general}{thread.mutex.requirements.general}{(\ref  {thread.mutex.requirements.general})}{}{1708}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.4.2}Mutex types}{1708}{subsubsection.33.6.4.2}\protected@file@percent }
+\newlabel{thread.mutex.requirements.mutex}{{\M@TitleReference {33.6.4.2}{Mutex types}}{1708}{Mutex types}{subsubsection.33.6.4.2}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.requirements.mutex}{thread.mutex.requirements.mutex}{(\ref  {thread.mutex.requirements.mutex})}{}{1708}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.2.1}General}{1708}{paragraph.33.6.4.2.1}\protected@file@percent }
+\newlabel{thread.mutex.requirements.mutex.general}{{\M@TitleReference {33.6.4.2.1}{General}}{1708}{General}{paragraph.33.6.4.2.1}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.requirements.mutex.general}{thread.mutex.requirements.mutex.general}{(\ref  {thread.mutex.requirements.mutex.general})}{}{1708}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.2.2}Class \texttt  {mutex}}{1709}{paragraph.33.6.4.2.2}\protected@file@percent }
+\newlabel{thread.mutex.class}{{\M@TitleReference {33.6.4.2.2}{Class \texttt  {mutex}}}{1709}{Class \tcode {mutex}}{paragraph.33.6.4.2.2}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.class}{thread.mutex.class}{(\ref  {thread.mutex.class})}{}{1709}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.2.3}Class \texttt  {recursive_mutex}}{1710}{paragraph.33.6.4.2.3}\protected@file@percent }
+\newlabel{thread.mutex.recursive}{{\M@TitleReference {33.6.4.2.3}{Class \texttt  {recursive_mutex}}}{1710}{Class \tcode {recursive_mutex}}{paragraph.33.6.4.2.3}{}}
+\@@wrglom@m{xrefindex}{thread.mutex.recursive}{thread.mutex.recursive}{(\ref  {thread.mutex.recursive})}{}{1710}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.4.3}Timed mutex types}{1711}{subsubsection.33.6.4.3}\protected@file@percent }
+\newlabel{thread.timedmutex.requirements}{{\M@TitleReference {33.6.4.3}{Timed mutex types}}{1711}{Timed mutex types}{subsubsection.33.6.4.3}{}}
+\@@wrglom@m{xrefindex}{thread.timedmutex.requirements}{thread.timedmutex.requirements}{(\ref  {thread.timedmutex.requirements})}{}{1711}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.3.1}General}{1711}{paragraph.33.6.4.3.1}\protected@file@percent }
+\newlabel{thread.timedmutex.requirements.general}{{\M@TitleReference {33.6.4.3.1}{General}}{1711}{General}{paragraph.33.6.4.3.1}{}}
+\@@wrglom@m{xrefindex}{thread.timedmutex.requirements.general}{thread.timedmutex.requirements.general}{(\ref  {thread.timedmutex.requirements.general})}{}{1711}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.3.2}Class \texttt  {timed_mutex}}{1711}{paragraph.33.6.4.3.2}\protected@file@percent }
+\newlabel{thread.timedmutex.class}{{\M@TitleReference {33.6.4.3.2}{Class \texttt  {timed_mutex}}}{1711}{Class \tcode {timed_mutex}}{paragraph.33.6.4.3.2}{}}
+\@@wrglom@m{xrefindex}{thread.timedmutex.class}{thread.timedmutex.class}{(\ref  {thread.timedmutex.class})}{}{1711}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.3.3}Class \texttt  {recursive_timed_mutex}}{1712}{paragraph.33.6.4.3.3}\protected@file@percent }
+\newlabel{thread.timedmutex.recursive}{{\M@TitleReference {33.6.4.3.3}{Class \texttt  {recursive_timed_mutex}}}{1712}{Class \tcode {recursive_timed_mutex}}{paragraph.33.6.4.3.3}{}}
+\@@wrglom@m{xrefindex}{thread.timedmutex.recursive}{thread.timedmutex.recursive}{(\ref  {thread.timedmutex.recursive})}{}{1712}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.4.4}Shared mutex types}{1713}{subsubsection.33.6.4.4}\protected@file@percent }
+\newlabel{thread.sharedmutex.requirements}{{\M@TitleReference {33.6.4.4}{Shared mutex types}}{1713}{Shared mutex types}{subsubsection.33.6.4.4}{}}
+\@@wrglom@m{xrefindex}{thread.sharedmutex.requirements}{thread.sharedmutex.requirements}{(\ref  {thread.sharedmutex.requirements})}{}{1713}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.4.1}General}{1713}{paragraph.33.6.4.4.1}\protected@file@percent }
+\newlabel{thread.sharedmutex.requirements.general}{{\M@TitleReference {33.6.4.4.1}{General}}{1713}{General}{paragraph.33.6.4.4.1}{}}
+\@@wrglom@m{xrefindex}{thread.sharedmutex.requirements.general}{thread.sharedmutex.requirements.general}{(\ref  {thread.sharedmutex.requirements.general})}{}{1713}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.4.2}Class \texttt  {shared_mutex}}{1713}{paragraph.33.6.4.4.2}\protected@file@percent }
+\newlabel{thread.sharedmutex.class}{{\M@TitleReference {33.6.4.4.2}{Class \texttt  {shared_mutex}}}{1713}{Class \tcode {shared_mutex}}{paragraph.33.6.4.4.2}{}}
+\@@wrglom@m{xrefindex}{thread.sharedmutex.class}{thread.sharedmutex.class}{(\ref  {thread.sharedmutex.class})}{}{1713}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.4.5}Shared timed mutex types}{1714}{subsubsection.33.6.4.5}\protected@file@percent }
+\newlabel{thread.sharedtimedmutex.requirements}{{\M@TitleReference {33.6.4.5}{Shared timed mutex types}}{1714}{Shared timed mutex types}{subsubsection.33.6.4.5}{}}
+\@@wrglom@m{xrefindex}{thread.sharedtimedmutex.requirements}{thread.sharedtimedmutex.requirements}{(\ref  {thread.sharedtimedmutex.requirements})}{}{1714}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.5.1}General}{1714}{paragraph.33.6.4.5.1}\protected@file@percent }
+\newlabel{thread.sharedtimedmutex.requirements.general}{{\M@TitleReference {33.6.4.5.1}{General}}{1714}{General}{paragraph.33.6.4.5.1}{}}
+\@@wrglom@m{xrefindex}{thread.sharedtimedmutex.requirements.general}{thread.sharedtimedmutex.requirements.general}{(\ref  {thread.sharedtimedmutex.requirements.general})}{}{1714}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.4.5.2}Class \texttt  {shared_timed_mutex}}{1715}{paragraph.33.6.4.5.2}\protected@file@percent }
+\newlabel{thread.sharedtimedmutex.class}{{\M@TitleReference {33.6.4.5.2}{Class \texttt  {shared_timed_mutex}}}{1715}{Class \tcode {shared_timed_mutex}}{paragraph.33.6.4.5.2}{}}
+\@@wrglom@m{xrefindex}{thread.sharedtimedmutex.class}{thread.sharedtimedmutex.class}{(\ref  {thread.sharedtimedmutex.class})}{}{1715}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.5}Locks}{1715}{subsection.33.6.5}\protected@file@percent }
+\newlabel{thread.lock}{{\M@TitleReference {33.6.5}{Locks}}{1715}{Locks}{subsection.33.6.5}{}}
+\@@wrglom@m{xrefindex}{thread.lock}{thread.lock}{(\ref  {thread.lock})}{}{1715}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.5.1}General}{1715}{subsubsection.33.6.5.1}\protected@file@percent }
+\newlabel{thread.lock.general}{{\M@TitleReference {33.6.5.1}{General}}{1715}{General}{subsubsection.33.6.5.1}{}}
+\@@wrglom@m{xrefindex}{thread.lock.general}{thread.lock.general}{(\ref  {thread.lock.general})}{}{1715}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.5.2}Class template \texttt  {lock_guard}}{1716}{subsubsection.33.6.5.2}\protected@file@percent }
+\newlabel{thread.lock.guard}{{\M@TitleReference {33.6.5.2}{Class template \texttt  {lock_guard}}}{1716}{Class template \tcode {lock_guard}}{subsubsection.33.6.5.2}{}}
+\@@wrglom@m{xrefindex}{thread.lock.guard}{thread.lock.guard}{(\ref  {thread.lock.guard})}{}{1716}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.5.3}Class template \texttt  {scoped_lock}}{1716}{subsubsection.33.6.5.3}\protected@file@percent }
+\newlabel{thread.lock.scoped}{{\M@TitleReference {33.6.5.3}{Class template \texttt  {scoped_lock}}}{1716}{Class template \tcode {scoped_lock}}{subsubsection.33.6.5.3}{}}
+\@@wrglom@m{xrefindex}{thread.lock.scoped}{thread.lock.scoped}{(\ref  {thread.lock.scoped})}{}{1716}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.5.4}Class template \texttt  {unique_lock}}{1717}{subsubsection.33.6.5.4}\protected@file@percent }
+\newlabel{thread.lock.unique}{{\M@TitleReference {33.6.5.4}{Class template \texttt  {unique_lock}}}{1717}{Class template \tcode {unique_lock}}{subsubsection.33.6.5.4}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique}{thread.lock.unique}{(\ref  {thread.lock.unique})}{}{1717}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.4.1}General}{1717}{paragraph.33.6.5.4.1}\protected@file@percent }
+\newlabel{thread.lock.unique.general}{{\M@TitleReference {33.6.5.4.1}{General}}{1717}{General}{paragraph.33.6.5.4.1}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique.general}{thread.lock.unique.general}{(\ref  {thread.lock.unique.general})}{}{1717}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.4.2}Constructors, destructor, and assignment}{1718}{paragraph.33.6.5.4.2}\protected@file@percent }
+\newlabel{thread.lock.unique.cons}{{\M@TitleReference {33.6.5.4.2}{Constructors, destructor, and assignment}}{1718}{Constructors, destructor, and assignment}{paragraph.33.6.5.4.2}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique.cons}{thread.lock.unique.cons}{(\ref  {thread.lock.unique.cons})}{}{1718}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.4.3}Locking}{1719}{paragraph.33.6.5.4.3}\protected@file@percent }
+\newlabel{thread.lock.unique.locking}{{\M@TitleReference {33.6.5.4.3}{Locking}}{1719}{Locking}{paragraph.33.6.5.4.3}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique.locking}{thread.lock.unique.locking}{(\ref  {thread.lock.unique.locking})}{}{1719}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.4.4}Modifiers}{1720}{paragraph.33.6.5.4.4}\protected@file@percent }
+\newlabel{thread.lock.unique.mod}{{\M@TitleReference {33.6.5.4.4}{Modifiers}}{1720}{Modifiers}{paragraph.33.6.5.4.4}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique.mod}{thread.lock.unique.mod}{(\ref  {thread.lock.unique.mod})}{}{1720}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.4.5}Observers}{1720}{paragraph.33.6.5.4.5}\protected@file@percent }
+\newlabel{thread.lock.unique.obs}{{\M@TitleReference {33.6.5.4.5}{Observers}}{1720}{Observers}{paragraph.33.6.5.4.5}{}}
+\@@wrglom@m{xrefindex}{thread.lock.unique.obs}{thread.lock.unique.obs}{(\ref  {thread.lock.unique.obs})}{}{1720}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.5.5}Class template \texttt  {shared_lock}}{1721}{subsubsection.33.6.5.5}\protected@file@percent }
+\newlabel{thread.lock.shared}{{\M@TitleReference {33.6.5.5}{Class template \texttt  {shared_lock}}}{1721}{Class template \tcode {shared_lock}}{subsubsection.33.6.5.5}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared}{thread.lock.shared}{(\ref  {thread.lock.shared})}{}{1721}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.5.1}General}{1721}{paragraph.33.6.5.5.1}\protected@file@percent }
+\newlabel{thread.lock.shared.general}{{\M@TitleReference {33.6.5.5.1}{General}}{1721}{General}{paragraph.33.6.5.5.1}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared.general}{thread.lock.shared.general}{(\ref  {thread.lock.shared.general})}{}{1721}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.5.2}Constructors, destructor, and assignment}{1722}{paragraph.33.6.5.5.2}\protected@file@percent }
+\newlabel{thread.lock.shared.cons}{{\M@TitleReference {33.6.5.5.2}{Constructors, destructor, and assignment}}{1722}{Constructors, destructor, and assignment}{paragraph.33.6.5.5.2}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared.cons}{thread.lock.shared.cons}{(\ref  {thread.lock.shared.cons})}{}{1722}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.5.3}Locking}{1722}{paragraph.33.6.5.5.3}\protected@file@percent }
+\newlabel{thread.lock.shared.locking}{{\M@TitleReference {33.6.5.5.3}{Locking}}{1722}{Locking}{paragraph.33.6.5.5.3}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared.locking}{thread.lock.shared.locking}{(\ref  {thread.lock.shared.locking})}{}{1722}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.5.4}Modifiers}{1724}{paragraph.33.6.5.5.4}\protected@file@percent }
+\newlabel{thread.lock.shared.mod}{{\M@TitleReference {33.6.5.5.4}{Modifiers}}{1724}{Modifiers}{paragraph.33.6.5.5.4}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared.mod}{thread.lock.shared.mod}{(\ref  {thread.lock.shared.mod})}{}{1724}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {33.6.5.5.5}Observers}{1724}{paragraph.33.6.5.5.5}\protected@file@percent }
+\newlabel{thread.lock.shared.obs}{{\M@TitleReference {33.6.5.5.5}{Observers}}{1724}{Observers}{paragraph.33.6.5.5.5}{}}
+\@@wrglom@m{xrefindex}{thread.lock.shared.obs}{thread.lock.shared.obs}{(\ref  {thread.lock.shared.obs})}{}{1724}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.6}Generic locking algorithms}{1724}{subsection.33.6.6}\protected@file@percent }
+\newlabel{thread.lock.algorithm}{{\M@TitleReference {33.6.6}{Generic locking algorithms}}{1724}{Generic locking algorithms}{subsection.33.6.6}{}}
+\@@wrglom@m{xrefindex}{thread.lock.algorithm}{thread.lock.algorithm}{(\ref  {thread.lock.algorithm})}{}{1724}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.6.7}Call once}{1724}{subsection.33.6.7}\protected@file@percent }
+\newlabel{thread.once}{{\M@TitleReference {33.6.7}{Call once}}{1724}{Call once}{subsection.33.6.7}{}}
+\@@wrglom@m{xrefindex}{thread.once}{thread.once}{(\ref  {thread.once})}{}{1724}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.7.1}Struct \texttt  {once_flag}}{1724}{subsubsection.33.6.7.1}\protected@file@percent }
+\newlabel{thread.once.onceflag}{{\M@TitleReference {33.6.7.1}{Struct \texttt  {once_flag}}}{1724}{Struct \tcode {once_flag}}{subsubsection.33.6.7.1}{}}
+\@@wrglom@m{xrefindex}{thread.once.onceflag}{thread.once.onceflag}{(\ref  {thread.once.onceflag})}{}{1724}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.6.7.2}Function \texttt  {call_once}}{1725}{subsubsection.33.6.7.2}\protected@file@percent }
+\newlabel{thread.once.callonce}{{\M@TitleReference {33.6.7.2}{Function \texttt  {call_once}}}{1725}{Function \tcode {call_once}}{subsubsection.33.6.7.2}{}}
+\@@wrglom@m{xrefindex}{thread.once.callonce}{thread.once.callonce}{(\ref  {thread.once.callonce})}{}{1725}
+\@writefile{toc}{\contentsline {section}{\numberline {33.7}Condition variables}{1725}{section.33.7}\protected@file@percent }
+\newlabel{thread.condition}{{\M@TitleReference {33.7}{Condition variables}}{1725}{Condition variables}{section.33.7}{}}
+\@@wrglom@m{xrefindex}{thread.condition}{thread.condition}{(\ref  {thread.condition})}{}{1725}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.7.1}General}{1725}{subsection.33.7.1}\protected@file@percent }
+\newlabel{thread.condition.general}{{\M@TitleReference {33.7.1}{General}}{1725}{General}{subsection.33.7.1}{}}
+\@@wrglom@m{xrefindex}{thread.condition.general}{thread.condition.general}{(\ref  {thread.condition.general})}{}{1725}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.7.2}Header \texttt  {<condition_variable>} synopsis}{1726}{subsection.33.7.2}\protected@file@percent }
+\newlabel{condition.variable.syn}{{\M@TitleReference {33.7.2}{Header \texttt  {<condition_variable>} synopsis}}{1726}{Header \tcode {<condition_variable>} synopsis}{subsection.33.7.2}{}}
+\@@wrglom@m{xrefindex}{condition.variable.syn}{condition.variable.syn}{(\ref  {condition.variable.syn})}{}{1726}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.7.3}Non-member functions}{1726}{subsection.33.7.3}\protected@file@percent }
+\newlabel{thread.condition.nonmember}{{\M@TitleReference {33.7.3}{Non-member functions}}{1726}{Non-member functions}{subsection.33.7.3}{}}
+\@@wrglom@m{xrefindex}{thread.condition.nonmember}{thread.condition.nonmember}{(\ref  {thread.condition.nonmember})}{}{1726}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.7.4}Class \texttt  {condition_variable}}{1726}{subsection.33.7.4}\protected@file@percent }
+\newlabel{thread.condition.condvar}{{\M@TitleReference {33.7.4}{Class \texttt  {condition_variable}}}{1726}{Class \tcode {condition_variable}}{subsection.33.7.4}{}}
+\@@wrglom@m{xrefindex}{thread.condition.condvar}{thread.condition.condvar}{(\ref  {thread.condition.condvar})}{}{1726}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.7.5}Class \texttt  {condition_variable_any}}{1729}{subsection.33.7.5}\protected@file@percent }
+\newlabel{thread.condition.condvarany}{{\M@TitleReference {33.7.5}{Class \texttt  {condition_variable_any}}}{1729}{Class \tcode {condition_variable_any}}{subsection.33.7.5}{}}
+\@@wrglom@m{xrefindex}{thread.condition.condvarany}{thread.condition.condvarany}{(\ref  {thread.condition.condvarany})}{}{1729}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.7.5.1}General}{1729}{subsubsection.33.7.5.1}\protected@file@percent }
+\newlabel{thread.condition.condvarany.general}{{\M@TitleReference {33.7.5.1}{General}}{1729}{General}{subsubsection.33.7.5.1}{}}
+\@@wrglom@m{xrefindex}{thread.condition.condvarany.general}{thread.condition.condvarany.general}{(\ref  {thread.condition.condvarany.general})}{}{1729}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.7.5.2}Noninterruptible waits}{1731}{subsubsection.33.7.5.2}\protected@file@percent }
+\newlabel{thread.condvarany.wait}{{\M@TitleReference {33.7.5.2}{Noninterruptible waits}}{1731}{Noninterruptible waits}{subsubsection.33.7.5.2}{}}
+\@@wrglom@m{xrefindex}{thread.condvarany.wait}{thread.condvarany.wait}{(\ref  {thread.condvarany.wait})}{}{1731}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.7.5.3}Interruptible waits}{1732}{subsubsection.33.7.5.3}\protected@file@percent }
+\newlabel{thread.condvarany.intwait}{{\M@TitleReference {33.7.5.3}{Interruptible waits}}{1732}{Interruptible waits}{subsubsection.33.7.5.3}{}}
+\@@wrglom@m{xrefindex}{thread.condvarany.intwait}{thread.condvarany.intwait}{(\ref  {thread.condvarany.intwait})}{}{1732}
+\@writefile{toc}{\contentsline {section}{\numberline {33.8}Semaphore}{1733}{section.33.8}\protected@file@percent }
+\newlabel{thread.sema}{{\M@TitleReference {33.8}{Semaphore}}{1733}{Semaphore}{section.33.8}{}}
+\@@wrglom@m{xrefindex}{thread.sema}{thread.sema}{(\ref  {thread.sema})}{}{1733}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.8.1}General}{1733}{subsection.33.8.1}\protected@file@percent }
+\newlabel{thread.sema.general}{{\M@TitleReference {33.8.1}{General}}{1733}{General}{subsection.33.8.1}{}}
+\@@wrglom@m{xrefindex}{thread.sema.general}{thread.sema.general}{(\ref  {thread.sema.general})}{}{1733}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.8.2}Header \texttt  {<semaphore>} synopsis}{1733}{subsection.33.8.2}\protected@file@percent }
+\newlabel{semaphore.syn}{{\M@TitleReference {33.8.2}{Header \texttt  {<semaphore>} synopsis}}{1733}{Header \tcode {<semaphore>} synopsis}{subsection.33.8.2}{}}
+\@@wrglom@m{xrefindex}{semaphore.syn}{semaphore.syn}{(\ref  {semaphore.syn})}{}{1733}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.8.3}Class template \texttt  {counting_semaphore}}{1733}{subsection.33.8.3}\protected@file@percent }
+\newlabel{thread.sema.cnt}{{\M@TitleReference {33.8.3}{Class template \texttt  {counting_semaphore}}}{1733}{Class template \tcode {counting_semaphore}}{subsection.33.8.3}{}}
+\@@wrglom@m{xrefindex}{thread.sema.cnt}{thread.sema.cnt}{(\ref  {thread.sema.cnt})}{}{1733}
+\@writefile{toc}{\contentsline {section}{\numberline {33.9}Coordination types}{1734}{section.33.9}\protected@file@percent }
+\newlabel{thread.coord}{{\M@TitleReference {33.9}{Coordination types}}{1734}{Coordination types}{section.33.9}{}}
+\@@wrglom@m{xrefindex}{thread.coord}{thread.coord}{(\ref  {thread.coord})}{}{1734}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.9.1}General}{1734}{subsection.33.9.1}\protected@file@percent }
+\newlabel{thread.coord.general}{{\M@TitleReference {33.9.1}{General}}{1734}{General}{subsection.33.9.1}{}}
+\@@wrglom@m{xrefindex}{thread.coord.general}{thread.coord.general}{(\ref  {thread.coord.general})}{}{1734}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.9.2}Latches}{1735}{subsection.33.9.2}\protected@file@percent }
+\newlabel{thread.latch}{{\M@TitleReference {33.9.2}{Latches}}{1735}{Latches}{subsection.33.9.2}{}}
+\@@wrglom@m{xrefindex}{thread.latch}{thread.latch}{(\ref  {thread.latch})}{}{1735}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.2.1}General}{1735}{subsubsection.33.9.2.1}\protected@file@percent }
+\newlabel{thread.latch.general}{{\M@TitleReference {33.9.2.1}{General}}{1735}{General}{subsubsection.33.9.2.1}{}}
+\@@wrglom@m{xrefindex}{thread.latch.general}{thread.latch.general}{(\ref  {thread.latch.general})}{}{1735}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.2.2}Header \texttt  {<latch>} synopsis}{1735}{subsubsection.33.9.2.2}\protected@file@percent }
+\newlabel{latch.syn}{{\M@TitleReference {33.9.2.2}{Header \texttt  {<latch>} synopsis}}{1735}{Header \tcode {<latch>} synopsis}{subsubsection.33.9.2.2}{}}
+\@@wrglom@m{xrefindex}{latch.syn}{latch.syn}{(\ref  {latch.syn})}{}{1735}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.2.3}Class \texttt  {latch}}{1735}{subsubsection.33.9.2.3}\protected@file@percent }
+\newlabel{thread.latch.class}{{\M@TitleReference {33.9.2.3}{Class \texttt  {latch}}}{1735}{Class \tcode {latch}}{subsubsection.33.9.2.3}{}}
+\@@wrglom@m{xrefindex}{thread.latch.class}{thread.latch.class}{(\ref  {thread.latch.class})}{}{1735}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.9.3}Barriers}{1736}{subsection.33.9.3}\protected@file@percent }
+\newlabel{thread.barrier}{{\M@TitleReference {33.9.3}{Barriers}}{1736}{Barriers}{subsection.33.9.3}{}}
+\@@wrglom@m{xrefindex}{thread.barrier}{thread.barrier}{(\ref  {thread.barrier})}{}{1736}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.3.1}General}{1736}{subsubsection.33.9.3.1}\protected@file@percent }
+\newlabel{thread.barrier.general}{{\M@TitleReference {33.9.3.1}{General}}{1736}{General}{subsubsection.33.9.3.1}{}}
+\@@wrglom@m{xrefindex}{thread.barrier.general}{thread.barrier.general}{(\ref  {thread.barrier.general})}{}{1736}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.3.2}Header \texttt  {<barrier>} synopsis}{1736}{subsubsection.33.9.3.2}\protected@file@percent }
+\newlabel{barrier.syn}{{\M@TitleReference {33.9.3.2}{Header \texttt  {<barrier>} synopsis}}{1736}{Header \tcode {<barrier>} synopsis}{subsubsection.33.9.3.2}{}}
+\@@wrglom@m{xrefindex}{barrier.syn}{barrier.syn}{(\ref  {barrier.syn})}{}{1736}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.9.3.3}Class template \texttt  {barrier}}{1736}{subsubsection.33.9.3.3}\protected@file@percent }
+\newlabel{thread.barrier.class}{{\M@TitleReference {33.9.3.3}{Class template \texttt  {barrier}}}{1736}{Class template \tcode {barrier}}{subsubsection.33.9.3.3}{}}
+\@@wrglom@m{xrefindex}{thread.barrier.class}{thread.barrier.class}{(\ref  {thread.barrier.class})}{}{1736}
+\@writefile{toc}{\contentsline {section}{\numberline {33.10}Futures}{1738}{section.33.10}\protected@file@percent }
+\newlabel{futures}{{\M@TitleReference {33.10}{Futures}}{1738}{Futures}{section.33.10}{}}
+\@@wrglom@m{xrefindex}{futures}{futures}{(\ref  {futures})}{}{1738}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.1}Overview}{1738}{subsection.33.10.1}\protected@file@percent }
+\newlabel{futures.overview}{{\M@TitleReference {33.10.1}{Overview}}{1738}{Overview}{subsection.33.10.1}{}}
+\@@wrglom@m{xrefindex}{futures.overview}{futures.overview}{(\ref  {futures.overview})}{}{1738}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.2}Header \texttt  {<future>} synopsis}{1738}{subsection.33.10.2}\protected@file@percent }
+\newlabel{future.syn}{{\M@TitleReference {33.10.2}{Header \texttt  {<future>} synopsis}}{1738}{Header \tcode {<future>} synopsis}{subsection.33.10.2}{}}
+\@@wrglom@m{xrefindex}{future.syn}{future.syn}{(\ref  {future.syn})}{}{1738}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.3}Error handling}{1739}{subsection.33.10.3}\protected@file@percent }
+\newlabel{futures.errors}{{\M@TitleReference {33.10.3}{Error handling}}{1739}{Error handling}{subsection.33.10.3}{}}
+\@@wrglom@m{xrefindex}{futures.errors}{futures.errors}{(\ref  {futures.errors})}{}{1739}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.4}Class \texttt  {future_error}}{1739}{subsection.33.10.4}\protected@file@percent }
+\newlabel{futures.future.error}{{\M@TitleReference {33.10.4}{Class \texttt  {future_error}}}{1739}{Class \tcode {future_error}}{subsection.33.10.4}{}}
+\@@wrglom@m{xrefindex}{futures.future.error}{futures.future.error}{(\ref  {futures.future.error})}{}{1739}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.5}Shared state}{1740}{subsection.33.10.5}\protected@file@percent }
+\newlabel{futures.state}{{\M@TitleReference {33.10.5}{Shared state}}{1740}{Shared state}{subsection.33.10.5}{}}
+\@@wrglom@m{xrefindex}{futures.state}{futures.state}{(\ref  {futures.state})}{}{1740}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.6}Class template \texttt  {promise}}{1741}{subsection.33.10.6}\protected@file@percent }
+\newlabel{futures.promise}{{\M@TitleReference {33.10.6}{Class template \texttt  {promise}}}{1741}{Class template \tcode {promise}}{subsection.33.10.6}{}}
+\@@wrglom@m{xrefindex}{futures.promise}{futures.promise}{(\ref  {futures.promise})}{}{1741}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.7}Class template \texttt  {future}}{1743}{subsection.33.10.7}\protected@file@percent }
+\newlabel{futures.unique.future}{{\M@TitleReference {33.10.7}{Class template \texttt  {future}}}{1743}{Class template \tcode {future}}{subsection.33.10.7}{}}
+\@@wrglom@m{xrefindex}{futures.unique.future}{futures.unique.future}{(\ref  {futures.unique.future})}{}{1743}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.8}Class template \texttt  {shared_future}}{1745}{subsection.33.10.8}\protected@file@percent }
+\newlabel{futures.shared.future}{{\M@TitleReference {33.10.8}{Class template \texttt  {shared_future}}}{1745}{Class template \tcode {shared_future}}{subsection.33.10.8}{}}
+\@@wrglom@m{xrefindex}{futures.shared.future}{futures.shared.future}{(\ref  {futures.shared.future})}{}{1745}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.9}Function template \texttt  {async}}{1748}{subsection.33.10.9}\protected@file@percent }
+\newlabel{futures.async}{{\M@TitleReference {33.10.9}{Function template \texttt  {async}}}{1748}{Function template \tcode {async}}{subsection.33.10.9}{}}
+\@@wrglom@m{xrefindex}{futures.async}{futures.async}{(\ref  {futures.async})}{}{1748}
+\@writefile{toc}{\contentsline {subsection}{\numberline {33.10.10}Class template \texttt  {packaged_task}}{1749}{subsection.33.10.10}\protected@file@percent }
+\newlabel{futures.task}{{\M@TitleReference {33.10.10}{Class template \texttt  {packaged_task}}}{1749}{Class template \tcode {packaged_task}}{subsection.33.10.10}{}}
+\@@wrglom@m{xrefindex}{futures.task}{futures.task}{(\ref  {futures.task})}{}{1749}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.10.10.1}General}{1749}{subsubsection.33.10.10.1}\protected@file@percent }
+\newlabel{futures.task.general}{{\M@TitleReference {33.10.10.1}{General}}{1749}{General}{subsubsection.33.10.10.1}{}}
+\@@wrglom@m{xrefindex}{futures.task.general}{futures.task.general}{(\ref  {futures.task.general})}{}{1749}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.10.10.2}Member functions}{1750}{subsubsection.33.10.10.2}\protected@file@percent }
+\newlabel{futures.task.members}{{\M@TitleReference {33.10.10.2}{Member functions}}{1750}{Member functions}{subsubsection.33.10.10.2}{}}
+\@@wrglom@m{xrefindex}{futures.task.members}{futures.task.members}{(\ref  {futures.task.members})}{}{1750}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {33.10.10.3}Globals}{1751}{subsubsection.33.10.10.3}\protected@file@percent }
+\newlabel{futures.task.nonmembers}{{\M@TitleReference {33.10.10.3}{Globals}}{1751}{Globals}{subsubsection.33.10.10.3}{}}
+\@@wrglom@m{xrefindex}{futures.task.nonmembers}{futures.task.nonmembers}{(\ref  {futures.task.nonmembers})}{}{1751}
+\@setckpt{threads}{
+\setcounter{page}{1753}
+\setcounter{equation}{0}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{313}
+\setcounter{mpfootnote}{0}
+\setcounter{@memmarkcntra}{0}
+\setcounter{storedpagenumber}{1}
+\setcounter{book}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{33}
+\setcounter{section}{10}
+\setcounter{subsection}{10}
+\setcounter{subsubsection}{3}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{@ppsavesec}{0}
+\setcounter{@ppsaveapp}{0}
+\setcounter{vslineno}{0}
+\setcounter{poemline}{0}
+\setcounter{modulo@vs}{0}
+\setcounter{memfvsline}{0}
+\setcounter{verse}{0}
+\setcounter{chrsinstr}{0}
+\setcounter{poem}{0}
+\setcounter{newflo@tctr}{4}
+\setcounter{@contsubnum}{0}
+\setcounter{maxsecnumdepth}{5}
+\setcounter{sidefootnote}{0}
+\setcounter{pagenote}{0}
+\setcounter{pagenoteshadow}{0}
+\setcounter{memfbvline}{0}
+\setcounter{bvlinectr}{0}
+\setcounter{cp@cntr}{0}
+\setcounter{ism@mctr}{0}
+\setcounter{xsm@mctr}{0}
+\setcounter{csm@mctr}{0}
+\setcounter{ksm@mctr}{0}
+\setcounter{xksm@mctr}{0}
+\setcounter{cksm@mctr}{0}
+\setcounter{msm@mctr}{0}
+\setcounter{xmsm@mctr}{0}
+\setcounter{cmsm@mctr}{0}
+\setcounter{bsm@mctr}{0}
+\setcounter{workm@mctr}{0}
+\setcounter{sheetsequence}{1762}
+\setcounter{lastsheet}{1995}
+\setcounter{lastpage}{1986}
+\setcounter{figure}{6}
+\setcounter{lofdepth}{1}
+\setcounter{table}{142}
+\setcounter{lotdepth}{1}
+\setcounter{su@anzahl}{0}
+\setcounter{iso@tmpmonth}{5}
+\setcounter{iso@yeartwo}{0}
+\setcounter{iso@slash}{0}
+\setcounter{iso@minus}{0}
+\setcounter{iso@dot}{0}
+\setcounter{iso@@slash}{0}
+\setcounter{iso@@minus}{0}
+\setcounter{iso@@dot}{0}
+\setcounter{lstnumber}{1}
+\setcounter{LT@tables}{27}
+\setcounter{LT@chunks}{3}
+\setcounter{parentequation}{0}
+\setcounter{Item}{26}
+\setcounter{Hfootnote}{313}
+\setcounter{memhycontfloat}{0}
+\setcounter{Hpagenote}{0}
+\setcounter{bookmark@seq@number}{2694}
+\setcounter{Paras}{1}
+\setcounter{Bullets1}{0}
+\setcounter{Bullets2}{0}
+\setcounter{Bullets3}{0}
+\setcounter{Bullets4}{0}
+\setcounter{SectionDepthBase}{0}
+\setcounter{SectionDepth}{3}
+\setcounter{note}{0}
+\setcounter{example}{0}
+\setcounter{defnote}{0}
+\setcounter{lstlisting}{0}
+\setcounter{section@level}{3}
+}

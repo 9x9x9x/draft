@@ -1,0 +1,4 @@
+\begin{XTRbnf}
+\nontermdef{va-opt-replacement}\br
+    \terminal{\mname{VA_OPT} (} \opt{pp-tokens} \terminal{)}
+\end{XTRbnf}

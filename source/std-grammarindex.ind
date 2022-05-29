@@ -1,0 +1,1674 @@
+\begin{theindex}
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {abstract-declarator}}}, 
+		\hyperpage{184}, \hyperindexformat{\idxbfpage}{186}, 
+		\hyperpage{186}, \hyperpage{194}, \hyperpage{198}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {abstract-pack-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{186}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {access-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{288}, \hyperpage{288}, 
+		\hyperpage{297, 298}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {additive-expression}}}, 
+		\hyperindexformat{\idxbfpage}{140}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {alias-declaration}}}, 
+		\hyperpage{31}, \hyperpage{39}, 
+		\hyperindexformat{\idxbfpage}{165}, \hyperpage{170}, 
+		\hyperpage{195}, \hyperpage{250}, \hyperpage{253}, 
+		\hyperpage{263}, \hyperpage{353}, \hyperpage{372}, 
+		\hyperpage{391}, \hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {alignment-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{240, 241}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {and-expression}}}, 
+		\hyperindexformat{\idxbfpage}{144}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {asm-declaration}}}, 
+		\hyperpage{151}, \hyperpage{165}, 
+		\hyperindexformat{\idxbfpage}{236}, \hyperpage{236}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {assignment-expression}}}, 
+		\hyperpage{118}, \hyperindexformat{\idxbfpage}{148}, 
+		\hyperpage{166}, \hyperpage{182}, \hyperpage{198}, 
+		\hyperpage{206}, \hyperpage{209}, \hyperpage{223}, 
+		\hyperpage{281}, \hyperpage{305}, \hyperpage{327}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {assignment-operator}}}, 
+		\hyperindexformat{\idxbfpage}{148}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute}}}, 
+		\hyperindexformat{\idxbfpage}{239}, \hyperpage{240}, 
+		\hyperpage{378}, \hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-argument-clause}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239--245}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-declaration}}}, 
+		\hyperpage{31}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperpage{166}, \hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-list}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239, 240}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-namespace}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239, 240}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-scoped-token}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239, 240}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239, 240}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-specifier-seq}}}, 
+		\hyperpage{41}, \hyperpage{104}, \hyperpage{106}, 
+		\hyperpage{132}, \hyperpage{155, 156}, \hyperpage{159}, 
+		\hyperpage{166, 167}, \hyperpage{170}, \hyperpage{174}, 
+		\hyperpage{178}, \hyperpage{187}, \hyperpage{189, 190}, 
+		\hyperpage{192}, \hyperpage{194}, \hyperpage{217}, 
+		\hyperpage{224, 225}, \hyperpage{228--230}, 
+		\hyperpage{236}, \hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{240}, \hyperpage{243}, \hyperpage{247}, 
+		\hyperpage{251}, \hyperpage{258}, \hyperpage{264}, 
+		\hyperpage{268}, \hyperpage{274}, \hyperpage{278}, 
+		\hyperpage{281}, \hyperpage{288}, \hyperpage{413}, 
+		\hyperpage{439}, \hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-token}}}, 
+		\hyperpage{19}, \hyperindexformat{\idxbfpage}{239}, 
+		\hyperpage{239--245}, \hyperpage{451}, \hyperpage{488}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {attribute-using-prefix}}}, 
+		\hyperindexformat{\idxbfpage}{239}, \hyperpage{239}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {await-expression}}}, 
+		\hyperpage{80}, \hyperindexformat{\idxbfpage}{129}, 
+		\hyperpage{129, 130}, \hyperpage{151}, 
+		\hyperpage{220, 221}, \hyperpage{541}, 
+		\hyperindexformat{\idxbfpage}{1760}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {balanced-token}}}, 
+		\hyperindexformat{\idxbfpage}{239}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {balanced-token-seq}}}, 
+		\hyperindexformat{\idxbfpage}{239}, \hyperpage{240}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {base-clause}}}, 
+		\hyperpage{259}, \hyperindexformat{\idxbfpage}{287}, 
+		\hyperpage{408}, \hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {base-specifier}}}, 
+		\hyperpage{43}, \hyperpage{51}, 
+		\hyperindexformat{\idxbfpage}{287}, \hyperpage{288}, 
+		\hyperpage{296}, \hyperpage{300}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {base-specifier-list}}}, 
+		\hyperpage{274}, \hyperindexformat{\idxbfpage}{287}, 
+		\hyperpage{288}, \hyperpage{296}, \hyperpage{308}, 
+		\hyperpage{310}, \hyperpage{317}, \hyperpage{378}, 
+		\hyperpage{380}, \hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {basic-c-char}}}, 
+		\hyperindexformat{\idxbfpage}{23}, \hyperpage{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {basic-s-char}}}, 
+		\hyperindexformat{\idxbfpage}{26}, \hyperpage{27}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {binary-digit}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{21}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {binary-exponent-part}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {binary-literal}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{22}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {block-declaration}}}, 
+		\hyperpage{30}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {boolean-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {brace-or-equal-initializer}}}, 
+		\hyperpage{78}, \hyperpage{182}, 
+		\hyperindexformat{\idxbfpage}{201}, 
+		\hyperpage{202, 203}, \hyperpage{206}, 
+		\hyperpage{263, 264}, \hyperpage{269}, \hyperpage{281}, 
+		\hyperpage{402}, \hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {braced-init-list}}}, 
+		\hyperpage{69}, \hyperpage{78}, \hyperpage{120}, 
+		\hyperpage{133}, \hyperpage{148}, \hyperpage{154}, 
+		\hyperpage{162}, \hyperpage{182}, 
+		\hyperindexformat{\idxbfpage}{201}, \hyperpage{203}, 
+		\hyperpage{207}, \hyperpage{212, 213}, \hyperpage{215}, 
+		\hyperpage{305}, \hyperpage{307}, \hyperpage{309}, 
+		\hyperpage{329}, \hyperpage{399}, \hyperpage{403}, 
+		\hyperindexformat{\idxbfpage}{1767}, \hyperpage{1776}, 
+		\hyperpage{1786}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {c-char}}}, 
+		\hyperindexformat{\idxbfpage}{23}, \hyperpage{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {c-char-sequence}}}, 
+		\hyperpage{13, 14}, \hyperindexformat{\idxbfpage}{22}, 
+		\hyperpage{23, 24}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {capture}}}, 
+		\hyperindexformat{\idxbfpage}{109}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {capture-default}}}, 
+		\hyperpage{34}, \hyperindexformat{\idxbfpage}{109}, 
+		\hyperpage{109, 110}, \hyperpage{112}, 
+		\hyperindexformat{\idxbfpage}{1759}, \hyperpage{1780}, 
+		\hyperpage{1806}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {capture-list}}}, 
+		\hyperindexformat{\idxbfpage}{109}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {cast-expression}}}, 
+		\hyperpage{114}, \hyperpage{129}, \hyperpage{137}, 
+		\hyperindexformat{\idxbfpage}{138}, 
+		\hyperpage{138, 139}, \hyperpage{154}, 
+		\hyperpage{282, 283}, \hyperpage{347}, 
+		\hyperpage{378, 379}, \hyperpage{403, 404}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {character-literal}}}, 
+		\hyperpage{14}, \hyperpage{16}, 
+		\hyperindexformat{\idxbfpage}{22}, \hyperpage{23, 24}, 
+		\hyperpage{451}, \hyperpage{456}, \hyperpage{458}, 
+		\hyperpage{1456}, \hyperindexformat{\idxbfpage}{1756}, 
+		\hyperpage{1789}, \hyperpage{1796}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-head}}}, 
+		\hyperpage{39}, \hyperpage{240}, 
+		\hyperindexformat{\idxbfpage}{258}, \hyperpage{258}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-head-name}}}, 
+		\hyperpage{41}, \hyperpage{103}, 
+		\hyperindexformat{\idxbfpage}{258}, 
+		\hyperpage{258, 259}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-key}}}, 
+		\hyperpage{54}, \hyperpage{166}, \hyperpage{178}, 
+		\hyperindexformat{\idxbfpage}{258}, 
+		\hyperpage{258--260}, \hyperpage{284}, \hyperpage{298}, 
+		\hyperpage{373}, \hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-name}}}, 
+		\hyperpage{12}, \hyperpage{42}, \hyperpage{166}, 
+		\hyperpage{170}, \hyperpage{178}, 
+		\hyperindexformat{\idxbfpage}{258}, \hyperpage{258}, 
+		\hyperpage{261, 262}, \hyperpage{274}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-or-decltype}}}, 
+		\hyperpage{50}, \hyperpage{259}, 
+		\hyperindexformat{\idxbfpage}{287}, \hyperpage{288}, 
+		\hyperpage{306}, \hyperpage{394}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-specifier}}}, 
+		\hyperpage{30}, \hyperpage{39}, \hyperpage{41}, 
+		\hyperpage{43}, \hyperpage{58}, \hyperpage{166}, 
+		\hyperpage{175}, \hyperindexformat{\idxbfpage}{258}, 
+		\hyperpage{258}, \hyperpage{263, 264}, \hyperpage{267}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {class-virt-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{258}, \hyperpage{259}, 
+		\hyperpage{644}, \hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {compare-expression}}}, 
+		\hyperindexformat{\idxbfpage}{141}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {compound-requirement}}}, 
+		\hyperindexformat{\idxbfpage}{116}, 
+		\hyperpage{116, 117}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {compound-statement}}}, 
+		\hyperpage{40, 41}, \hyperpage{79}, \hyperpage{87}, 
+		\hyperpage{102}, \hyperpage{108}, \hyperpage{112, 113}, 
+		\hyperpage{129}, \hyperpage{153}, \hyperpage{155}, 
+		\hyperindexformat{\idxbfpage}{156}, \hyperpage{157}, 
+		\hyperpage{159}, \hyperpage{162}, \hyperpage{269}, 
+		\hyperpage{307, 308}, \hyperpage{314, 315}, 
+		\hyperpage{411}, \hyperpage{440--443}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {concept-definition}}}, 
+		\hyperpage{31}, \hyperpage{40}, 
+		\hyperindexformat{\idxbfpage}{392}, \hyperpage{393}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {concept-name}}}, 
+		\hyperpage{40}, \hyperpage{57}, \hyperpage{252}, 
+		\hyperpage{355}, \hyperpage{361}, 
+		\hyperindexformat{\idxbfpage}{393}, \hyperpage{393}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {condition}}}, 
+		\hyperpage{30}, \hyperindexformat{\idxbfpage}{155}, 
+		\hyperpage{155}, \hyperpage{157, 158}, \hyperpage{160}, 
+		\hyperpage{203}, \hyperpage{440}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, \hyperpage{24}, 
+		\hyperpage{28}, \hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence-char}}}, 
+		\hyperindexformat{\idxbfpage}{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-expression}}}, 
+		\hyperpage{4}, \hyperindexformat{\idxbfpage}{145}, 
+		\hyperpage{145}, \hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditionally-supported-directive}}}, 
+		\hyperindexformat{\idxbfpage}{448}, \hyperpage{449}, 
+		\hyperpage{456}, \hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {constant-expression}}}, 
+		\hyperpage{3}, \hyperpage{79}, \hyperpage{133}, 
+		\hyperindexformat{\idxbfpage}{149}, \hyperpage{149}, 
+		\hyperpage{153}, \hyperpage{158}, \hyperpage{166}, 
+		\hyperpage{169}, \hyperpage{192}, \hyperpage{225}, 
+		\hyperpage{240}, \hyperpage{263}, \hyperpage{281}, 
+		\hyperpage{322}, \hyperpage{444}, \hyperpage{468}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {constraint-expression}}}, 
+		\hyperpage{40}, \hyperpage{101}, \hyperpage{117}, 
+		\hyperpage{185}, \hyperpage{354, 355}, \hyperpage{361}, 
+		\hyperpage{367}, \hyperindexformat{\idxbfpage}{369}, 
+		\hyperpage{369, 370}, \hyperpage{388}, \hyperpage{393}, 
+		\hyperpage{396}, \hyperpage{468}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {constraint-logical-and-expression}}}, 
+		\hyperindexformat{\idxbfpage}{353}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {constraint-logical-or-expression}}}, 
+		\hyperpage{185}, \hyperindexformat{\idxbfpage}{353}, 
+		\hyperpage{354}, \hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {control-line}}}, 
+		\hyperindexformat{\idxbfpage}{448}, \hyperpage{454}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conversion-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{278}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conversion-function-id}}}, 
+		\hyperpage{30}, \hyperpage{43, 44}, \hyperpage{46}, 
+		\hyperpage{101}, \hyperpage{180}, 
+		\hyperindexformat{\idxbfpage}{278}, 
+		\hyperpage{278, 279}, \hyperpage{322}, \hyperpage{358}, 
+		\hyperpage{399}, \hyperpage{401, 402}, \hyperpage{429}, 
+		\hyperindexformat{\idxbfpage}{1770}, \hyperpage{1781}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conversion-type-id}}}, 
+		\hyperpage{46}, \hyperindexformat{\idxbfpage}{278}, 
+		\hyperpage{278, 279}, \hyperpage{324}, \hyperpage{348}, 
+		\hyperpage{395}, \hyperpage{399}, \hyperpage{401}, 
+		\hyperpage{429}, \hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {coroutine-return-statement}}}, 
+		\hyperindexformat{\idxbfpage}{162}, \hyperpage{220}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ctor-initializer}}}, 
+		\hyperpage{216, 217}, \hyperpage{269}, 
+		\hyperindexformat{\idxbfpage}{306}, 
+		\hyperpage{306, 307}, \hyperpage{309}, \hyperpage{315}, 
+		\hyperpage{440, 441}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {cv-qualifier}}}, 
+		\hyperpage{77}, \hyperpage{138}, \hyperpage{147}, 
+		\hyperpage{166, 167}, \hyperpage{175}, 
+		\hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{189--191}, \hyperpage{194}, \hyperpage{223}, 
+		\hyperpage{264}, \hyperpage{267}, \hyperpage{349}, 
+		\hyperpage{356}, \hyperpage{442}, \hyperpage{472}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {cv-qualifier-seq}}}, 
+		\hyperpage{99}, \hyperpage{123}, \hyperpage{140}, 
+		\hyperpage{175}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{189}, \hyperpage{191--196}, \hyperpage{217}, 
+		\hyperpage{278}, \hyperpage{324}, \hyperpage{683}, 
+		\hyperindexformat{\idxbfpage}{1766}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {d-char}}}, 
+		\hyperpage{16}, \hyperindexformat{\idxbfpage}{26}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {d-char-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{26}, \hyperpage{26}, 
+		\hyperindexformat{\idxbfpage}{1757}, \hyperpage{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {decimal-floating-point-literal}}}, 
+		\hyperindexformat{\idxbfpage}{24}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {decimal-literal}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{22}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {decl-specifier}}}, 
+		\hyperpage{155}, \hyperpage{161}, \hyperpage{166}, 
+		\hyperindexformat{\idxbfpage}{167}, \hyperpage{167}, 
+		\hyperpage{169}, \hyperpage{177}, \hyperpage{180}, 
+		\hyperpage{183, 184}, \hyperpage{268}, \hyperpage{274}, 
+		\hyperpage{278}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1764}, \hyperpage{1781}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {decl-specifier-seq}}}, 
+		\hyperpage{77}, \hyperpage{155}, \hyperpage{161}, 
+		\hyperpage{166}, \hyperindexformat{\idxbfpage}{167}, 
+		\hyperpage{167--169}, \hyperpage{175}, \hyperpage{180}, 
+		\hyperpage{183, 184}, \hyperpage{189}, \hyperpage{217}, 
+		\hyperpage{223, 224}, \hyperpage{264}, \hyperpage{268}, 
+		\hyperpage{274}, \hyperpage{278}, \hyperpage{301}, 
+		\hyperpage{395}, \hyperindexformat{\idxbfpage}{1764}, 
+		\hyperpage{1800}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {declaration}}}, 
+		\hyperpage{30, 31}, \hyperpage{163}, 
+		\hyperindexformat{\idxbfpage}{165}, \hyperpage{170}, 
+		\hyperpage{175}, \hyperpage{187}, \hyperpage{228}, 
+		\hyperpage{249}, \hyperpage{251}, \hyperpage{253}, 
+		\hyperpage{262}, \hyperpage{301}, \hyperpage{353, 354}, 
+		\hyperpage{391}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {declaration-seq}}}, 
+		\hyperpage{12}, \hyperpage{31}, 
+		\hyperindexformat{\idxbfpage}{165}, \hyperpage{249}, 
+		\hyperpage{251--253}, \hyperpage{255}, \hyperpage{404}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {declaration-statement}}}, 
+		\hyperpage{129}, \hyperindexformat{\idxbfpage}{162}, 
+		\hyperpage{162}, \hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {declarator}}}, 
+		\hyperpage{30, 31}, \hyperpage{41}, \hyperpage{46}, 
+		\hyperpage{77}, \hyperpage{99}, \hyperpage{155}, 
+		\hyperpage{163}, \hyperpage{166}, \hyperpage{169}, 
+		\hyperpage{180}, \hyperpage{184}, 
+		\hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{187--189}, \hyperpage{198}, \hyperpage{217}, 
+		\hyperpage{263}, \hyperpage{268}, \hyperpage{274}, 
+		\hyperpage{278}, \hyperpage{395}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {declarator-id}}}, 
+		\hyperpage{41}, \hyperpage{46}, \hyperpage{51}, 
+		\hyperpage{101}, \hyperpage{103}, \hyperpage{109}, 
+		\hyperpage{166}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{187--194}, \hyperpage{197, 198}, 
+		\hyperpage{223}, \hyperpage{241}, \hyperpage{248}, 
+		\hyperpage{263}, \hyperpage{274}, \hyperpage{278}, 
+		\hyperpage{317}, \hyperpage{346}, \hyperpage{351}, 
+		\hyperpage{354}, \hyperpage{358}, \hyperpage{395}, 
+		\hyperpage{426}, \hyperpage{430}, \hyperpage{434}, 
+		\hyperpage{437}, \hyperindexformat{\idxbfpage}{1766}, 
+		\hyperpage{1781}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {decltype-specifier}}}, 
+		\hyperpage{49}, \hyperpage{69}, \hyperpage{92}, 
+		\hyperpage{101}, \hyperpage{103}, \hyperpage{107}, 
+		\hyperpage{129}, \hyperpage{177}, 
+		\hyperindexformat{\idxbfpage}{178}, \hyperpage{179}, 
+		\hyperpage{190, 191}, \hyperpage{253}, \hyperpage{276}, 
+		\hyperpage{372}, \hyperpage{432}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {deduction-guide}}}, 
+		\hyperpage{31}, \hyperpage{41}, \hyperpage{165}, 
+		\hyperpage{262}, \hyperpage{329, 330}, \hyperpage{334}, 
+		\hyperpage{353}, \hyperindexformat{\idxbfpage}{374}, 
+		\hyperpage{375}, \hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {defined-macro-expression}}}, 
+		\hyperindexformat{\idxbfpage}{450}, 
+		\hyperpage{450, 451}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {defining-type-id}}}, 
+		\hyperpage{57}, \hyperpage{170}, \hyperpage{176}, 
+		\hyperindexformat{\idxbfpage}{186}, \hyperpage{329}, 
+		\hyperpage{392}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {defining-type-specifier}}}, 
+		\hyperpage{58}, \hyperpage{166, 167}, \hyperpage{169}, 
+		\hyperindexformat{\idxbfpage}{174}, 
+		\hyperpage{174, 175}, \hyperpage{278}, 
+		\hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {defining-type-specifier-seq}}}, 
+		\hyperpage{170}, \hyperindexformat{\idxbfpage}{174}, 
+		\hyperpage{174, 175}, 
+		\hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {delete-expression}}}, 
+		\hyperpage{33}, \hyperpage{62}, \hyperpage{66}, 
+		\hyperpage{134}, \hyperindexformat{\idxbfpage}{136}, 
+		\hyperpage{136--138}, \hyperpage{151}, \hyperpage{276}, 
+		\hyperpage{282, 283}, \hyperpage{515, 516}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {designated-initializer-clause}}}, 
+		\hyperindexformat{\idxbfpage}{201}, 
+		\hyperpage{205, 206}, \hyperpage{212}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {designated-initializer-list}}}, 
+		\hyperindexformat{\idxbfpage}{201}, \hyperpage{205}, 
+		\hyperpage{212, 213}, \hyperpage{329}, \hyperpage{339}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {designator}}}, 
+		\hyperindexformat{\idxbfpage}{201}, \hyperpage{205}, 
+		\hyperpage{213}, \hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {digit}}}, 
+		\hyperindexformat{\idxbfpage}{19}, \hyperpage{21}, 
+		\hyperpage{25}, \hyperpage{247}, \hyperpage{453}, 
+		\hyperpage{486}, \hyperindexformat{\idxbfpage}{1754}, 
+		\hyperpage{1788}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {digit-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {directory-separator}}}, 
+		\hyperindexformat{\idxbfpage}{1584}, 
+		\hyperpage{1584--1586}, \hyperpage{1590, 1591}, 
+		\hyperpage{1594, 1595}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {elaborated-enum-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{178}, \hyperpage{226}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {elaborated-type-specifier}}}, 
+		\hyperpage{30--32}, \hyperpage{37}, \hyperpage{40}, 
+		\hyperpage{50, 51}, \hyperpage{54}, \hyperpage{166}, 
+		\hyperpage{170}, \hyperindexformat{\idxbfpage}{178}, 
+		\hyperpage{178}, \hyperpage{240}, \hyperpage{248}, 
+		\hyperpage{258}, \hyperpage{261, 262}, \hyperpage{381}, 
+		\hyperpage{394}, \hyperpage{397}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {elif-group}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {elif-groups}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {else-group}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {empty-declaration}}}, 
+		\hyperpage{31}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperpage{166}, \hyperpage{263}, 
+		\hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enclosing-namespace-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{228}, \hyperpage{228}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {encoding-prefix}}}, 
+		\hyperpage{13}, \hyperpage{16}, 
+		\hyperindexformat{\idxbfpage}{22}, \hyperpage{23, 24}, 
+		\hyperpage{27}, \hyperpage{351}, 
+		\hyperindexformat{\idxbfpage}{1756}, \hyperpage{1777}, 
+		\hyperpage{1796}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {endif-line}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-base}}}, 
+		\hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{224, 225}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-head}}}, 
+		\hyperindexformat{\idxbfpage}{224}, \hyperpage{224}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-head-name}}}, 
+		\hyperpage{41}, \hyperpage{103}, 
+		\hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{224, 225}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-key}}}, 
+		\hyperindexformat{\idxbfpage}{224}, \hyperpage{224}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-name}}}, 
+		\hyperpage{166}, \hyperpage{178}, 
+		\hyperindexformat{\idxbfpage}{224}, \hyperpage{224}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enum-specifier}}}, 
+		\hyperpage{30}, \hyperpage{39}, \hyperpage{42}, 
+		\hyperpage{166}, \hyperpage{175}, 
+		\hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{224--226}, \hyperpage{263, 264}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enumerator}}}, 
+		\hyperpage{166}, \hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{224, 225}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enumerator-definition}}}, 
+		\hyperpage{30}, \hyperpage{39}, 
+		\hyperindexformat{\idxbfpage}{224}, \hyperpage{225}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {enumerator-list}}}, 
+		\hyperpage{42}, \hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{225, 226}, \hyperpage{408}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {equality-expression}}}, 
+		\hyperindexformat{\idxbfpage}{143}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {exception-declaration}}}, 
+		\hyperpage{30}, \hyperpage{35}, \hyperpage{240}, 
+		\hyperpage{314, 315}, 
+		\hyperindexformat{\idxbfpage}{439}, \hyperpage{439}, 
+		\hyperpage{441--443}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {exclusive-or-expression}}}, 
+		\hyperindexformat{\idxbfpage}{144}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {explicit-instantiation}}}, 
+		\hyperpage{166}, \hyperpage{168}, \hyperpage{187}, 
+		\hyperindexformat{\idxbfpage}{413}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {explicit-specialization}}}, 
+		\hyperpage{166}, \hyperpage{178}, \hyperpage{187}, 
+		\hyperindexformat{\idxbfpage}{415}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {explicit-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{169}, \hyperpage{169}, 
+		\hyperpage{189}, \hyperpage{268}, \hyperpage{322}, 
+		\hyperpage{329, 330}, \hyperpage{424}, 
+		\hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {exponent-part}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {export-declaration}}}, 
+		\hyperpage{227}, \hyperindexformat{\idxbfpage}{248}, 
+		\hyperpage{248, 249}, \hyperpage{251}, \hyperpage{354}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {export-keyword}}}, 
+		\hyperpage{16, 17}, \hyperpage{19}, 
+		\hyperpage{247, 248}, \hyperpage{453, 454}, 
+		\hyperpage{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {expr-or-braced-init-list}}}, 
+		\hyperpage{161, 162}, 
+		\hyperindexformat{\idxbfpage}{202}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {expression}}}, 
+		\hyperpage{70}, \hyperpage{93}, \hyperpage{115, 116}, 
+		\hyperpage{119}, \hyperpage{123}, \hyperpage{131}, 
+		\hyperpage{133}, \hyperindexformat{\idxbfpage}{148}, 
+		\hyperpage{155}, \hyperpage{160}, \hyperpage{162}, 
+		\hyperpage{182}, \hyperpage{314, 315}, \hyperpage{368}, 
+		\hyperpage{370}, \hyperpage{372}, \hyperpage{402, 403}, 
+		\hyperpage{432}, \hyperpage{468}, \hyperpage{652}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {expression-list}}}, 
+		\hyperpage{71}, \hyperpage{78}, 
+		\hyperindexformat{\idxbfpage}{117}, 
+		\hyperpage{117--120}, \hyperpage{134}, \hyperpage{182}, 
+		\hyperpage{203--205}, \hyperpage{305}, \hyperpage{307}, 
+		\hyperpage{309}, \hyperpage{323}, \hyperpage{327}, 
+		\hyperpage{329}, \hyperpage{380}, \hyperpage{399}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {expression-statement}}}, 
+		\hyperindexformat{\idxbfpage}{156}, \hyperpage{163}, 
+		\hyperindexformat{\idxbfpage}{1762}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {fallback-separator}}}, 
+		\hyperindexformat{\idxbfpage}{1584}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {filename}}}, 
+		\hyperpage{1581}, \hyperindexformat{\idxbfpage}{1584}, 
+		\hyperpage{1585}, \hyperpage{1592}, 
+		\hyperpage{1594, 1595}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {floating-point-literal}}}, 
+		\hyperpage{17, 18}, \hyperindexformat{\idxbfpage}{24}, 
+		\hyperpage{25}, \hyperpage{1376}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {floating-point-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {fold-expression}}}, 
+		\hyperindexformat{\idxbfpage}{114}, 
+		\hyperpage{378, 379}, \hyperpage{403}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {fold-operator}}}, 
+		\hyperindexformat{\idxbfpage}{114}, \hyperpage{114}, 
+		\hyperpage{379}, \hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {for-range-declaration}}}, 
+		\hyperpage{30}, \hyperpage{40}, 
+		\hyperindexformat{\idxbfpage}{159}, \hyperpage{159}, 
+		\hyperpage{161}, \hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {for-range-initializer}}}, 
+		\hyperpage{40}, \hyperindexformat{\idxbfpage}{159}, 
+		\hyperpage{160}, \hyperpage{212}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {fractional-constant}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {function-body}}}, 
+		\hyperpage{31}, \hyperpage{40, 41}, \hyperpage{57}, 
+		\hyperpage{108}, \hyperpage{129}, \hyperpage{162}, 
+		\hyperpage{172}, \hyperindexformat{\idxbfpage}{217}, 
+		\hyperpage{217--220}, \hyperpage{317}, \hyperpage{442}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {function-definition}}}, 
+		\hyperpage{31}, \hyperpage{41}, \hyperpage{99}, 
+		\hyperpage{165, 166}, \hyperpage{169}, 
+		\hyperindexformat{\idxbfpage}{217}, \hyperpage{217}, 
+		\hyperpage{317}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {function-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{169}, \hyperpage{169}, 
+		\hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {function-try-block}}}, 
+		\hyperpage{41}, \hyperpage{119}, \hyperpage{315}, 
+		\hyperindexformat{\idxbfpage}{439}, 
+		\hyperpage{439, 440}, \hyperpage{442, 443}, 
+		\hyperpage{542}, \hyperindexformat{\idxbfpage}{1772}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {global-module-fragment}}}, 
+		\hyperpage{248}, \hyperindexformat{\idxbfpage}{252}, 
+		\hyperpage{252}, \hyperpage{476}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {group}}}, 
+		\hyperindexformat{\idxbfpage}{448}, \hyperpage{450}, 
+		\hyperpage{454}, \hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {group-part}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-char}}}, 
+		\hyperindexformat{\idxbfpage}{18}, 
+		\hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-char-sequence}}}, 
+		\hyperpage{13}, \hyperindexformat{\idxbfpage}{18}, 
+		\hyperpage{18}, \hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-pp-tokens}}}, 
+		\hyperindexformat{\idxbfpage}{450}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-preprocessing-token}}}, 
+		\hyperindexformat{\idxbfpage}{450}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {handler}}}, 
+		\hyperpage{37}, \hyperpage{40, 41}, \hyperpage{129}, 
+		\hyperpage{155}, \hyperpage{314}, 
+		\hyperindexformat{\idxbfpage}{439}, \hyperpage{440}, 
+		\hyperpage{442, 443}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {handler-seq}}}, 
+		\hyperindexformat{\idxbfpage}{439}, \hyperpage{440}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {has-attribute-expression}}}, 
+		\hyperindexformat{\idxbfpage}{450}, 
+		\hyperpage{450, 451}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {has-include-expression}}}, 
+		\hyperpage{17}, \hyperindexformat{\idxbfpage}{450}, 
+		\hyperpage{450, 451}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {header-name}}}, 
+		\hyperpage{13}, \hyperpage{17}, 
+		\hyperindexformat{\idxbfpage}{18}, \hyperpage{18}, 
+		\hyperpage{251}, \hyperpage{449}, \hyperpage{453, 454}, 
+		\hyperindexformat{\idxbfpage}{1754}, \hyperpage{1778}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {header-name-tokens}}}, 
+		\hyperindexformat{\idxbfpage}{450}, \hyperpage{454}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hex-quad}}}, 
+		\hyperindexformat{\idxbfpage}{14}, 
+		\hyperindexformat{\idxbfpage}{1753}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-digit}}}, 
+		\hyperpage{14}, \hyperindexformat{\idxbfpage}{21}, 
+		\hyperpage{21}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-digit-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-floating-point-literal}}}, 
+		\hyperindexformat{\idxbfpage}{24}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1756}, \hyperpage{1785}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-fractional-constant}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-literal}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{22}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {hexadecimal-prefix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1755}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {id-expression}}}, 
+		\hyperpage{3}, \hyperpage{33}, \hyperpage{50}, 
+		\hyperpage{57}, \hyperpage{93}, 
+		\hyperindexformat{\idxbfpage}{100}, 
+		\hyperpage{100, 101}, \hyperpage{103}, \hyperpage{110}, 
+		\hyperpage{112, 113}, \hyperpage{118}, \hyperpage{120}, 
+		\hyperpage{150}, \hyperpage{179}, \hyperpage{187, 188}, 
+		\hyperpage{200}, \hyperpage{223, 224}, \hyperpage{252}, 
+		\hyperpage{266}, \hyperpage{268}, \hyperpage{274}, 
+		\hyperpage{278}, \hyperpage{315}, \hyperpage{323}, 
+		\hyperpage{344}, \hyperpage{356}, \hyperpage{365, 366}, 
+		\hyperpage{370}, \hyperpage{379}, \hyperpage{402, 403}, 
+		\hyperpage{522}, \hyperpage{545}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {identifier}}}, 
+		\hyperindexformat{\idxbfpage}{18}, \hyperpage{19}, 
+		\hyperpage{30}, \hyperpage{39, 40}, \hyperpage{49}, 
+		\hyperpage{54}, \hyperpage{101}, \hyperpage{103}, 
+		\hyperpage{109}, \hyperpage{112}, \hyperpage{156}, 
+		\hyperpage{166}, \hyperpage{170}, \hyperpage{178}, 
+		\hyperpage{187}, \hyperpage{205}, \hyperpage{213}, 
+		\hyperpage{223, 224}, \hyperpage{228, 229}, 
+		\hyperpage{239, 240}, \hyperpage{247}, 
+		\hyperpage{258, 259}, \hyperpage{261, 262}, 
+		\hyperpage{281}, \hyperpage{351}, \hyperpage{355}, 
+		\hyperpage{358, 359}, \hyperpage{375}, \hyperpage{378}, 
+		\hyperpage{391}, \hyperpage{393, 394}, \hyperpage{399}, 
+		\hyperpage{402}, \hyperpage{449}, \hyperpage{452}, 
+		\hyperpage{454}, \hyperindexformat{\idxbfpage}{1754}, 
+		\hyperpage{1829}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {identifier-continue}}}, 
+		\hyperindexformat{\idxbfpage}{19}, 
+		\hyperindexformat{\idxbfpage}{1754}, \hyperpage{1829}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {identifier-list}}}, 
+		\hyperpage{12}, \hyperpage{40}, \hyperpage{166}, 
+		\hyperpage{223}, \hyperindexformat{\idxbfpage}{449}, 
+		\hyperpage{455}, \hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {identifier-start}}}, 
+		\hyperindexformat{\idxbfpage}{18}, 
+		\hyperindexformat{\idxbfpage}{1754}, \hyperpage{1829}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {if-group}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {if-section}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {import-keyword}}}, 
+		\hyperpage{16, 17}, \hyperpage{19}, \hyperpage{454}, 
+		\hyperpage{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {inclusive-or-expression}}}, 
+		\hyperindexformat{\idxbfpage}{144}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {init-capture}}}, 
+		\hyperpage{30}, \hyperpage{79}, \hyperpage{102}, 
+		\hyperindexformat{\idxbfpage}{109}, 
+		\hyperpage{109, 110}, \hyperpage{112, 113}, 
+		\hyperpage{377--379}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {init-declarator}}}, 
+		\hyperpage{30}, \hyperpage{41}, \hyperpage{79}, 
+		\hyperpage{160}, \hyperpage{162}, \hyperpage{166, 167}, 
+		\hyperpage{180}, \hyperindexformat{\idxbfpage}{184}, 
+		\hyperpage{184, 185}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {init-declarator-list}}}, 
+		\hyperpage{166, 167}, \hyperpage{175}, \hyperpage{180}, 
+		\hyperpage{183}, \hyperindexformat{\idxbfpage}{184}, 
+		\hyperpage{184}, \hyperpage{354}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {init-statement}}}, 
+		\hyperpage{129}, \hyperindexformat{\idxbfpage}{155}, 
+		\hyperpage{155--160}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {initializer}}}, 
+		\hyperpage{31}, \hyperpage{57, 58}, \hyperpage{79}, 
+		\hyperpage{109}, \hyperpage{112, 113}, \hyperpage{129}, 
+		\hyperpage{166}, \hyperpage{180}, \hyperpage{191}, 
+		\hyperindexformat{\idxbfpage}{201}, 
+		\hyperpage{202, 203}, \hyperpage{223}, \hyperpage{225}, 
+		\hyperpage{281}, \hyperpage{305, 306}, \hyperpage{327}, 
+		\hyperpage{377, 378}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {initializer-clause}}}, 
+		\hyperpage{78}, \hyperpage{117, 118}, \hyperpage{134}, 
+		\hyperpage{182}, \hyperpage{198}, 
+		\hyperindexformat{\idxbfpage}{201}, 
+		\hyperpage{205--209}, \hyperpage{212}, \hyperpage{215}, 
+		\hyperpage{281}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1766}, \hyperpage{1776}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {initializer-list}}}, 
+		\hyperindexformat{\idxbfpage}{201}, \hyperpage{205}, 
+		\hyperpage{207--209}, \hyperpage{212}, 
+		\hyperpage{214, 215}, \hyperpage{306}, \hyperpage{329}, 
+		\hyperpage{378}, \hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {integer-literal}}}, 
+		\hyperpage{17, 18}, \hyperindexformat{\idxbfpage}{21}, 
+		\hyperpage{21, 22}, \hyperpage{28}, \hyperpage{451}, 
+		\hyperpage{1376}, \hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {integer-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{22}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {iteration-statement}}}, 
+		\hyperpage{155}, \hyperindexformat{\idxbfpage}{159}, 
+		\hyperpage{159}, \hyperpage{161}, 
+		\hyperindexformat{\idxbfpage}{1763}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {jump-statement}}}, 
+		\hyperindexformat{\idxbfpage}{161}, 
+		\hyperindexformat{\idxbfpage}{1763}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {keyword}}}, 
+		\hyperindexformat{\idxbfpage}{19}, 
+		\hyperindexformat{\idxbfpage}{1754}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {labeled-statement}}}, 
+		\hyperpage{155}, \hyperindexformat{\idxbfpage}{156}, 
+		\hyperpage{156}, \hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-capture}}}, 
+		\hyperpage{105}, \hyperpage{107, 108}, 
+		\hyperindexformat{\idxbfpage}{109}, \hyperpage{109}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-declarator}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{104}, 
+		\hyperpage{104--106}, \hyperpage{109}, \hyperpage{195}, 
+		\hyperpage{198}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-expression}}}, 
+		\hyperpage{34--37}, \hyperpage{41}, \hyperpage{57}, 
+		\hyperpage{79}, \hyperpage{99}, \hyperpage{102}, 
+		\hyperindexformat{\idxbfpage}{104}, 
+		\hyperpage{104--113}, \hyperpage{136}, \hyperpage{150}, 
+		\hyperpage{155}, \hyperpage{170, 171}, \hyperpage{180}, 
+		\hyperpage{253}, \hyperpage{315}, \hyperpage{354}, 
+		\hyperpage{387}, \hyperpage{392}, \hyperpage{402}, 
+		\hyperpage{424}, \hyperindexformat{\idxbfpage}{1758}, 
+		\hyperpage{1775}, \hyperpage{1801}, \hyperpage{1806}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-introducer}}}, 
+		\hyperindexformat{\idxbfpage}{104}, \hyperpage{109}, 
+		\hyperpage{136}, \hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{104}, \hyperpage{104}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lambda-specifier-seq}}}, 
+		\hyperindexformat{\idxbfpage}{104}, \hyperpage{104}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {linkage-specification}}}, 
+		\hyperpage{31}, \hyperpage{57}, \hyperpage{86}, 
+		\hyperpage{165}, \hyperpage{168}, 
+		\hyperindexformat{\idxbfpage}{237}, 
+		\hyperpage{237, 238}, \hyperpage{248}, \hyperpage{251}, 
+		\hyperindexformat{\idxbfpage}{1768}, \hyperpage{1776}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {literal}}}, 
+		\hyperindexformat{\idxbfpage}{20}, \hyperpage{28, 29}, 
+		\hyperpage{99}, \hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {literal-operator-id}}}, 
+		\hyperpage{28}, \hyperpage{30}, \hyperpage{101}, 
+		\hyperindexformat{\idxbfpage}{351}, \hyperpage{351}, 
+		\hyperpage{371}, \hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {logical-and-expression}}}, 
+		\hyperindexformat{\idxbfpage}{145}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {logical-or-expression}}}, 
+		\hyperindexformat{\idxbfpage}{145}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {long-long-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {long-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {lparen}}}, 
+		\hyperindexformat{\idxbfpage}{449}, 
+		\hyperindexformat{\idxbfpage}{1773}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {mem-initializer}}}, 
+		\hyperpage{79}, \hyperpage{207}, \hyperpage{212}, 
+		\hyperindexformat{\idxbfpage}{306}, 
+		\hyperpage{306--310}, \hyperpage{313}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {mem-initializer-id}}}, 
+		\hyperindexformat{\idxbfpage}{306}, 
+		\hyperpage{306, 307}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {mem-initializer-list}}}, 
+		\hyperindexformat{\idxbfpage}{306}, 
+		\hyperpage{306, 307}, \hyperpage{378}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {member-declaration}}}, 
+		\hyperpage{30}, \hyperpage{178}, \hyperpage{217}, 
+		\hyperpage{224}, \hyperpage{232, 233}, \hyperpage{236}, 
+		\hyperindexformat{\idxbfpage}{262}, 
+		\hyperpage{262--264}, \hyperpage{268}, \hyperpage{274}, 
+		\hyperpage{278}, \hyperpage{286}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {member-declarator}}}, 
+		\hyperpage{30}, \hyperpage{41}, \hyperpage{99, 100}, 
+		\hyperpage{184, 185}, \hyperpage{195}, 
+		\hyperindexformat{\idxbfpage}{262}, 
+		\hyperpage{263, 264}, \hyperpage{281}, \hyperpage{403}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {member-declarator-list}}}, 
+		\hyperpage{167}, \hyperpage{175}, \hyperpage{183}, 
+		\hyperindexformat{\idxbfpage}{262}, \hyperpage{264}, 
+		\hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {member-specification}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{262}, 
+		\hyperpage{262, 263}, \hyperpage{268}, \hyperpage{274}, 
+		\hyperpage{278}, \hyperpage{280}, \hyperpage{286}, 
+		\hyperpage{296}, \hyperpage{301}, \hyperpage{317}, 
+		\hyperpage{408}, \hyperindexformat{\idxbfpage}{1770}, 
+		\hyperpage{1775}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-declaration}}}, 
+		\hyperpage{42}, \hyperindexformat{\idxbfpage}{247}, 
+		\hyperpage{247, 248}, \hyperpage{251, 252}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-file}}}, 
+		\hyperindexformat{\idxbfpage}{448}, \hyperpage{454}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-import-declaration}}}, 
+		\hyperpage{42}, \hyperpage{237}, \hyperpage{248, 249}, 
+		\hyperindexformat{\idxbfpage}{251}, 
+		\hyperpage{251, 252}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-keyword}}}, 
+		\hyperpage{16, 17}, \hyperpage{19}, \hyperpage{453}, 
+		\hyperpage{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-name}}}, 
+		\hyperindexformat{\idxbfpage}{247}, \hyperpage{247}, 
+		\hyperpage{251}, \hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-name-qualifier}}}, 
+		\hyperindexformat{\idxbfpage}{247}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-partition}}}, 
+		\hyperindexformat{\idxbfpage}{247}, 
+		\hyperpage{247, 248}, \hyperpage{251}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {multiplicative-expression}}}, 
+		\hyperindexformat{\idxbfpage}{140}, 
+		\hyperindexformat{\idxbfpage}{1761}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {named-namespace-definition}}}, 
+		\hyperindexformat{\idxbfpage}{227}, \hyperpage{228}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {namespace-alias}}}, 
+		\hyperindexformat{\idxbfpage}{229}, \hyperpage{229}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {namespace-alias-definition}}}, 
+		\hyperpage{55}, \hyperindexformat{\idxbfpage}{229}, 
+		\hyperpage{229}, \hyperpage{253}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {namespace-body}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{228}, 
+		\hyperpage{228}, \hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {namespace-definition}}}, 
+		\hyperpage{40, 41}, \hyperpage{165}, 
+		\hyperindexformat{\idxbfpage}{227}, 
+		\hyperpage{227, 228}, \hyperpage{248, 249}, 
+		\hyperpage{251}, \hyperpage{253}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {namespace-name}}}, 
+		\hyperpage{42}, \hyperpage{50}, \hyperpage{55}, 
+		\hyperpage{103}, \hyperindexformat{\idxbfpage}{227}, 
+		\hyperpage{228, 229}, \hyperpage{252}, \hyperpage{486}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nested-name-specifier}}}, 
+		\hyperpage{46}, \hyperpage{49--51}, \hyperpage{55}, 
+		\hyperpage{57}, \hyperindexformat{\idxbfpage}{102}, 
+		\hyperpage{103}, \hyperpage{176}, \hyperpage{178}, 
+		\hyperpage{191, 192}, \hyperpage{224, 225}, 
+		\hyperpage{232, 233}, \hyperpage{248}, \hyperpage{258}, 
+		\hyperpage{274}, \hyperpage{288}, \hyperpage{299}, 
+		\hyperpage{303}, \hyperpage{355}, \hyperpage{358, 359}, 
+		\hyperpage{381}, \hyperpage{394}, \hyperpage{425}, 
+		\hyperpage{432}, \hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nested-namespace-definition}}}, 
+		\hyperindexformat{\idxbfpage}{228}, \hyperpage{228}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nested-requirement}}}, 
+		\hyperpage{115}, \hyperindexformat{\idxbfpage}{117}, 
+		\hyperpage{117}, \hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{132}, \hyperpage{132}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-expression}}}, 
+		\hyperpage{33}, \hyperpage{35}, \hyperpage{59}, 
+		\hyperpage{65, 66}, \hyperpage{81}, 
+		\hyperindexformat{\idxbfpage}{132}, 
+		\hyperpage{132--137}, \hyperpage{150}, \hyperpage{180}, 
+		\hyperpage{184}, \hyperpage{212}, \hyperpage{219}, 
+		\hyperpage{276}, \hyperpage{286}, \hyperpage{440}, 
+		\hyperpage{442}, \hyperpage{445}, \hyperpage{514--517}, 
+		\hyperpage{1261}, \hyperindexformat{\idxbfpage}{1760}, 
+		\hyperpage{1786}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-initializer}}}, 
+		\hyperpage{71}, \hyperindexformat{\idxbfpage}{132}, 
+		\hyperpage{132, 133}, \hyperpage{135}, \hyperpage{203}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-line}}}, 
+		\hyperindexformat{\idxbfpage}{449}, \hyperpage{454}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-placement}}}, 
+		\hyperindexformat{\idxbfpage}{132}, \hyperpage{134}, 
+		\hyperpage{136}, \hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {new-type-id}}}, 
+		\hyperpage{77}, \hyperindexformat{\idxbfpage}{132}, 
+		\hyperpage{132, 133}, \hyperpage{180}, \hyperpage{184}, 
+		\hyperpage{394}, \hyperpage{402}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nodeclspec-function-declaration}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperpage{165, 166}, 
+		\hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noexcept-expression}}}, 
+		\hyperindexformat{\idxbfpage}{131}, \hyperpage{131}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noexcept-specifier}}}, 
+		\hyperpage{106}, \hyperpage{221}, \hyperpage{263}, 
+		\hyperpage{275}, \hyperpage{283}, \hyperpage{317}, 
+		\hyperpage{372}, \hyperpage{397}, \hyperpage{404}, 
+		\hyperpage{409}, \hyperpage{411, 412}, \hyperpage{423}, 
+		\hyperindexformat{\idxbfpage}{444}, 
+		\hyperpage{444--446}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nondigit}}}, 
+		\hyperindexformat{\idxbfpage}{19}, \hyperpage{453}, 
+		\hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {nonzero-digit}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noptr-abstract-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{186}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noptr-abstract-pack-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{186}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noptr-declarator}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {noptr-new-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{132}, 
+		\hyperpage{132, 133}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {numeric-escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, \hyperpage{23}, 
+		\hyperpage{27}, \hyperindexformat{\idxbfpage}{1756}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {octal-digit}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{21}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {octal-escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {octal-literal}}}, 
+		\hyperindexformat{\idxbfpage}{21}, \hyperpage{22}, 
+		\hyperindexformat{\idxbfpage}{1755}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {opaque-enum-declaration}}}, 
+		\hyperpage{31}, \hyperpage{39}, 
+		\hyperindexformat{\idxbfpage}{224}, 
+		\hyperpage{224, 225}, \hyperpage{263}, 
+		\hyperindexformat{\idxbfpage}{1767}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {operator}}}, 
+		\hyperindexformat{\idxbfpage}{346}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {operator-function-id}}}, 
+		\hyperpage{30}, \hyperpage{101}, 
+		\hyperindexformat{\idxbfpage}{346}, \hyperpage{346}, 
+		\hyperpage{371}, \hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {operator-or-punctuator}}}, 
+		\hyperindexformat{\idxbfpage}{20}, \hyperpage{20}, 
+		\hyperindexformat{\idxbfpage}{1755}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {parameter-declaration}}}, 
+		\hyperpage{30, 31}, \hyperpage{41}, \hyperpage{169}, 
+		\hyperpage{180}, \hyperpage{184}, 
+		\hyperindexformat{\idxbfpage}{194}, 
+		\hyperpage{194, 195}, \hyperpage{197, 198}, 
+		\hyperpage{220}, \hyperpage{355}, \hyperpage{358}, 
+		\hyperpage{378}, \hyperpage{395}, \hyperpage{434}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {parameter-declaration-clause}}}, 
+		\hyperpage{37}, \hyperpage{41}, \hyperpage{102}, 
+		\hyperpage{104--106}, \hyperpage{109, 110}, 
+		\hyperpage{115}, \hyperpage{187}, 
+		\hyperindexformat{\idxbfpage}{194}, \hyperpage{194}, 
+		\hyperpage{197, 198}, \hyperpage{220}, \hyperpage{315}, 
+		\hyperpage{317}, \hyperpage{352}, \hyperpage{375}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {parameter-declaration-list}}}, 
+		\hyperindexformat{\idxbfpage}{194}, \hyperpage{195}, 
+		\hyperpage{426}, \hyperpage{432}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {parameters-and-qualifiers}}}, 
+		\hyperindexformat{\idxbfpage}{185}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pathname}}}, 
+		\hyperindexformat{\idxbfpage}{1584}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {placeholder-type-specifier}}}, 
+		\hyperpage{176, 177}, 
+		\hyperindexformat{\idxbfpage}{180}, \hyperpage{180}, 
+		\hyperpage{183}, \hyperpage{197}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pm-expression}}}, 
+		\hyperindexformat{\idxbfpage}{139}, \hyperpage{139}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pointer-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {postfix-expression}}}, 
+		\hyperpage{47}, \hyperpage{103}, 
+		\hyperindexformat{\idxbfpage}{117}, 
+		\hyperpage{117--120}, \hyperpage{150}, \hyperpage{266}, 
+		\hyperpage{322--324}, \hyperpage{348}, \hyperpage{399}, 
+		\hyperpage{445}, \hyperpage{522}, \hyperpage{738}, 
+		\hyperpage{996}, \hyperpage{1148}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-global-module-fragment}}}, 
+		\hyperindexformat{\idxbfpage}{448}, \hyperpage{450}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-import}}}, 
+		\hyperpage{450}, \hyperindexformat{\idxbfpage}{454}, 
+		\hyperpage{454}, \hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-module}}}, 
+		\hyperindexformat{\idxbfpage}{453}, \hyperpage{453}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-number}}}, 
+		\hyperindexformat{\idxbfpage}{18}, \hyperpage{451}, 
+		\hyperindexformat{\idxbfpage}{1754}, \hyperpage{1785}, 
+		\hyperpage{1789}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-private-module-fragment}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pp-tokens}}}, 
+		\hyperindexformat{\idxbfpage}{449}, 
+		\hyperpage{450, 451}, \hyperpage{454}, \hyperpage{457}, 
+		\hyperpage{464}, \hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {preferred-separator}}}, 
+		\hyperindexformat{\idxbfpage}{1584}, 
+		\hyperpage{1584, 1585}, \hyperpage{1588}, 
+		\hyperpage{1590, 1591}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {preprocessing-file}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {preprocessing-op-or-punc}}}, 
+		\hyperindexformat{\idxbfpage}{19}, 
+		\hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {preprocessing-operator}}}, 
+		\hyperindexformat{\idxbfpage}{20}, 
+		\hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {preprocessing-token}}}, 
+		\hyperindexformat{\idxbfpage}{16}, \hyperpage{17}, 
+		\hyperpage{19}, \hyperpage{450}, 
+		\hyperindexformat{\idxbfpage}{1753}, \hyperpage{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {primary-expression}}}, 
+		\hyperindexformat{\idxbfpage}{99}, \hyperpage{100}, 
+		\hyperpage{323}, \hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {private-module-fragment}}}, 
+		\hyperpage{35}, \hyperpage{42}, \hyperpage{58}, 
+		\hyperpage{181}, \hyperpage{249}, \hyperpage{251}, 
+		\hyperindexformat{\idxbfpage}{254}, 
+		\hyperpage{254--256}, \hyperpage{404}, 
+		\hyperindexformat{\idxbfpage}{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ptr-abstract-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{186}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ptr-declarator}}}, 
+		\hyperindexformat{\idxbfpage}{185}, \hyperpage{268}, 
+		\hyperpage{274}, \hyperpage{278}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ptr-operator}}}, 
+		\hyperpage{46}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{191}, \hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {pure-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{262}, 
+		\hyperpage{263, 264}, \hyperpage{275}, \hyperpage{294}, 
+		\hyperindexformat{\idxbfpage}{1770}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {q-char}}}, 
+		\hyperindexformat{\idxbfpage}{18}, 
+		\hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {q-char-sequence}}}, 
+		\hyperpage{13}, \hyperindexformat{\idxbfpage}{18}, 
+		\hyperpage{18}, \hyperindexformat{\idxbfpage}{1754}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {qualified-id}}}, 
+		\hyperpage{12}, \hyperpage{46}, \hyperpage{50}, 
+		\hyperindexformat{\idxbfpage}{102}, \hyperpage{103}, 
+		\hyperpage{118}, \hyperpage{120}, \hyperpage{128, 129}, 
+		\hyperpage{166}, \hyperpage{187, 188}, \hyperpage{223}, 
+		\hyperpage{248}, \hyperpage{268}, \hyperpage{276}, 
+		\hyperpage{278}, \hyperpage{280}, \hyperpage{294}, 
+		\hyperpage{299}, \hyperpage{355}, \hyperpage{395}, 
+		\hyperpage{403}, \hyperpage{425}, \hyperpage{432}, 
+		\hyperpage{473}, \hyperpage{536}, \hyperpage{578}, 
+		\hyperpage{586}, \hyperpage{588}, \hyperpage{591, 592}, 
+		\hyperpage{596}, \hyperpage{657}, \hyperpage{802}, 
+		\hyperpage{807}, \hyperpage{848}, \hyperpage{857}, 
+		\hyperpage{864, 865}, \hyperpage{875}, 
+		\hyperpage{978--980}, \hyperpage{1006}, 
+		\hyperpage{1011}, \hyperpage{1371}, \hyperpage{1587}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {qualified-namespace-specifier}}}, 
+		\hyperpage{50}, \hyperindexformat{\idxbfpage}{229}, 
+		\hyperpage{229}, \hyperindexformat{\idxbfpage}{1768}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {r-char}}}, 
+		\hyperpage{16}, \hyperindexformat{\idxbfpage}{26}, 
+		\hyperpage{26, 27}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {r-char-sequence}}}, 
+		\hyperpage{13, 14}, \hyperindexformat{\idxbfpage}{26}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {raw-string}}}, 
+		\hyperindexformat{\idxbfpage}{26}, \hyperpage{26}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ref-qualifier}}}, 
+		\hyperpage{7, 8}, \hyperpage{37}, \hyperpage{123}, 
+		\hyperpage{140}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{190, 191}, \hyperpage{193--196}, 
+		\hyperpage{218}, \hyperpage{223}, \hyperpage{267}, 
+		\hyperpage{278}, \hyperpage{292}, \hyperpage{316}, 
+		\hyperpage{321}, \hyperpage{342}, \hyperpage{349}, 
+		\hyperpage{389}, \hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {relational-expression}}}, 
+		\hyperindexformat{\idxbfpage}{142}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {relative-path}}}, 
+		\hyperindexformat{\idxbfpage}{1584}, \hyperpage{1585}, 
+		\hyperpage{1594}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {replacement-list}}}, 
+		\hyperindexformat{\idxbfpage}{449}, \hyperpage{455}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requirement}}}, 
+		\hyperindexformat{\idxbfpage}{114}, \hyperpage{115}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requirement-body}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{114}, 
+		\hyperpage{114}, \hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requirement-parameter-list}}}, 
+		\hyperpage{41}, \hyperindexformat{\idxbfpage}{114}, 
+		\hyperpage{115}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requirement-seq}}}, 
+		\hyperindexformat{\idxbfpage}{114}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requires-clause}}}, 
+		\hyperpage{8}, \hyperpage{38}, \hyperpage{101}, 
+		\hyperpage{104--106}, \hyperpage{115}, \hyperpage{185}, 
+		\hyperpage{196}, \hyperpage{238}, \hyperpage{290}, 
+		\hyperpage{292}, \hyperpage{317}, 
+		\hyperindexformat{\idxbfpage}{353}, \hyperpage{354}, 
+		\hyperpage{366}, \hyperpage{369}, \hyperpage{372}, 
+		\hyperpage{382}, \hyperpage{388}, \hyperpage{409}, 
+		\hyperpage{412}, \hyperpage{1012}, \hyperpage{1053}, 
+		\hyperpage{1062}, \hyperindexformat{\idxbfpage}{1771}, 
+		\hyperpage{1779}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {requires-expression}}}, 
+		\hyperindexformat{\idxbfpage}{114}, 
+		\hyperpage{114--116}, \hyperpage{545, 546}, 
+		\hyperindexformat{\idxbfpage}{1759}, \hyperpage{1779}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {return-type-requirement}}}, 
+		\hyperindexformat{\idxbfpage}{116}, \hyperpage{116}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-directory}}}, 
+		\hyperpage{1581}, \hyperindexformat{\idxbfpage}{1584}, 
+		\hyperpage{1585}, \hyperpage{1592}, \hyperpage{1595}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}, 
+		\hyperpage{1581}, \hyperindexformat{\idxbfpage}{1584}, 
+		\hyperpage{1585}, \hyperpage{1589}, \hyperpage{1592}, 
+		\hyperpage{1594, 1595}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {s-char}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{26, 27}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {s-char-sequence}}}, 
+		\hyperpage{13, 14}, \hyperindexformat{\idxbfpage}{25}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {selection-statement}}}, 
+		\hyperpage{155}, \hyperindexformat{\idxbfpage}{156}, 
+		\hyperpage{156}, \hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {shift-expression}}}, 
+		\hyperindexformat{\idxbfpage}{141}, 
+		\hyperindexformat{\idxbfpage}{1761}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {sign}}}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{25}, 
+		\hyperindexformat{\idxbfpage}{1757}, \hyperpage{1785}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-capture}}}, 
+		\hyperpage{34}, \hyperindexformat{\idxbfpage}{109}, 
+		\hyperpage{109, 110}, \hyperpage{113}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-declaration}}}, 
+		\hyperpage{129}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperpage{165, 166}, \hyperpage{184}, \hyperpage{395}, 
+		\hyperpage{413}, \hyperindexformat{\idxbfpage}{1763}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-escape-sequence}}}, 
+		\hyperindexformat{\idxbfpage}{23}, \hyperpage{23, 24}, 
+		\hyperpage{27}, \hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-escape-sequence-char}}}, 
+		\hyperindexformat{\idxbfpage}{23}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-requirement}}}, 
+		\hyperindexformat{\idxbfpage}{115}, 
+		\hyperpage{115, 116}, 
+		\hyperindexformat{\idxbfpage}{1759}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-template-id}}}, 
+		\hyperpage{36}, \hyperpage{39}, \hyperpage{103}, 
+		\hyperpage{120}, \hyperpage{170}, \hyperpage{176--178}, 
+		\hyperpage{248}, \hyperpage{253}, \hyperpage{258}, 
+		\hyperpage{262}, \hyperpage{288}, \hyperpage{329}, 
+		\hyperpage{354}, \hyperindexformat{\idxbfpage}{358}, 
+		\hyperpage{358}, \hyperpage{360, 361}, \hyperpage{363}, 
+		\hyperpage{375}, \hyperpage{381}, \hyperpage{383}, 
+		\hyperpage{385}, \hyperpage{394}, \hyperpage{396}, 
+		\hyperpage{402}, \hyperpage{407}, \hyperpage{413}, 
+		\hyperpage{417}, \hyperpage{428}, \hyperpage{436}, 
+		\hyperindexformat{\idxbfpage}{1772}, \hyperpage{1781}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {simple-type-specifier}}}, 
+		\hyperpage{120}, \hyperpage{163}, 
+		\hyperindexformat{\idxbfpage}{176}, 
+		\hyperpage{176--178}, \hyperpage{180}, \hyperpage{184}, 
+		\hyperpage{187}, \hyperpage{394}, \hyperpage{402, 403}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {size-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {statement}}}, 
+		\hyperpage{37}, \hyperindexformat{\idxbfpage}{155}, 
+		\hyperpage{155--157}, \hyperpage{160}, \hyperpage{163}, 
+		\hyperpage{439}, \hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {statement-seq}}}, 
+		\hyperpage{155}, \hyperindexformat{\idxbfpage}{156}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {static_assert-declaration}}}, 
+		\hyperpage{31}, \hyperindexformat{\idxbfpage}{165}, 
+		\hyperpage{166}, \hyperpage{263}, \hyperpage{286}, 
+		\hyperpage{468}, \hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {storage-class-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{167}, 
+		\hyperpage{167, 168}, \hyperpage{223}, \hyperpage{264}, 
+		\hyperpage{301}, \hyperpage{413}, \hyperpage{415}, 
+		\hyperindexformat{\idxbfpage}{1764}, \hyperpage{1786}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {string-literal}}}, 
+		\hyperpage{13, 14}, \hyperpage{16}, 
+		\hyperindexformat{\idxbfpage}{25}, \hyperpage{26--29}, 
+		\hyperpage{99}, \hyperpage{133}, \hyperpage{166}, 
+		\hyperpage{203}, \hyperpage{209, 210}, \hyperpage{213}, 
+		\hyperpage{237}, \hyperpage{242}, \hyperpage{245}, 
+		\hyperpage{329}, \hyperpage{339}, \hyperpage{351}, 
+		\hyperpage{364}, \hyperpage{449}, \hyperpage{453}, 
+		\hyperpage{456}, \hyperpage{458}, \hyperpage{460}, 
+		\hyperpage{464}, \hyperpage{471}, \hyperpage{803}, 
+		\hyperpage{1556}, \hyperindexformat{\idxbfpage}{1757}, 
+		\hyperpage{1775}, \hyperpage{1777}, 
+		\hyperpage{1790, 1791}, \hyperpage{1796}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-argument}}}, 
+		\hyperpage{29}, \hyperpage{48}, \hyperpage{196}, 
+		\hyperpage{297}, \hyperpage{355}, \hyperpage{357}, 
+		\hyperindexformat{\idxbfpage}{358}, 
+		\hyperpage{359--366}, \hyperpage{368}, \hyperpage{371}, 
+		\hyperpage{374}, \hyperpage{378}, \hyperpage{380}, 
+		\hyperpage{392}, \hyperpage{397}, \hyperpage{404}, 
+		\hyperpage{408}, \hyperpage{414}, \hyperpage{417}, 
+		\hyperpage{419--421}, \hyperpage{426}, \hyperpage{428}, 
+		\hyperpage{436--438}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-argument-list}}}, 
+		\hyperpage{148}, \hyperindexformat{\idxbfpage}{358}, 
+		\hyperpage{358, 359}, \hyperpage{362}, \hyperpage{372}, 
+		\hyperpage{378}, \hyperpage{380}, \hyperpage{382}, 
+		\hyperpage{385}, \hyperpage{397}, \hyperpage{402}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-declaration}}}, 
+		\hyperpage{31}, \hyperpage{37}, \hyperpage{42}, 
+		\hyperpage{165, 166}, \hyperpage{170}, \hyperpage{178}, 
+		\hyperpage{187}, \hyperpage{262}, \hyperpage{301}, 
+		\hyperindexformat{\idxbfpage}{353}, 
+		\hyperpage{353, 354}, \hyperpage{391}, \hyperpage{398}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-head}}}, 
+		\hyperpage{8}, \hyperpage{31}, \hyperpage{38}, 
+		\hyperpage{42}, \hyperpage{57}, \hyperpage{103}, 
+		\hyperpage{197}, \hyperindexformat{\idxbfpage}{353}, 
+		\hyperpage{361}, \hyperpage{365, 366}, 
+		\hyperpage{372, 373}, \hyperpage{376}, \hyperpage{382}, 
+		\hyperpage{388}, \hyperpage{399}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-id}}}, 
+		\hyperpage{36}, \hyperpage{48, 49}, \hyperpage{101}, 
+		\hyperpage{166}, \hyperpage{187, 188}, \hyperpage{223}, 
+		\hyperpage{233}, \hyperpage{248}, 
+		\hyperindexformat{\idxbfpage}{358}, 
+		\hyperpage{358--362}, \hyperpage{368}, 
+		\hyperpage{371, 372}, \hyperpage{377}, \hyperpage{384}, 
+		\hyperpage{387}, \hyperpage{392}, \hyperpage{399}, 
+		\hyperpage{402}, \hyperpage{407}, \hyperpage{417}, 
+		\hyperpage{421}, \hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-name}}}, 
+		\hyperpage{47}, \hyperpage{57}, \hyperpage{170}, 
+		\hyperpage{176, 177}, \hyperpage{252, 253}, 
+		\hyperpage{262}, \hyperpage{328, 329}, \hyperpage{355}, 
+		\hyperindexformat{\idxbfpage}{358}, 
+		\hyperpage{358--361}, \hyperpage{371}, 
+		\hyperpage{374, 375}, \hyperpage{379}, \hyperpage{381}, 
+		\hyperpage{391}, \hyperpage{397}, 
+		\hyperindexformat{\idxbfpage}{1772}, \hyperpage{1782}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-parameter}}}, 
+		\hyperpage{31}, \hyperpage{40}, \hyperpage{42}, 
+		\hyperpage{170}, \hyperpage{179, 180}, \hyperpage{184}, 
+		\hyperpage{197, 198}, \hyperpage{344}, \hyperpage{352}, 
+		\hyperindexformat{\idxbfpage}{354}, 
+		\hyperpage{354--358}, \hyperpage{360--366}, 
+		\hyperpage{368}, \hyperpage{371, 372}, \hyperpage{388}, 
+		\hyperpage{391--393}, \hyperpage{395}, 
+		\hyperpage{397--399}, \hyperpage{402}, \hyperpage{404}, 
+		\hyperpage{418}, \hyperpage{420, 421}, \hyperpage{426}, 
+		\hyperpage{428}, \hyperpage{431}, \hyperpage{436--438}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {template-parameter-list}}}, 
+		\hyperpage{6}, \hyperpage{42}, \hyperpage{104, 105}, 
+		\hyperpage{197, 198}, \hyperpage{352}, 
+		\hyperindexformat{\idxbfpage}{353}, 
+		\hyperpage{353--355}, \hyperpage{357, 358}, 
+		\hyperpage{361}, \hyperpage{368, 369}, \hyperpage{384}, 
+		\hyperpage{388}, \hyperpage{391}, \hyperpage{398}, 
+		\hyperpage{418}, \hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {text-line}}}, 
+		\hyperindexformat{\idxbfpage}{448}, 
+		\hyperpage{449, 450}, 
+		\hyperindexformat{\idxbfpage}{1773}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {throw-expression}}}, 
+		\hyperpage{145}, \hyperindexformat{\idxbfpage}{147}, 
+		\hyperpage{147}, \hyperpage{151}, \hyperpage{314, 315}, 
+		\hyperpage{440}, \hyperpage{443}, \hyperpage{445, 446}, 
+		\hyperindexformat{\idxbfpage}{1762}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {token}}}, 
+		\hyperindexformat{\idxbfpage}{17}, \hyperpage{239}, 
+		\hyperpage{248}, \hyperindexformat{\idxbfpage}{1753}, 
+		\hyperpage{1769}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {trailing-return-type}}}, 
+		\hyperpage{100}, \hyperpage{104, 105}, \hyperpage{107}, 
+		\hyperpage{180}, \hyperindexformat{\idxbfpage}{185}, 
+		\hyperpage{194}, \hyperpage{197}, \hyperpage{395}, 
+		\hyperindexformat{\idxbfpage}{1765}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {translation-unit}}}, 
+		\hyperindexformat{\idxbfpage}{55}, \hyperpage{251}, 
+		\hyperpage{253}, \hyperpage{404}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {try-block}}}, 
+		\hyperpage{155}, \hyperpage{314, 315}, 
+		\hyperindexformat{\idxbfpage}{439}, 
+		\hyperpage{439, 440}, \hyperpage{542}, 
+		\hyperindexformat{\idxbfpage}{1772}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-constraint}}}, 
+		\hyperpage{106}, \hyperpage{116}, \hyperpage{176}, 
+		\hyperpage{180}, \hyperpage{182, 183}, \hyperpage{197}, 
+		\hyperindexformat{\idxbfpage}{355}, \hyperpage{355}, 
+		\hyperpage{357, 358}, \hyperpage{369}, \hyperpage{372}, 
+		\hyperpage{388}, \hyperpage{409}, \hyperpage{412}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-id}}}, 
+		\hyperpage{3}, \hyperpage{77, 78}, \hyperpage{96}, 
+		\hyperpage{117}, \hyperpage{123}, \hyperpage{131--133}, 
+		\hyperpage{180}, \hyperpage{184, 185}, 
+		\hyperindexformat{\idxbfpage}{186}, \hyperpage{187}, 
+		\hyperpage{196}, \hyperpage{240}, \hyperpage{278}, 
+		\hyperpage{359}, \hyperpage{361}, \hyperpage{363}, 
+		\hyperpage{395}, \hyperpage{402, 403}, 
+		\hyperindexformat{\idxbfpage}{1766}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-name}}}, 
+		\hyperpage{50, 51}, \hyperpage{54}, \hyperpage{101}, 
+		\hyperpage{103}, \hyperpage{129}, \hyperpage{164}, 
+		\hyperpage{167}, \hyperindexformat{\idxbfpage}{176}, 
+		\hyperpage{176--178}, \hyperpage{187}, \hyperpage{252}, 
+		\hyperpage{276}, \hyperpage{288}, \hyperpage{373}, 
+		\hyperpage{397}, \hyperindexformat{\idxbfpage}{1765}, 
+		\hyperpage{1791}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-parameter}}}, 
+		\hyperpage{30}, \hyperpage{178}, \hyperpage{196, 197}, 
+		\hyperindexformat{\idxbfpage}{354}, \hyperpage{355}, 
+		\hyperpage{358}, \hyperpage{378}, \hyperpage{395}, 
+		\hyperpage{399}, \hyperpage{436}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-parameter-key}}}, 
+		\hyperindexformat{\idxbfpage}{355}, \hyperpage{355}, 
+		\hyperindexformat{\idxbfpage}{1771}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-requirement}}}, 
+		\hyperindexformat{\idxbfpage}{115}, \hyperpage{116}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-specifier}}}, 
+		\hyperpage{46}, \hyperpage{57}, \hyperpage{155}, 
+		\hyperpage{161}, \hyperpage{167}, 
+		\hyperindexformat{\idxbfpage}{174}, 
+		\hyperpage{174--176}, \hyperpage{180}, \hyperpage{184}, 
+		\hyperpage{194}, \hyperpage{261}, \hyperpage{264}, 
+		\hyperpage{394}, \hyperindexformat{\idxbfpage}{1764}, 
+		\hyperpage{1800}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {type-specifier-seq}}}, 
+		\hyperpage{132}, \hyperindexformat{\idxbfpage}{174}, 
+		\hyperpage{174, 175}, \hyperpage{180}, \hyperpage{184}, 
+		\hyperpage{224}, \hyperindexformat{\idxbfpage}{1764}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {typedef-name}}}, 
+		\hyperpage{12}, \hyperpage{30, 31}, \hyperpage{38}, 
+		\hyperpage{42, 43}, \hyperpage{48}, 
+		\hyperpage{166, 167}, 
+		\hyperindexformat{\idxbfpage}{170}, \hyperpage{170}, 
+		\hyperpage{178, 179}, \hyperpage{190, 191}, 
+		\hyperpage{195}, \hyperpage{242}, \hyperpage{244}, 
+		\hyperpage{296}, \hyperpage{355}, \hyperpage{372}, 
+		\hyperpage{379}, \hyperpage{395}, \hyperpage{511}, 
+		\hyperpage{532}, \hyperpage{534}, \hyperpage{642}, 
+		\hyperpage{655, 656}, \hyperpage{662}, \hyperpage{793}, 
+		\hyperpage{808}, \hyperpage{974}, \hyperpage{999}, 
+		\hyperpage{1006}, \hyperpage{1011}, \hyperpage{1064}, 
+		\hyperpage{1069}, \hyperpage{1081}, \hyperpage{1087}, 
+		\hyperpage{1095}, \hyperpage{1104, 1105}, 
+		\hyperpage{1117}, \hyperpage{1127}, \hyperpage{1282}, 
+		\hyperpage{1489}, \hyperpage{1624, 1625}, 
+		\hyperpage{1707}, \hyperpage{1717}, 
+		\hyperindexformat{\idxbfpage}{1764}, \hyperpage{1799}, 
+		\hyperpage{1803}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {typename-specifier}}}, 
+		\hyperpage{50}, \hyperpage{120}, \hyperpage{175}, 
+		\hyperindexformat{\idxbfpage}{394}, \hyperpage{394}, 
+		\hyperpage{468}, \hyperindexformat{\idxbfpage}{1772}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {ud-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{28}, \hyperpage{28, 29}, 
+		\hyperpage{351}, \hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {unary-expression}}}, 
+		\hyperindexformat{\idxbfpage}{128}, \hyperpage{276}, 
+		\hyperpage{347}, \hyperpage{403}, 
+		\hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {unary-operator}}}, 
+		\hyperindexformat{\idxbfpage}{128}, \hyperpage{347}, 
+		\hyperpage{983}, \hyperindexformat{\idxbfpage}{1760}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {universal-character-name}}}, 
+		\hyperpage{13}, \hyperindexformat{\idxbfpage}{14}, 
+		\hyperpage{14}, \hyperpage{19}, \hyperpage{23}, 
+		\hyperpage{27}, \hyperpage{458}, 
+		\hyperindexformat{\idxbfpage}{1753}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {unnamed-namespace-definition}}}, 
+		\hyperpage{40}, \hyperindexformat{\idxbfpage}{227}, 
+		\hyperpage{229}, \hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {unqualified-id}}}, 
+		\hyperpage{47}, \hyperpage{50}, 
+		\hyperindexformat{\idxbfpage}{101}, 
+		\hyperpage{101--103}, \hyperpage{128, 129}, 
+		\hyperpage{166}, \hyperpage{187, 188}, \hyperpage{232}, 
+		\hyperpage{268}, \hyperpage{274}, \hyperpage{278}, 
+		\hyperpage{354, 355}, \hyperpage{399}, \hyperpage{413}, 
+		\hyperindexformat{\idxbfpage}{1758}, \hyperpage{1782}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {unsigned-suffix}}}, 
+		\hyperindexformat{\idxbfpage}{21}, 
+		\hyperindexformat{\idxbfpage}{1756}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {user-defined-character-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, \hyperpage{29}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {user-defined-floating-point-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, \hyperpage{29}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {user-defined-integer-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, \hyperpage{28}, 
+		\hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {user-defined-literal}}}, 
+		\hyperpage{14}, \hyperindexformat{\idxbfpage}{28}, 
+		\hyperpage{28}, \hyperpage{99}, 
+		\hyperindexformat{\idxbfpage}{1757}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {user-defined-string-literal}}}, 
+		\hyperindexformat{\idxbfpage}{28}, \hyperpage{29}, 
+		\hyperpage{351}, \hyperindexformat{\idxbfpage}{1758}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {using-declaration}}}, 
+		\hyperpage{31}, \hyperpage{42, 43}, \hyperpage{48}, 
+		\hyperpage{51}, \hyperpage{165}, \hyperpage{226}, 
+		\hyperindexformat{\idxbfpage}{232}, 
+		\hyperpage{232--236}, \hyperpage{249}, \hyperpage{253}, 
+		\hyperpage{263}, \hyperpage{273}, \hyperpage{296}, 
+		\hyperpage{321}, \hyperpage{378}, \hyperpage{383}, 
+		\hyperpage{396}, \hyperpage{474}, \hyperpage{544}, 
+		\hyperpage{1707}, \hyperindexformat{\idxbfpage}{1768}, 
+		\hyperpage{1787}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {using-declarator}}}, 
+		\hyperpage{30}, \hyperpage{38, 39}, \hyperpage{43}, 
+		\hyperpage{50, 51}, \hyperpage{201}, 
+		\hyperindexformat{\idxbfpage}{232}, 
+		\hyperpage{232, 233}, \hyperpage{235, 236}, 
+		\hyperpage{249}, \hyperpage{296}, \hyperpage{358}, 
+		\hyperpage{378}, \hyperpage{393}, \hyperpage{395}, 
+		\hyperpage{401}, \hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {using-declarator-list}}}, 
+		\hyperindexformat{\idxbfpage}{232}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {using-directive}}}, 
+		\hyperpage{31}, \hyperpage{38}, \hyperpage{46}, 
+		\hyperpage{52}, \hyperpage{55}, \hyperpage{165}, 
+		\hyperpage{178}, \hyperpage{228}, 
+		\hyperindexformat{\idxbfpage}{229}, 
+		\hyperpage{229--231}, 
+		\hyperindexformat{\idxbfpage}{1768}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {using-enum-declaration}}}, 
+		\hyperpage{31}, \hyperindexformat{\idxbfpage}{226}, 
+		\hyperpage{226, 227}, 
+		\hyperindexformat{\idxbfpage}{1767}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {va-opt-replacement}}}, 
+		\hyperindexformat{\idxbfpage}{456}, 
+		\hyperpage{456, 457}, 
+		\hyperindexformat{\idxbfpage}{1774}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {virt-specifier}}}, 
+		\hyperindexformat{\idxbfpage}{262}, \hyperpage{264}, 
+		\hyperpage{291}, \hyperindexformat{\idxbfpage}{1770}
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {virt-specifier-seq}}}, 
+		\hyperpage{217}, \hyperindexformat{\idxbfpage}{262}, 
+		\hyperpage{264}, \hyperindexformat{\idxbfpage}{1770}
+
+  \indexspace
+
+  \item \leavevmode {\color  {grammar-gray}\textsf  {\textit  {yield-expression}}}, 
+		\hyperpage{129}, \hyperindexformat{\idxbfpage}{146}, 
+		\hyperpage{146}, \hyperpage{151}, \hyperpage{220}, 
+		\hyperindexformat{\idxbfpage}{1762}
+
+\end{theindex}

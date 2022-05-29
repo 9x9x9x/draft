@@ -1,0 +1,2175 @@
+
+\begin{bnf}
+\nontermdef{hex-quad}\br
+    hexadecimal-digit hexadecimal-digit hexadecimal-digit hexadecimal-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{universal-character-name}\br
+    \terminal{\textbackslash u} hex-quad\br
+    \terminal{\textbackslash U} hex-quad hex-quad
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{preprocessing-token}\br
+    header-name\br
+    import-keyword\br
+    module-keyword\br
+    export-keyword\br
+    identifier\br
+    pp-number\br
+    character-literal\br
+    user-defined-character-literal\br
+    string-literal\br
+    user-defined-string-literal\br
+    preprocessing-op-or-punc\br
+    \textnormal{each non-whitespace character that cannot be one of the above}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{token}\br
+    identifier\br
+    keyword\br
+    literal\br
+    operator-or-punctuator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{header-name}\br
+    \terminal{<} h-char-sequence \terminal{>}\br
+    \terminal{"} q-char-sequence \terminal{"}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{h-char-sequence}\br
+    h-char\br
+    h-char-sequence h-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{h-char}\br
+    \textnormal{any member of the translation character set except new-line and \unicode{003e}{greater-than sign}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{q-char-sequence}\br
+    q-char\br
+    q-char-sequence q-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{q-char}\br
+    \textnormal{any member of the translation character set except new-line and \unicode{0022}{quotation mark}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-number}\br
+    digit\br
+    \terminal{.} digit\br
+    pp-number identifier-continue\br
+    pp-number \terminal{'} digit\br
+    pp-number \terminal{'} nondigit\br
+    pp-number \terminal{e} sign\br
+    pp-number \terminal{E} sign\br
+    pp-number \terminal{p} sign\br
+    pp-number \terminal{P} sign\br
+    pp-number \terminal{.}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{identifier}\br
+    identifier-start\br
+    identifier identifier-continue
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{identifier-start}\br
+    nondigit\br
+    \textnormal{an element of the translation character set of class XID_Start}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{identifier-continue}\br
+    digit\br
+    nondigit\br
+    \textnormal{an element of the translation character set of class XID_Continue}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nondigit} \textnormal{one of}\br
+    \terminal{a b c d e f g h i j k l m}\br
+    \terminal{n o p q r s t u v w x y z}\br
+    \terminal{A B C D E F G H I J K L M}\br
+    \terminal{N O P Q R S T U V W X Y Z _}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{digit} \textnormal{one of}\br
+    \terminal{0 1 2 3 4 5 6 7 8 9}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{keyword}\br
+    \textnormal{any identifier listed in \tref{lex.key}}\br
+    \grammarterm{import-keyword}\br
+    \grammarterm{module-keyword}\br
+    \grammarterm{export-keyword}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{preprocessing-op-or-punc}\br
+    preprocessing-operator\br
+    operator-or-punctuator
+\end{bnf}
+
+\begin{bnf}
+%% Ed. note: character protrusion would misalign various operators.
+\microtypesetup{protrusion=false}\obeyspaces
+\nontermdef{preprocessing-operator} \textnormal{one of}\br
+    \terminal{\#        \#\#       \%:       \%:\%:}
+\end{bnf}
+
+\begin{bnf}
+\microtypesetup{protrusion=false}\obeyspaces
+\nontermdef{operator-or-punctuator} \textnormal{one of}\br
+    \terminal{\{        \}        [        ]        (        )}\br
+    \terminal{<:       :>       <\%       \%>       ;        :        ...}\br
+    \terminal{?        ::       .        .*       ->       ->*      \~}\br
+    \terminal{!        +        -        *        /        \%        \caret{}        \&        |}\br
+    \terminal{=        +=       -=       *=       /=       \%=       \caret{}=       \&=       |=}\br
+    \terminal{==       !=       <        >        <=       >=       <=>      \&\&       ||}\br
+    \terminal{<<       >>       <<=      >>=      ++       --       ,}\br
+    \terminal{\keyword{and}      \keyword{or}       \keyword{xor}      \keyword{not}      \keyword{bitand}   \keyword{bitor}    \keyword{compl}}\br
+    \terminal{\keyword{and_eq}   \keyword{or_eq}    \keyword{xor_eq}   \keyword{not_eq}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{literal}\br
+    integer-literal\br
+    character-literal\br
+    floating-point-literal\br
+    string-literal\br
+    boolean-literal\br
+    pointer-literal\br
+    user-defined-literal
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{integer-literal}\br
+    binary-literal \opt{integer-suffix}\br
+    octal-literal \opt{integer-suffix}\br
+    decimal-literal \opt{integer-suffix}\br
+    hexadecimal-literal \opt{integer-suffix}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{binary-literal}\br
+    \terminal{0b} binary-digit\br
+    \terminal{0B} binary-digit\br
+    binary-literal \opt{\terminal{'}} binary-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{octal-literal}\br
+    \terminal{0}\br
+    octal-literal \opt{\terminal{'}} octal-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{decimal-literal}\br
+    nonzero-digit\br
+    decimal-literal \opt{\terminal{'}} digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-literal}\br
+    hexadecimal-prefix hexadecimal-digit-sequence
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{binary-digit} \textnormal{one of}\br
+    \terminal{0  1}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{octal-digit} \textnormal{one of}\br
+    \terminal{0  1  2  3  4  5  6  7}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nonzero-digit} \textnormal{one of}\br
+    \terminal{1  2  3  4  5  6  7  8  9}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-prefix} \textnormal{one of}\br
+    \terminal{0x  0X}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-digit-sequence}\br
+    hexadecimal-digit\br
+    hexadecimal-digit-sequence \opt{\terminal{'}} hexadecimal-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-digit} \textnormal{one of}\br
+    \terminal{0  1  2  3  4  5  6  7  8  9}\br
+    \terminal{a  b  c  d  e  f}\br
+    \terminal{A  B  C  D  E  F}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{integer-suffix}\br
+    unsigned-suffix \opt{long-suffix} \br
+    unsigned-suffix \opt{long-long-suffix} \br
+    unsigned-suffix \opt{size-suffix} \br
+    long-suffix \opt{unsigned-suffix} \br
+    long-long-suffix \opt{unsigned-suffix} \br
+    size-suffix \opt{unsigned-suffix}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{unsigned-suffix} \textnormal{one of}\br
+    \terminal{u  U}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{long-suffix} \textnormal{one of}\br
+    \terminal{l  L}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{long-long-suffix} \textnormal{one of}\br
+    \terminal{ll  LL}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{size-suffix} \textnormal{one of}\br
+   \terminal{z  Z}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{character-literal}\br
+    \opt{encoding-prefix} \terminal{'} c-char-sequence \terminal{'}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{encoding-prefix} \textnormal{one of}\br
+    \terminal{u8}\quad\terminal{u}\quad\terminal{U}\quad\terminal{L}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{c-char-sequence}\br
+    c-char\br
+    c-char-sequence c-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{c-char}\br
+    basic-c-char\br
+    escape-sequence\br
+    universal-character-name
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{basic-c-char}\br
+    \textnormal{any member of the translation character set except the \unicode{0027}{apostrophe},}\br
+    \bnfindent\textnormal{\unicode{005c}{reverse solidus}, or new-line character}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{escape-sequence}\br
+    simple-escape-sequence\br
+    numeric-escape-sequence\br
+    conditional-escape-sequence
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-escape-sequence}\br
+    \terminal{\textbackslash} simple-escape-sequence-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-escape-sequence-char} \textnormal{one of}\br
+    \terminal{'  "  ?  \textbackslash{} a  b  f  n  r  t  v}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{numeric-escape-sequence}\br
+    octal-escape-sequence\br
+    hexadecimal-escape-sequence
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{octal-escape-sequence}\br
+    \terminal{\textbackslash} octal-digit\br
+    \terminal{\textbackslash} octal-digit octal-digit\br
+    \terminal{\textbackslash} octal-digit octal-digit octal-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-escape-sequence}\br
+    \terminal{\textbackslash x} hexadecimal-digit\br
+    hexadecimal-escape-sequence hexadecimal-digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conditional-escape-sequence}\br
+    \terminal{\textbackslash} conditional-escape-sequence-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conditional-escape-sequence-char}\br
+    \textnormal{any member of the basic character set that is not an} octal-digit\textnormal{, a} simple-escape-sequence-char\textnormal{, or the characters \terminal{u}, \terminal{U}, or \terminal{x}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{floating-point-literal}\br
+    decimal-floating-point-literal\br
+    hexadecimal-floating-point-literal
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{decimal-floating-point-literal}\br
+    fractional-constant \opt{exponent-part} \opt{floating-point-suffix}\br
+    digit-sequence exponent-part \opt{floating-point-suffix}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-floating-point-literal}\br
+    hexadecimal-prefix hexadecimal-fractional-constant binary-exponent-part \opt{floating-point-suffix}\br
+    hexadecimal-prefix hexadecimal-digit-sequence binary-exponent-part \opt{floating-point-suffix}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{fractional-constant}\br
+    \opt{digit-sequence} \terminal{.} digit-sequence\br
+    digit-sequence \terminal{.}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{hexadecimal-fractional-constant}\br
+    \opt{hexadecimal-digit-sequence} \terminal{.} hexadecimal-digit-sequence\br
+    hexadecimal-digit-sequence \terminal{.}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{exponent-part}\br
+    \terminal{e} \opt{sign} digit-sequence\br
+    \terminal{E} \opt{sign} digit-sequence
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{binary-exponent-part}\br
+    \terminal{p} \opt{sign} digit-sequence\br
+    \terminal{P} \opt{sign} digit-sequence
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{sign} \textnormal{one of}\br
+    \terminal{+  -}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{digit-sequence}\br
+    digit\br
+    digit-sequence \opt{\terminal{'}} digit
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{floating-point-suffix} \textnormal{one of}\br
+    \terminal{f  l  F  L}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{string-literal}\br
+    \opt{encoding-prefix} \terminal{"} \opt{s-char-sequence} \terminal{"}\br
+    \opt{encoding-prefix} \terminal{R} raw-string
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{s-char-sequence}\br
+    s-char\br
+    s-char-sequence s-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{s-char}\br
+    basic-s-char\br
+    escape-sequence\br
+    universal-character-name
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{basic-s-char}\br
+    \textnormal{any member of the translation character set except the \unicode{0022}{quotation mark},}\br
+    \bnfindent\textnormal{\unicode{005c}{reverse solidus}, or new-line character}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{raw-string}\br
+    \terminal{"} \opt{d-char-sequence} \terminal{(} \opt{r-char-sequence} \terminal{)} \opt{d-char-sequence} \terminal{"}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{r-char-sequence}\br
+    r-char\br
+    r-char-sequence r-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{r-char}\br
+    \textnormal{any member of the translation character set, except a \unicode{0029}{right parenthesis} followed by}\br
+    \bnfindent\textnormal{the initial \grammarterm{d-char-sequence} (which may be empty) followed by a \unicode{0022}{quotation mark}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{d-char-sequence}\br
+    d-char\br
+    d-char-sequence d-char
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{d-char}\br
+    \textnormal{any member of the basic character set except:}\br
+    \bnfindent\textnormal{\unicode{0020}{space}, \unicode{0028}{left parenthesis}, \unicode{0029}{right parenthesis}, \unicode{005c}{reverse solidus},}\br
+    \bnfindent\textnormal{\unicode{0009}{character tabulation}, \unicode{000b}{line tabulation}, \unicode{000c}{form feed}, and new-line}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{boolean-literal}\br
+    \terminal{false}\br
+    \terminal{true}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pointer-literal}\br
+    \terminal{nullptr}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{user-defined-literal}\br
+    user-defined-integer-literal\br
+    user-defined-floating-point-literal\br
+    user-defined-string-literal\br
+    user-defined-character-literal
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{user-defined-integer-literal}\br
+    decimal-literal ud-suffix\br
+    octal-literal ud-suffix\br
+    hexadecimal-literal ud-suffix\br
+    binary-literal ud-suffix
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{user-defined-floating-point-literal}\br
+    fractional-constant \opt{exponent-part} ud-suffix\br
+    digit-sequence exponent-part ud-suffix\br
+    hexadecimal-prefix hexadecimal-fractional-constant binary-exponent-part ud-suffix\br
+    hexadecimal-prefix hexadecimal-digit-sequence binary-exponent-part ud-suffix
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{user-defined-string-literal}\br
+    string-literal ud-suffix
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{user-defined-character-literal}\br
+    character-literal ud-suffix
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ud-suffix}\br
+    identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{translation-unit}\br
+    \opt{declaration-seq}\br
+    \opt{global-module-fragment} module-declaration \opt{declaration-seq} \opt{private-module-fragment}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{primary-expression}\br
+    literal\br
+    \keyword{this}\br
+    \terminal{(} expression \terminal{)}\br
+    id-expression\br
+    lambda-expression\br
+    fold-expression\br
+    requires-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{id-expression}\br
+    unqualified-id\br
+    qualified-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{unqualified-id}\br
+    identifier\br
+    operator-function-id\br
+    conversion-function-id\br
+    literal-operator-id\br
+    \terminal{\~} type-name\br
+    \terminal{\~} decltype-specifier\br
+    template-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{qualified-id}\br
+    nested-name-specifier \opt{\keyword{template}} unqualified-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nested-name-specifier}\br
+    \terminal{::}\br
+    type-name \terminal{::}\br
+    namespace-name \terminal{::}\br
+    decltype-specifier \terminal{::}\br
+    nested-name-specifier identifier \terminal{::}\br
+    nested-name-specifier \opt{\keyword{template}} simple-template-id \terminal{::}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-expression}\br
+    lambda-introducer \opt{attribute-specifier-seq} lambda-declarator compound-statement\br
+    lambda-introducer \terminal{<} template-parameter-list \terminal{>} \opt{requires-clause} \opt{attribute-specifier-seq}\br
+    \bnfindent lambda-declarator compound-statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-introducer}\br
+    \terminal{[} \opt{lambda-capture} \terminal{]}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-declarator}\br
+    lambda-specifier-seq \opt{noexcept-specifier} \opt{attribute-specifier-seq} \opt{trailing-return-type}\br
+    noexcept-specifier \opt{attribute-specifier-seq} \opt{trailing-return-type}\br
+    \opt{trailing-return-type}\br
+    \terminal{(} parameter-declaration-clause \terminal{)} \opt{lambda-specifier-seq} \opt{noexcept-specifier} \opt{attribute-specifier-seq}\br
+    \bnfindent \opt{trailing-return-type} \opt{requires-clause}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-specifier}\br
+    \keyword{consteval}\br
+    \keyword{constexpr}\br
+    \keyword{mutable}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-specifier-seq}\br
+    lambda-specifier\br
+    lambda-specifier lambda-specifier-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lambda-capture}\br
+    capture-default\br
+    capture-list\br
+    capture-default \terminal{,} capture-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{capture-default}\br
+    \terminal{\&}\br
+    \terminal{=}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{capture-list}\br
+    capture\br
+    capture-list \terminal{,} capture
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{capture}\br
+    simple-capture\br
+    init-capture
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-capture}\br
+    identifier \opt{\terminal{...}}\br
+    \terminal{\&} identifier \opt{\terminal{...}}\br
+    \keyword{this}\br
+    \terminal{*} \terminal{this}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{init-capture}\br
+    \opt{\terminal{...}} identifier initializer\br
+    \terminal{\&} \opt{\terminal{...}} identifier initializer
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{fold-expression}\br
+    \terminal{(} cast-expression fold-operator \terminal{...} \terminal{)}\br
+    \terminal{(} \terminal{...} fold-operator cast-expression \terminal{)}\br
+    \terminal{(} cast-expression fold-operator \terminal{...} fold-operator cast-expression \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+%% Ed. note: character protrusion would misalign operators with leading `-`.
+\microtypesetup{protrusion=false}
+\nontermdef{fold-operator} \textnormal{one of}\br
+    \terminal{+ }\quad\terminal{- }\quad\terminal{* }\quad\terminal{/ }\quad\terminal{\% }\quad\terminal{\caret{} }\quad\terminal{\& }\quad\terminal{| }\quad\terminal{<< }\quad\terminal{>> }\br
+    \terminal{+=}\quad\terminal{-=}\quad\terminal{*=}\quad\terminal{/=}\quad\terminal{\%=}\quad\terminal{\caret=}\quad\terminal{\&=}\quad\terminal{|=}\quad\terminal{<<=}\quad\terminal{>>=}\quad\terminal{=}\br
+    \terminal{==}\quad\terminal{!=}\quad\terminal{< }\quad\terminal{> }\quad\terminal{<=}\quad\terminal{>=}\quad\terminal{\&\&}\quad\terminal{||}\quad\terminal{,  }\quad\terminal{.* }\quad\terminal{->*}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requires-expression}\br
+    \keyword{requires} \opt{requirement-parameter-list} requirement-body
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requirement-parameter-list}\br
+    \terminal{(} parameter-declaration-clause \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requirement-body}\br
+    \terminal{\{} requirement-seq \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requirement-seq}\br
+    requirement\br
+    requirement requirement-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requirement}\br
+    simple-requirement\br
+    type-requirement\br
+    compound-requirement\br
+    nested-requirement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-requirement}\br
+    expression \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-requirement}\br
+    \keyword{typename} \opt{nested-name-specifier} type-name \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{compound-requirement}\br
+    \terminal{\{} expression \terminal{\}} \opt{\keyword{noexcept}} \opt{return-type-requirement} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{return-type-requirement}\br
+    \terminal{->} type-constraint
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nested-requirement}\br
+    \keyword{requires} constraint-expression \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{postfix-expression}\br
+    primary-expression\br
+    postfix-expression \terminal{[} \opt{expression-list} \terminal{]}\br
+    postfix-expression \terminal{(} \opt{expression-list} \terminal{)}\br
+    simple-type-specifier \terminal{(} \opt{expression-list} \terminal{)}\br
+    typename-specifier \terminal{(} \opt{expression-list} \terminal{)}\br
+    simple-type-specifier braced-init-list\br
+    typename-specifier braced-init-list\br
+    postfix-expression \terminal{.} \opt{\terminal{template}} id-expression\br
+    postfix-expression \terminal{->} \opt{\terminal{template}} id-expression\br
+    postfix-expression \terminal{++}\br
+    postfix-expression \terminal{--}\br
+    \keyword{dynamic_cast} \terminal{<} type-id \terminal{>} \terminal{(} expression \terminal{)}\br
+    \keyword{static_cast} \terminal{<} type-id \terminal{>} \terminal{(} expression \terminal{)}\br
+    \keyword{reinterpret_cast} \terminal{<} type-id \terminal{>} \terminal{(} expression \terminal{)}\br
+    \keyword{const_cast} \terminal{<} type-id \terminal{>} \terminal{(} expression \terminal{)}\br
+    \keyword{typeid} \terminal{(} expression \terminal{)}\br
+    \keyword{typeid} \terminal{(} type-id \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{expression-list}\br
+    initializer-list
+\end{bnf}
+
+\begin{bnf}
+%% Ed. note: character protrusion would misalign operators.
+\microtypesetup{protrusion=false}
+\nontermdef{unary-expression}\br
+    postfix-expression\br
+    unary-operator cast-expression\br
+    \terminal{++} cast-expression\br
+    \terminal{--} cast-expression\br
+    await-expression\br
+    \keyword{sizeof} unary-expression\br
+    \keyword{sizeof} \terminal{(} type-id \terminal{)}\br
+    \keyword{sizeof} \terminal{...} \terminal{(} identifier \terminal{)}\br
+    \keyword{alignof} \terminal{(} type-id \terminal{)}\br
+    noexcept-expression\br
+    new-expression\br
+    delete-expression
+\end{bnf}
+
+\begin{bnf}
+%% Ed. note: character protrusion would misalign operators.
+\microtypesetup{protrusion=false}
+\nontermdef{unary-operator} \textnormal{one of}\br
+    \terminal{*  \&  +  -  !  \~}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{await-expression}\br
+    \terminal{co_await} cast-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noexcept-expression}\br
+  \keyword{noexcept} \terminal{(} expression \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-expression}\br
+    \opt{\terminal{::}} \keyword{new} \opt{new-placement} new-type-id \opt{new-initializer} \br
+    \opt{\terminal{::}} \keyword{new} \opt{new-placement} \terminal{(} type-id \terminal{)} \opt{new-initializer}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-placement}\br
+    \terminal{(} expression-list \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-type-id}\br
+    type-specifier-seq \opt{new-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-declarator}\br
+    ptr-operator \opt{new-declarator} \br
+    noptr-new-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noptr-new-declarator}\br
+    \terminal{[} \opt{expression} \terminal{]} \opt{attribute-specifier-seq}\br
+    noptr-new-declarator \terminal{[} constant-expression \terminal{]} \opt{attribute-specifier-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-initializer}\br
+    \terminal{(} \opt{expression-list} \terminal{)}\br
+    braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{delete-expression}\br
+    \opt{\terminal{::}} \keyword{delete} cast-expression\br
+    \opt{\terminal{::}} \keyword{delete} \terminal{[} \terminal{]} cast-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{cast-expression}\br
+    unary-expression\br
+    \terminal{(} type-id \terminal{)} cast-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pm-expression}\br
+    cast-expression\br
+    pm-expression \terminal{.*} cast-expression\br
+    pm-expression \terminal{->*} cast-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{multiplicative-expression}\br
+    pm-expression\br
+    multiplicative-expression \terminal{*} pm-expression\br
+    multiplicative-expression \terminal{/} pm-expression\br
+    multiplicative-expression \terminal{\%} pm-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{additive-expression}\br
+    multiplicative-expression\br
+    additive-expression \terminal{+} multiplicative-expression\br
+    additive-expression \terminal{-} multiplicative-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{shift-expression}\br
+    additive-expression\br
+    shift-expression \terminal{<<} additive-expression\br
+    shift-expression \terminal{>>} additive-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{compare-expression}\br
+    shift-expression\br
+    compare-expression \terminal{<=>} shift-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{relational-expression}\br
+    compare-expression\br
+    relational-expression \terminal{<} compare-expression\br
+    relational-expression \terminal{>} compare-expression\br
+    relational-expression \terminal{<=} compare-expression\br
+    relational-expression \terminal{>=} compare-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{equality-expression}\br
+    relational-expression\br
+    equality-expression \terminal{==} relational-expression\br
+    equality-expression \terminal{!=} relational-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{and-expression}\br
+    equality-expression\br
+    and-expression \terminal{\&} equality-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{exclusive-or-expression}\br
+    and-expression\br
+    exclusive-or-expression \terminal{\caret} and-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{inclusive-or-expression}\br
+    exclusive-or-expression\br
+    inclusive-or-expression \terminal{|} exclusive-or-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{logical-and-expression}\br
+    inclusive-or-expression\br
+    logical-and-expression \terminal{\&\&} inclusive-or-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{logical-or-expression}\br
+    logical-and-expression\br
+    logical-or-expression \terminal{||} logical-and-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conditional-expression}\br
+    logical-or-expression\br
+    logical-or-expression \terminal{?} expression \terminal{:} assignment-expression
+\end{bnf}
+
+\begin{bnf}
+  \nontermdef{yield-expression}\br
+  \terminal{co_yield} assignment-expression\br
+  \terminal{co_yield} braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{throw-expression}\br
+    \keyword{throw}  \opt{assignment-expression}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{assignment-expression}\br
+    conditional-expression\br
+    yield-expression\br
+    throw-expression\br
+    logical-or-expression assignment-operator initializer-clause
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{assignment-operator} \textnormal{one of}\br
+    \terminal{=  *=  /=  \%=   +=  -=  >>=  <<=  \&=  \caret=  |=}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{expression}\br
+    assignment-expression\br
+    expression \terminal{,} assignment-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{constant-expression}\br
+    conditional-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{statement}\br
+    labeled-statement\br
+    \opt{attribute-specifier-seq} expression-statement\br
+    \opt{attribute-specifier-seq} compound-statement\br
+    \opt{attribute-specifier-seq} selection-statement\br
+    \opt{attribute-specifier-seq} iteration-statement\br
+    \opt{attribute-specifier-seq} jump-statement\br
+    declaration-statement\br
+    \opt{attribute-specifier-seq} try-block
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{init-statement}\br
+    expression-statement\br
+    simple-declaration\br
+    alias-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{condition}\br
+    expression\br
+    \opt{attribute-specifier-seq} decl-specifier-seq declarator brace-or-equal-initializer
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{labeled-statement}\br
+    \opt{attribute-specifier-seq} identifier \terminal{:} statement\br
+    \opt{attribute-specifier-seq} \keyword{case} constant-expression \terminal{:} statement\br
+    \opt{attribute-specifier-seq} \keyword{default} \terminal{:} statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{expression-statement}\br
+    \opt{expression} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{compound-statement}\br
+    \terminal{\{} \opt{statement-seq} \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{statement-seq}\br
+    statement\br
+    statement-seq statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{selection-statement}\br
+    \keyword{if} \opt{\keyword{constexpr}} \terminal{(} \opt{init-statement} condition \terminal{)} statement\br
+    \keyword{if} \opt{\keyword{constexpr}} \terminal{(} \opt{init-statement} condition \terminal{)} statement \keyword{else} statement\br
+    \keyword{if} \opt{\terminal{!}} \keyword{consteval} compound-statement\br
+    \keyword{if} \opt{\terminal{!}} \keyword{consteval} compound-statement \keyword{else} statement\br
+    \keyword{switch} \terminal{(} \opt{init-statement} condition \terminal{)} statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{iteration-statement}\br
+    \keyword{while} \terminal{(} condition \terminal{)} statement\br
+    \keyword{do} statement \keyword{while} \terminal{(} expression \terminal{)} \terminal{;}\br
+    \keyword{for} \terminal{(} init-statement \opt{condition} \terminal{;} \opt{expression} \terminal{)} statement\br
+    \keyword{for} \terminal{(} \opt{init-statement} for-range-declaration \terminal{:} for-range-initializer \terminal{)} statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{for-range-declaration}\br
+    \opt{attribute-specifier-seq} decl-specifier-seq declarator\br
+    \opt{attribute-specifier-seq} decl-specifier-seq \opt{ref-qualifier} \terminal{[} identifier-list \terminal{]}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{for-range-initializer}\br
+    expr-or-braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{jump-statement}\br
+    \keyword{break} \terminal{;}\br
+    \keyword{continue} \terminal{;}\br
+    \keyword{return} \opt{expr-or-braced-init-list} \terminal{;}\br
+    coroutine-return-statement\br
+    \keyword{goto} identifier \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{coroutine-return-statement}\br
+    \terminal{co_return} \opt{expr-or-braced-init-list} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{declaration-statement}\br
+    block-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{declaration-seq}\br
+    declaration\br
+    declaration-seq declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{declaration}\br
+    block-declaration\br
+    nodeclspec-function-declaration\br
+    function-definition\br
+    template-declaration\br
+    deduction-guide\br
+    explicit-instantiation\br
+    explicit-specialization\br
+    export-declaration\br
+    linkage-specification\br
+    namespace-definition\br
+    empty-declaration\br
+    attribute-declaration\br
+    module-import-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{block-declaration}\br
+    simple-declaration\br
+    asm-declaration\br
+    namespace-alias-definition\br
+    using-declaration\br
+    using-enum-declaration\br
+    using-directive\br
+    static_assert-declaration\br
+    alias-declaration\br
+    opaque-enum-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nodeclspec-function-declaration}\br
+    \opt{attribute-specifier-seq} declarator \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{alias-declaration}\br
+    \keyword{using} identifier \opt{attribute-specifier-seq} \terminal{=} defining-type-id \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-declaration}\br
+    decl-specifier-seq \opt{init-declarator-list} \terminal{;}\br
+    attribute-specifier-seq decl-specifier-seq init-declarator-list \terminal{;}\br
+    \opt{attribute-specifier-seq} decl-specifier-seq \opt{ref-qualifier} \terminal{[} identifier-list \terminal{]} initializer \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{static_assert-declaration}\br
+  \keyword{static_assert} \terminal{(} constant-expression \terminal{)} \terminal{;}\br
+  \keyword{static_assert} \terminal{(} constant-expression \terminal{,} string-literal \terminal{)} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{empty-declaration}\br
+    \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-declaration}\br
+    attribute-specifier-seq \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{decl-specifier}\br
+    storage-class-specifier\br
+    defining-type-specifier\br
+    function-specifier\br
+    \keyword{friend}\br
+    \keyword{typedef}\br
+    \keyword{constexpr}\br
+    \keyword{consteval}\br
+    \keyword{constinit}\br
+    \keyword{inline}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{decl-specifier-seq}\br
+    decl-specifier \opt{attribute-specifier-seq}\br
+    decl-specifier decl-specifier-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{storage-class-specifier}\br
+    \keyword{static}\br
+    \keyword{thread_local}\br
+    \keyword{extern}\br
+    \keyword{mutable}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{function-specifier}\br
+    \keyword{virtual}\br
+    explicit-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{explicit-specifier}\br
+    \keyword{explicit} \terminal{(} constant-expression \terminal{)}\br
+    \keyword{explicit}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{typedef-name}\br
+    identifier\br
+    simple-template-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-specifier}\br
+  simple-type-specifier\br
+  elaborated-type-specifier\br
+  typename-specifier\br
+  cv-qualifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-specifier-seq}\br
+    type-specifier \opt{attribute-specifier-seq}\br
+    type-specifier type-specifier-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{defining-type-specifier}\br
+    type-specifier\br
+    class-specifier\br
+    enum-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{defining-type-specifier-seq}\br
+  defining-type-specifier \opt{attribute-specifier-seq}\br
+  defining-type-specifier defining-type-specifier-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-type-specifier}\br
+    \opt{nested-name-specifier} type-name\br
+    nested-name-specifier \keyword{template} simple-template-id\br
+    decltype-specifier\br
+    placeholder-type-specifier\br
+    \opt{nested-name-specifier} template-name\br
+    \keyword{char}\br
+    \keyword{char8_t}\br
+    \keyword{char16_t}\br
+    \keyword{char32_t}\br
+    \keyword{wchar_t}\br
+    \keyword{bool}\br
+    \keyword{short}\br
+    \keyword{int}\br
+    \keyword{long}\br
+    \keyword{signed}\br
+    \keyword{unsigned}\br
+    \keyword{float}\br
+    \keyword{double}\br
+    \keyword{void}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-name}\br
+    class-name\br
+    enum-name\br
+    typedef-name
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{elaborated-type-specifier}\br
+    class-key \opt{attribute-specifier-seq} \opt{nested-name-specifier} identifier\br
+    class-key simple-template-id\br
+    class-key nested-name-specifier \opt{\keyword{template}} simple-template-id\br
+    elaborated-enum-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{elaborated-enum-specifier}\br
+    \keyword{enum} \opt{nested-name-specifier} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{decltype-specifier}\br
+  \keyword{decltype} \terminal{(} expression \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{placeholder-type-specifier}\br
+  \opt{type-constraint} \keyword{auto}\br
+  \opt{type-constraint} \keyword{decltype} \terminal{(} \keyword{auto} \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{init-declarator-list}\br
+    init-declarator\br
+    init-declarator-list \terminal{,} init-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{init-declarator}\br
+    declarator \opt{initializer}\br
+    declarator requires-clause
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{declarator}\br
+    ptr-declarator\br
+    noptr-declarator parameters-and-qualifiers trailing-return-type
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ptr-declarator}\br
+    noptr-declarator\br
+    ptr-operator ptr-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noptr-declarator}\br
+    declarator-id \opt{attribute-specifier-seq}\br
+    noptr-declarator parameters-and-qualifiers\br
+    noptr-declarator \terminal{[} \opt{constant-expression} \terminal{]} \opt{attribute-specifier-seq}\br
+    \terminal{(} ptr-declarator \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{parameters-and-qualifiers}\br
+    \terminal{(} parameter-declaration-clause \terminal{)} \opt{cv-qualifier-seq}\br
+    \bnfindent\opt{ref-qualifier} \opt{noexcept-specifier} \opt{attribute-specifier-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{trailing-return-type}\br
+    \terminal{->} type-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ptr-operator}\br
+    \terminal{*} \opt{attribute-specifier-seq} \opt{cv-qualifier-seq}\br
+    \terminal{\&} \opt{attribute-specifier-seq}\br
+    \terminal{\&\&} \opt{attribute-specifier-seq}\br
+    nested-name-specifier \terminal{*} \opt{attribute-specifier-seq} \opt{cv-qualifier-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{cv-qualifier-seq}\br
+    cv-qualifier \opt{cv-qualifier-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{cv-qualifier}\br
+    \keyword{const}\br
+    \keyword{volatile}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ref-qualifier}\br
+    \terminal{\&}\br
+    \terminal{\&\&}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{declarator-id}\br
+    \opt{\terminal{...}} id-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-id}\br
+    type-specifier-seq \opt{abstract-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{defining-type-id}\br
+    defining-type-specifier-seq \opt{abstract-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{abstract-declarator}\br
+    ptr-abstract-declarator\br
+    \opt{noptr-abstract-declarator} parameters-and-qualifiers trailing-return-type\br
+    abstract-pack-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ptr-abstract-declarator}\br
+    noptr-abstract-declarator\br
+    ptr-operator \opt{ptr-abstract-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noptr-abstract-declarator}\br
+    \opt{noptr-abstract-declarator} parameters-and-qualifiers\br
+    \opt{noptr-abstract-declarator} \terminal{[} \opt{constant-expression} \terminal{]} \opt{attribute-specifier-seq}\br
+    \terminal{(} ptr-abstract-declarator \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{abstract-pack-declarator}\br
+    noptr-abstract-pack-declarator\br
+    ptr-operator abstract-pack-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noptr-abstract-pack-declarator}\br
+    noptr-abstract-pack-declarator parameters-and-qualifiers\br
+    noptr-abstract-pack-declarator \terminal{[} \opt{constant-expression} \terminal{]} \opt{attribute-specifier-seq}\br
+    \terminal{...}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{parameter-declaration-clause}\br
+    \opt{parameter-declaration-list} \opt{\terminal{...}}\br
+    parameter-declaration-list \terminal{,} \terminal{...}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{parameter-declaration-list}\br
+    parameter-declaration\br
+    parameter-declaration-list \terminal{,} parameter-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{parameter-declaration}\br
+    \opt{attribute-specifier-seq} \opt{\keyword{this}} decl-specifier-seq declarator\br
+    \opt{attribute-specifier-seq} \opt{\keyword{this}} decl-specifier-seq declarator \terminal{=} initializer-clause\br
+    \opt{attribute-specifier-seq} \opt{\keyword{this}} decl-specifier-seq \opt{abstract-declarator}\br
+    \opt{attribute-specifier-seq} \opt{\keyword{this}} decl-specifier-seq \opt{abstract-declarator} \terminal{=} initializer-clause
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{initializer}\br
+    brace-or-equal-initializer\br
+    \terminal{(} expression-list \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{brace-or-equal-initializer}\br
+    \terminal{=} initializer-clause\br
+    braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{initializer-clause}\br
+    assignment-expression\br
+    braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{braced-init-list}\br
+    \terminal{\{} initializer-list \opt{\terminal{,}} \terminal{\}}\br
+    \terminal{\{} designated-initializer-list \opt{\terminal{,}} \terminal{\}}\br
+    \terminal{\{} \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{initializer-list}\br
+    initializer-clause \opt{\terminal{...}}\br
+    initializer-list \terminal{,} initializer-clause \opt{\terminal{...}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{designated-initializer-list}\br
+    designated-initializer-clause\br
+    designated-initializer-list \terminal{,} designated-initializer-clause
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{designated-initializer-clause}\br
+    designator brace-or-equal-initializer
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{designator}\br
+    \terminal{.} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{expr-or-braced-init-list}\br
+    expression\br
+    braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{function-definition}\br
+    \opt{attribute-specifier-seq} \opt{decl-specifier-seq} declarator \opt{virt-specifier-seq} function-body\br
+    \opt{attribute-specifier-seq} \opt{decl-specifier-seq} declarator requires-clause function-body
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{function-body}\br
+    \opt{ctor-initializer} compound-statement\br
+    function-try-block\br
+    \terminal{=} \keyword{default} \terminal{;}\br
+    \terminal{=} \keyword{delete} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-name}\br
+    identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-specifier}\br
+    enum-head \terminal{\{} \opt{enumerator-list} \terminal{\}}\br
+    enum-head \terminal{\{} enumerator-list \terminal{,} \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-head}\br
+    enum-key \opt{attribute-specifier-seq} \opt{enum-head-name} \opt{enum-base}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-head-name}\br
+    \opt{nested-name-specifier} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{opaque-enum-declaration}\br
+    enum-key \opt{attribute-specifier-seq} enum-head-name \opt{enum-base} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-key}\br
+    \keyword{enum}\br
+    \keyword{enum} \keyword{class}\br
+    \keyword{enum} \keyword{struct}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enum-base}\br
+    \terminal{:} type-specifier-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enumerator-list}\br
+    enumerator-definition\br
+    enumerator-list \terminal{,} enumerator-definition
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enumerator-definition}\br
+    enumerator\br
+    enumerator \terminal{=} constant-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enumerator}\br
+    identifier \opt{attribute-specifier-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{using-enum-declaration}\br
+    \terminal{using} elaborated-enum-specifier \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{namespace-name}\br
+        identifier\br
+        namespace-alias
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{namespace-definition}\br
+        named-namespace-definition\br
+        unnamed-namespace-definition\br
+        nested-namespace-definition
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{named-namespace-definition}\br
+        \opt{\keyword{inline}} \keyword{namespace} \opt{attribute-specifier-seq} identifier \terminal{\{} namespace-body \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{unnamed-namespace-definition}\br
+        \opt{\keyword{inline}} \keyword{namespace} \opt{attribute-specifier-seq} \terminal{\{} namespace-body \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{nested-namespace-definition}\br
+        \keyword{namespace} enclosing-namespace-specifier \terminal{::} \opt{\keyword{inline}} identifier \terminal{\{} namespace-body \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{enclosing-namespace-specifier}\br
+        identifier\br
+        enclosing-namespace-specifier \terminal{::} \opt{\keyword{inline}} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{namespace-body}\br
+        \opt{declaration-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{namespace-alias}\br
+        identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{namespace-alias-definition}\br
+        \keyword{namespace} identifier \terminal{=} qualified-namespace-specifier \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{qualified-namespace-specifier}\br
+    \opt{nested-name-specifier} namespace-name
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{using-directive}\br
+    \opt{attribute-specifier-seq} \keyword{using} \keyword{namespace} \opt{nested-name-specifier} namespace-name \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{using-declaration}\br
+    \keyword{using} using-declarator-list \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{using-declarator-list}\br
+    using-declarator \opt{\terminal{...}}\br
+    using-declarator-list \terminal{,} using-declarator \opt{\terminal{...}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{using-declarator}\br
+    \opt{\keyword{typename}} nested-name-specifier unqualified-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{asm-declaration}\br
+    \opt{attribute-specifier-seq} \keyword{asm} \terminal{(} string-literal \terminal{)} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{linkage-specification}\br
+    \keyword{extern} string-literal \terminal{\{} \opt{declaration-seq} \terminal{\}}\br
+    \keyword{extern} string-literal declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-specifier-seq}\br
+  \opt{attribute-specifier-seq} attribute-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-specifier}\br
+  \terminal{[} \terminal{[} \opt{attribute-using-prefix} attribute-list \terminal{]} \terminal{]}\br
+  alignment-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{alignment-specifier}\br
+  \keyword{alignas} \terminal{(} type-id \opt{\terminal{...}} \terminal{)}\br
+  \keyword{alignas} \terminal{(} constant-expression \opt{\terminal{...}} \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-using-prefix}\br
+  \keyword{using} attribute-namespace \terminal{:}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-list}\br
+  \opt{attribute}\br
+  attribute-list \terminal{,} \opt{attribute}\br
+  attribute \terminal{...}\br
+  attribute-list \terminal{,} attribute \terminal{...}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute}\br
+    attribute-token \opt{attribute-argument-clause}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-token}\br
+    identifier\br
+    attribute-scoped-token
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-scoped-token}\br
+    attribute-namespace \terminal{::} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-namespace}\br
+    identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{attribute-argument-clause}\br
+    \terminal{(} \opt{balanced-token-seq} \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{balanced-token-seq}\br
+    balanced-token\br
+    balanced-token-seq balanced-token
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{balanced-token}\br
+    \terminal{(} \opt{balanced-token-seq} \terminal{)}\br
+    \terminal{[} \opt{balanced-token-seq} \terminal{]}\br
+    \terminal{\{} \opt{balanced-token-seq} \terminal{\}}\br
+    \textnormal{any \grammarterm{token} other than a parenthesis, a bracket, or a brace}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-declaration}\br
+    \opt{export-keyword} module-keyword module-name \opt{module-partition} \opt{attribute-specifier-seq} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-name}\br
+    \opt{module-name-qualifier} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-partition}\br
+    \terminal{:} \opt{module-name-qualifier} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-name-qualifier}\br
+    identifier \terminal{.}\br
+    module-name-qualifier identifier \terminal{.}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{export-declaration}\br
+    \keyword{export} declaration\br
+    \keyword{export} \terminal{\{} \opt{declaration-seq} \terminal{\}}\br
+    export-keyword module-import-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-import-declaration}\br
+    import-keyword module-name \opt{attribute-specifier-seq} \terminal{;}\br
+    import-keyword module-partition \opt{attribute-specifier-seq} \terminal{;}\br
+    import-keyword header-name \opt{attribute-specifier-seq} \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{global-module-fragment}\br
+    module-keyword \terminal{;} \opt{declaration-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{private-module-fragment}\br
+    module-keyword \terminal{:} \keyword{private} \terminal{;} \opt{declaration-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-name}\br
+    identifier\br
+    simple-template-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-specifier}\br
+    class-head \terminal{\{} \opt{member-specification} \terminal{\}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-head}\br
+    class-key \opt{attribute-specifier-seq} class-head-name \opt{class-virt-specifier} \opt{base-clause}\br
+    class-key \opt{attribute-specifier-seq} \opt{base-clause}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-head-name}\br
+    \opt{nested-name-specifier} class-name
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-virt-specifier}\br
+    \keyword{final}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-key}\br
+    \keyword{class}\br
+    \keyword{struct}\br
+    \keyword{union}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{member-specification}\br
+    member-declaration \opt{member-specification}\br
+    access-specifier \terminal{:} \opt{member-specification}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{member-declaration}\br
+    \opt{attribute-specifier-seq} \opt{decl-specifier-seq} \opt{member-declarator-list} \terminal{;}\br
+    function-definition\br
+    using-declaration\br
+    using-enum-declaration\br
+    static_assert-declaration\br
+    template-declaration\br
+    explicit-specialization\br
+    deduction-guide\br
+    alias-declaration\br
+    opaque-enum-declaration\br
+    empty-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{member-declarator-list}\br
+    member-declarator\br
+    member-declarator-list \terminal{,} member-declarator
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{member-declarator}\br
+    declarator \opt{virt-specifier-seq} \opt{pure-specifier}\br
+    declarator requires-clause\br
+    declarator \opt{brace-or-equal-initializer}\br
+    \opt{identifier} \opt{attribute-specifier-seq} \terminal{:} constant-expression \opt{brace-or-equal-initializer}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{virt-specifier-seq}\br
+    virt-specifier\br
+    virt-specifier-seq virt-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{virt-specifier}\br
+    \keyword{override}\br
+    \keyword{final}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pure-specifier}\br
+    \terminal{=} \terminal{0}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conversion-function-id}\br
+    \keyword{operator} conversion-type-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conversion-type-id}\br
+    type-specifier-seq \opt{conversion-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conversion-declarator}\br
+    ptr-operator \opt{conversion-declarator}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{base-clause}\br
+    \terminal{:} base-specifier-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{base-specifier-list}\br
+    base-specifier \opt{\terminal{...}}\br
+    base-specifier-list \terminal{,} base-specifier \opt{\terminal{...}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{base-specifier}\br
+    \opt{attribute-specifier-seq} class-or-decltype\br
+    \opt{attribute-specifier-seq} \keyword{virtual} \opt{access-specifier} class-or-decltype\br
+    \opt{attribute-specifier-seq} access-specifier \opt{\keyword{virtual}} class-or-decltype
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{class-or-decltype}\br
+    \opt{nested-name-specifier} type-name\br
+    nested-name-specifier \keyword{template} simple-template-id\br
+    decltype-specifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{access-specifier}\br
+    \keyword{private}\br
+    \keyword{protected}\br
+    \keyword{public}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{ctor-initializer}\br
+    \terminal{:} mem-initializer-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{mem-initializer-list}\br
+    mem-initializer \opt{\terminal{...}}\br
+    mem-initializer-list \terminal{,} mem-initializer \opt{\terminal{...}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{mem-initializer}\br
+    mem-initializer-id \terminal{(} \opt{expression-list} \terminal{)}\br
+    mem-initializer-id braced-init-list
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{mem-initializer-id}\br
+    class-or-decltype\br
+    identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{operator-function-id}\br
+    \keyword{operator} operator
+\end{bnf}
+
+\begin{bnf}
+%% Ed. note: character protrusion would misalign various operators.
+\microtypesetup{protrusion=false}\obeyspaces
+\nontermdef{operator} \textnormal{one of}\br
+    \terminal{new      delete   new[]    delete[] co_await (\rlap{\,)}        [\rlap{\,]}        ->       ->*}\br
+    \terminal{\~        !        +        -        *        /        \%        \caret{}        \&}\br
+    \terminal{|        =        +=       -=       *=       /=       \%=       \caret{}=       \&=}\br
+    \terminal{|=       ==       !=       <        >        <=       >=       <=>      \&\&}\br
+    \terminal{||       <<       >>       <<=      >>=      ++       --       ,}\br
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{literal-operator-id}\br
+    \keyword{operator} string-literal identifier\br
+    \keyword{operator} user-defined-string-literal
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-declaration}\br
+  template-head declaration\br
+  template-head concept-definition
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-head}\br
+  \keyword{template} \terminal{<} template-parameter-list \terminal{>} \opt{requires-clause}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-parameter-list}\br
+  template-parameter\br
+  template-parameter-list \terminal{,} template-parameter
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{requires-clause}\br
+  \keyword{requires} constraint-logical-or-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{constraint-logical-or-expression}\br
+  constraint-logical-and-expression\br
+  constraint-logical-or-expression \terminal{||} constraint-logical-and-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{constraint-logical-and-expression}\br
+  primary-expression\br
+  constraint-logical-and-expression \terminal{\&\&} primary-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-parameter}\br
+  type-parameter\br
+  parameter-declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-parameter}\br
+  type-parameter-key \opt{\terminal{...}} \opt{identifier}\br
+  type-parameter-key \opt{identifier} \terminal{=} type-id\br
+  type-constraint \opt{\terminal{...}} \opt{identifier}\br
+  type-constraint \opt{identifier} \terminal{=} type-id\br
+  template-head type-parameter-key \opt{\terminal{...}} \opt{identifier}\br
+  template-head type-parameter-key \opt{identifier} \terminal{=} id-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-parameter-key}\br
+  \keyword{class}\br
+  \keyword{typename}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{type-constraint}\br
+  \opt{nested-name-specifier} concept-name\br
+  \opt{nested-name-specifier} concept-name \terminal{<} \opt{template-argument-list} \terminal{>}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{simple-template-id}\br
+  template-name \terminal{<} \opt{template-argument-list} \terminal{>}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-id}\br
+  simple-template-id\br
+  operator-function-id \terminal{<} \opt{template-argument-list} \terminal{>}\br
+  literal-operator-id \terminal{<} \opt{template-argument-list} \terminal{>}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-name}\br
+  identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-argument-list}\br
+  template-argument \opt{\terminal{...}}\br
+  template-argument-list \terminal{,} template-argument \opt{\terminal{...}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{template-argument}\br
+  constant-expression\br
+  type-id\br
+  id-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{constraint-expression}\br
+    logical-or-expression
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{deduction-guide}\br
+    \opt{explicit-specifier} template-name \terminal{(} parameter-declaration-clause \terminal{)} \terminal{->} simple-template-id \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{concept-definition}\br
+  \keyword{concept} concept-name \terminal{=} constraint-expression \terminal{;}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{concept-name}\br
+  identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{typename-specifier}\br
+  \keyword{typename} nested-name-specifier identifier\br
+  \keyword{typename} nested-name-specifier \terminal{\opt{template}} simple-template-id
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{explicit-instantiation}\br
+  \opt{\keyword{extern}} \keyword{template} declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{explicit-specialization}\br
+  \keyword{template} \terminal{<} \terminal{>} declaration
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{try-block}\br
+    \keyword{try} compound-statement handler-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{function-try-block}\br
+    \keyword{try} \opt{ctor-initializer} compound-statement handler-seq
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{handler-seq}\br
+    handler \opt{handler-seq}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{handler}\br
+    \keyword{catch} \terminal{(} exception-declaration \terminal{)} compound-statement
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{exception-declaration}\br
+    \opt{attribute-specifier-seq} type-specifier-seq declarator\br
+    \opt{attribute-specifier-seq} type-specifier-seq \opt{abstract-declarator}\br
+    \terminal{...}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{noexcept-specifier}\br
+    \keyword{noexcept} \terminal{(} constant-expression \terminal{)}\br
+    \keyword{noexcept}\br
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{preprocessing-file}\br
+    \opt{group}\br
+    module-file
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{module-file}\br
+    \opt{pp-global-module-fragment} pp-module \opt{group} \opt{pp-private-module-fragment}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-global-module-fragment}\br
+    \keyword{module} \terminal{;} new-line \opt{group}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-private-module-fragment}\br
+    \keyword{module} \terminal{:} \keyword{private} \terminal{;} new-line \opt{group}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{group}\br
+    group-part\br
+    group group-part
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{group-part}\br
+    control-line\br
+    if-section\br
+    text-line\br
+    \terminal{\#} conditionally-supported-directive
+\end{bnf}
+
+\begin{bnf}\obeyspaces
+\nontermdef{control-line}\br
+    \terminal{\# include} pp-tokens new-line\br
+    pp-import\br
+    \terminal{\# define } identifier replacement-list new-line\br
+    \terminal{\# define } identifier lparen \opt{identifier-list} \terminal{)} replacement-list new-line\br
+    \terminal{\# define } identifier lparen \terminal{... )} replacement-list new-line\br
+    \terminal{\# define } identifier lparen identifier-list \terminal{, ... )} replacement-list new-line\br
+    \terminal{\# undef  } identifier new-line\br
+    \terminal{\# line   } pp-tokens new-line\br
+    \terminal{\# error  } \opt{pp-tokens} new-line\br
+    \terminal{\# pragma } \opt{pp-tokens} new-line\br
+    \terminal{\# }new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{if-section}\br
+    if-group \opt{elif-groups} \opt{else-group} endif-line
+\end{bnf}
+
+\begin{bnf}\obeyspaces
+\nontermdef{if-group}\br
+    \terminal{\# if     } constant-expression new-line \opt{group}\br
+    \terminal{\# ifdef  } identifier new-line \opt{group}\br
+    \terminal{\# ifndef } identifier new-line \opt{group}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{elif-groups}\br
+    elif-group\br
+    elif-groups elif-group
+\end{bnf}
+
+\begin{bnf}\obeyspaces
+\nontermdef{elif-group}\br
+    \terminal{\# elif    } constant-expression new-line \opt{group}\br
+    \terminal{\# elifdef } constant-expression new-line \opt{group}\br
+    \terminal{\# elifndef} constant-expression new-line \opt{group}
+\end{bnf}
+
+\begin{bnf}\obeyspaces
+\nontermdef{else-group}\br
+    \terminal{\# else   } new-line \opt{group}
+\end{bnf}
+
+\begin{bnf}\obeyspaces
+\nontermdef{endif-line}\br
+    \terminal{\# endif  } new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{text-line}\br
+    \opt{pp-tokens} new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{conditionally-supported-directive}\br
+    pp-tokens new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{lparen}\br
+    \descr{a \terminal{(} character not immediately preceded by whitespace}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{identifier-list}\br
+    identifier\br
+    identifier-list \terminal{,} identifier
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{replacement-list}\br
+    \opt{pp-tokens}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-tokens}\br
+    preprocessing-token\br
+    pp-tokens preprocessing-token
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{new-line}\br
+    \descr{the new-line character}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{defined-macro-expression}\br
+    \terminal{defined} identifier\br
+    \terminal{defined (} identifier \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{h-preprocessing-token}\br
+    \textnormal{any \grammarterm{preprocessing-token} other than \terminal{>}}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{h-pp-tokens}\br
+    h-preprocessing-token\br
+    h-pp-tokens h-preprocessing-token
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{header-name-tokens}\br
+    string-literal\br
+    \terminal{<} h-pp-tokens \terminal{>}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{has-include-expression}\br
+    \terminal{\xname{has_include}} \terminal{(} header-name \terminal{)}\br
+    \terminal{\xname{has_include}} \terminal{(} header-name-tokens \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{has-attribute-expression}\br
+    \terminal{\xname{has_cpp_attribute} (} pp-tokens \terminal{)}
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-module}\br
+    \opt{\keyword{export}} \keyword{module} \opt{pp-tokens} \terminal{;} new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{pp-import}\br
+    \opt{\keyword{export}} \keyword{import} header-name \opt{pp-tokens} \terminal{;} new-line\br
+    \opt{\keyword{export}} \keyword{import} header-name-tokens \opt{pp-tokens} \terminal{;} new-line\br
+    \opt{\keyword{export}} \keyword{import} pp-tokens \terminal{;} new-line
+\end{bnf}
+
+\begin{bnf}
+\nontermdef{va-opt-replacement}\br
+    \terminal{\mname{VA_OPT} (} \opt{pp-tokens} \terminal{)}
+\end{bnf}

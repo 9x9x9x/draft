@@ -1,0 +1,318 @@
+\indexentry{diagnostic message@diagnostic message|hyperpage}{4}
+\indexentry{strict total order over pointer values@strict total order over pointer values|hyperpage}{5}
+\indexentry{required libraries for freestanding implementation@required libraries for freestanding implementation|hyperpage}{10}
+\indexentry{interactive device@interactive device|hyperpage}{11}
+\indexentry{mapping physical source file characters to translation character set@mapping physical source file characters to translation character set|hyperpage}{13}
+\indexentry{physical source file characters@physical source file characters|hyperpage}{13}
+\indexentry{whether the sources for module units and header units on which the current translation unit has an interface dependency are required to be available during translation@whether the sources for module units and header units on which the current translation unit has an interface dependency are required to be available during translation|hyperpage}{14}
+\indexentry{whether source of translation units must be available to locate template definitions@whether source of translation units must be available to locate template definitions|hyperpage}{14}
+\indexentry{ordinary and wide literal encodings@ordinary and wide literal encodings|hyperpage}{16}
+\indexentry{mapping header name to header or external source file@mapping header name to header or external source file|hyperpage}{18}
+\indexentry{meaning of ', \T1\textbackslash , /*, or // in a q-char-sequence or an h-char-sequence@meaning of \texttt  {'}, \texttt  {\textbackslash }, \texttt  {/*}, or \texttt  {//} in a \leavevmode {\color  {grammar-gray}\textsf  {\textit  {q-char-sequence}}} or an \leavevmode {\color  {grammar-gray}\textsf  {\textit  {h-char-sequence}}}|hyperpage}{18}
+\indexentry{value of non-encodable character literal or multicharacter literal@value of non-encodable character literal or multicharacter literal|hyperpage}{23}
+\indexentry{value of conditional-escape-sequence@value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}}|hyperpage}{24}
+\indexentry{choice of larger or smaller value of floating-point-literal@choice of larger or smaller value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {floating-point-literal}}}|hyperpage}{25}
+\indexentry{code unit sequence for non-representable string-literal@code unit sequence for non-representable \leavevmode {\color  {grammar-gray}\textsf  {\textit  {string-literal}}}|hyperpage}{27}
+\indexentry{code unit sequence for conditional-escape-sequence@code unit sequence for \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}}|hyperpage}{28}
+\indexentry{effect of conditional-escape-sequence on encoding state@effect of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {conditional-escape-sequence}}} on encoding state|hyperpage}{28}
+\indexentry{bits in a byte@bits in a byte|hyperpage}{59}
+\indexentry{which non-standard-layout objects containing no data are considered empty@which non-standard-layout objects containing no data are considered empty|hyperpage}{61}
+\indexentry{any use of an invalid pointer other than to perform indirection or deallocate@any use of an invalid pointer other than to perform indirection or deallocate|hyperpage}{65}
+\indexentry{alignment@alignment|hyperpage}{68}
+\indexentry{support for extended alignments@support for extended alignments|hyperpage}{68}
+\indexentry{alignment additional values@alignment additional values|hyperpage}{68}
+\indexentry{values of a trivially copyable type@values of a trivially copyable type|hyperpage}{72}
+\indexentry{extended signed integer types@extended signed integer types|hyperpage}{74}
+\indexentry{width of integral type@width of integral type|hyperpage}{75}
+\indexentry{underlying type of char@underlying type of \texttt  {char}|hyperpage}{75}
+\indexentry{underlying type of wchar\T1\textunderscore t@underlying type of \texttt  {wchar_t}|hyperpage}{75}
+\indexentry{underlying type of bool@underlying type of \texttt  {bool}|hyperpage}{75}
+\indexentry{value representation of floating-point types@value representation of floating-point types|hyperpage}{75}
+\indexentry{value representation of pointer types@value representation of pointer types|hyperpage}{77}
+\indexentry{rank of extended signed integer type@rank of extended signed integer type|hyperpage}{78}
+\indexentry{number of threads in a program under a freestanding implementation@number of threads in a program under a freestanding implementation|hyperpage}{81}
+\indexentry{whether the thread that executes main and the threads created by std::thread or std::jthread provide concurrent forward progress guarantees@whether the thread that executes \texttt  {main} and the threads created by \texttt  {std::thread} or \texttt  {std::jthread} provide concurrent forward progress guarantees|hyperpage}{85}
+\indexentry{defining main in freestanding environment@defining \texttt  {main} in freestanding environment|hyperpage}{86}
+\indexentry{startup and termination in freestanding environment@startup and termination in freestanding environment|hyperpage}{86}
+\indexentry{parameters to main@parameters to \texttt  {main}|hyperpage}{86}
+\indexentry{linkage of main@linkage of \texttt  {main}|hyperpage}{86}
+\indexentry{dynamic initialization of static variables before main@dynamic initialization of static variables before \texttt  {main}|hyperpage}{88}
+\indexentry{threads and program points at which deferred dynamic initialization is performed@threads and program points at which deferred dynamic initialization is performed|hyperpage}{88}
+\indexentry{dynamic initialization of static variables before main@dynamic initialization of static variables before \texttt  {main}|hyperpage}{88}
+\indexentry{dynamic initialization of static inline variables before main@dynamic initialization of static inline variables before \texttt  {main}|hyperpage}{88}
+\indexentry{threads and program points at which deferred dynamic initialization is performed@threads and program points at which deferred dynamic initialization is performed|hyperpage}{88}
+\indexentry{dynamic initialization of thread-local variables before entry@dynamic initialization of thread-local variables before entry|hyperpage}{88}
+\indexentry{threads and program points at which deferred dynamic initialization is performed@threads and program points at which deferred dynamic initialization is performed|hyperpage}{88}
+\indexentry{lvalue-to-rvalue conversion of an invalid pointer value@lvalue-to-rvalue conversion of an invalid pointer value|hyperpage}{95}
+\indexentry{result of inexact floating-point conversion@result of inexact floating-point conversion|hyperpage}{97}
+\indexentry{value of result of inexact integer to floating-point conversion@value of result of inexact integer to floating-point conversion|hyperpage}{97}
+\indexentry{whether the lifetime of a parameter ends when the callee returns or at the end of the enclosing full-expression@whether the lifetime of a parameter ends when the callee returns or at the end of the enclosing full-expression|hyperpage}{119}
+\indexentry{passing argument of class type through ellipsis@passing argument of class type through ellipsis|hyperpage}{120}
+\indexentry{value of bit-field that cannot represent!incremented value|hyperpage}{121}
+\indexentry{derived type for typeid@derived type for \texttt  {typeid}|hyperpage}{123}
+\indexentry{mapping of pointer to integer@mapping of pointer to integer|hyperpage}{125}
+\indexentry{conversions between pointers and integers@conversions between pointers and integers|hyperpage}{126}
+\indexentry{converting function pointer to object pointer and vice versa@converting function pointer to object pointer and vice versa|hyperpage}{126}
+\indexentry{sizeof applied to fundamental types other than char, signed char, and unsigned char@\texttt  {sizeof} applied to fundamental types other than \texttt  {char}, \texttt  {signed char}, and \texttt  {unsigned char}|hyperpage}{131}
+\indexentry{maximum size of an allocated object@maximum size of an allocated object|hyperpage}{133}
+\indexentry{type of ptrdiff\T1\textunderscore t@type of \texttt  {ptrdiff_t}|hyperpage}{141}
+\indexentry{value of bit-field that cannot represent!assigned value|hyperpage}{148}
+\indexentry{meaning of attribute declaration@meaning of attribute declaration|hyperpage}{166}
+\indexentry{semantics of an access through a volatile glvalue@semantics of an access through a volatile glvalue|hyperpage}{176}
+\indexentry{signedness of char@signedness of \texttt  {char}|hyperpage}{177}
+\indexentry{value of bit-field that cannot represent!initializer|hyperpage}{204}
+\indexentry{string resulting from \T1\textunderscore \T1\textunderscore func\T1\textunderscore \T1\textunderscore @string resulting from \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptfunc\kern .5pt\textunderscore \kern .5pt\textunderscore }|hyperpage}{218}
+\indexentry{underlying type for enumeration@underlying type for enumeration|hyperpage}{225}
+\indexentry{meaning of asm declaration@meaning of \texttt  {asm} declaration|hyperpage}{236}
+\indexentry{semantics of linkage specifiers@semantics of linkage specifiers|hyperpage}{237}
+\indexentry{support for module-import-declarations with non-C++{} language linkage@support for \leavevmode {\color  {grammar-gray}\textsf  {\textit  {module-import-declaration}}}s with non-C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} language linkage|hyperpage}{237}
+\indexentry{linkage of objects between C++{} and other languages@linkage of objects between C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} and other languages|hyperpage}{239}
+\indexentry{behavior of non-standard attributes@behavior of non-standard attributes|hyperpage}{240}
+\indexentry{how the set of importable headers is determined@how the set of importable headers is determined|hyperpage}{251}
+\indexentry{allocation of bit-fields within a class object@allocation of bit-fields within a class object|hyperpage}{281}
+\indexentry{alignment of bit-fields within a class object@alignment of bit-fields within a class object|hyperpage}{281}
+\indexentry{maximum depth of recursive template instantiations@maximum depth of recursive template instantiations|hyperpage}{412}
+\indexentry{stack unwinding before invocation of std::terminate@stack unwinding before invocation of \texttt  {std::terminate}|hyperpage}{443}
+\indexentry{stack unwinding before invocation of std::terminate@stack unwinding before invocation of \texttt  {std::terminate}|hyperpage}{447}
+\indexentry{whether stack is unwound before invoking the function std::terminate when a noexcept specification is violated@whether stack is unwound before invoking the function \texttt  {std::terminate} when a \texttt  {noexcept} specification is violated|hyperpage}{447}
+\indexentry{additional supported forms of preprocessing directive@additional supported forms of preprocessing directive|hyperpage}{449}
+\indexentry{value of has-attribute-expression for non-standard attributes@value of \leavevmode {\color  {grammar-gray}\textsf  {\textit  {has-attribute-expression}}} for non-standard attributes|hyperpage}{451}
+\indexentry{sequence of places searched for a header@sequence of places searched for a header|hyperpage}{452}
+\indexentry{search locations for <> header@search locations for \texttt  {<>} header|hyperpage}{452}
+\indexentry{manner of search for included source file@manner of search for included source file|hyperpage}{452}
+\indexentry{search locations for """" header@search locations for \texttt  {""""} header|hyperpage}{453}
+\indexentry{nesting limit for \#include directives@nesting limit for \texttt  {\#include} directives|hyperpage}{453}
+\indexentry{whether source file inclusion of importable header is replaced with import directive@whether source file inclusion of importable header is replaced with \texttt  {import} directive|hyperpage}{453}
+\indexentry{\#pragma@\texttt  {\#pragma}|hyperpage}{461}
+\indexentry{text of \T1\textunderscore \T1\textunderscore DATE\T1\textunderscore \T1\textunderscore  when date of translation is not available@text of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptDATE\kern .5pt\textunderscore \kern .5pt\textunderscore } when date of translation is not available|hyperpage}{461}
+\indexentry{text of \T1\textunderscore \T1\textunderscore TIME\T1\textunderscore \T1\textunderscore  when time of translation is not available@text of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptTIME\kern .5pt\textunderscore \kern .5pt\textunderscore } when time of translation is not available|hyperpage}{462}
+\indexentry{definition and meaning of \T1\textunderscore \T1\textunderscore STDC\T1\textunderscore \T1\textunderscore @definition and meaning of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptSTDC\kern .5pt\textunderscore \kern .5pt\textunderscore }|hyperpage}{463}
+\indexentry{definition and meaning of \T1\textunderscore \T1\textunderscore STDC\T1\textunderscore VERSION\T1\textunderscore \T1\textunderscore @definition and meaning of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptSTDC_VERSION\kern .5pt\textunderscore \kern .5pt\textunderscore }|hyperpage}{463}
+\indexentry{whether functions from Annex K of the C standard library are declared when C++{} headers are included@whether functions from Annex K of the C standard library are declared when C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} headers are included|hyperpage}{475}
+\indexentry{whether the implementation is hosted or freestanding@whether the implementation is hosted or freestanding|hyperpage}{475}
+\indexentry{headers for freestanding implementation@headers for freestanding implementation|hyperpage}{475}
+\indexentry{support for always lock-free integral atomic types in freestanding environments@support for always lock-free integral atomic types in freestanding environments|hyperpage}{476}
+\indexentry{type aliases atomic\T1\textunderscore signed\T1\textunderscore lock\T1\textunderscore free and atomic\T1\textunderscore unsigned\T1\textunderscore lock\T1\textunderscore free in freestanding environments@type aliases \texttt  {atomic_signed_lock_free} and \texttt  {atomic_unsigned_lock_free} in freestanding environments|hyperpage}{476}
+\indexentry{linkage of names from C standard library@linkage of names from C standard library|hyperpage}{476}
+\indexentry{which functions in the C++{} standard library may be recursively reentered@which functions in the C\kern -0.05em\raisebox {.35ex}{\textsmaller  [2]{+\kern -0.05em+}}{} standard library may be recursively reentered|hyperpage}{492}
+\indexentry{exceptions thrown by standard library functions that have a potentially-throwing exception specification@exceptions thrown by standard library functions that have a potentially-throwing exception specification|hyperpage}{493}
+\indexentry{error\T1\textunderscore category for errors originating outside the operating system@\texttt  {error_category} for errors originating outside the operating system|hyperpage}{493}
+\indexentry{definition of NULL@definition of \texttt  {NULL}|hyperpage}{497}
+\indexentry{type of ptrdiff\T1\textunderscore t@type of \texttt  {ptrdiff_t}|hyperpage}{498}
+\indexentry{type of size\T1\textunderscore t@type of \texttt  {size_t}|hyperpage}{498}
+\indexentry{exit status@exit status|hyperpage}{512}
+\indexentry{exit status@exit status|hyperpage}{512}
+\indexentry{exit status@exit status|hyperpage}{512}
+\indexentry{return value of bad\T1\textunderscore alloc::what@return value of \texttt  {bad_alloc::what}|hyperpage}{518}
+\indexentry{maximum size of an allocated object@maximum size of an allocated object|hyperpage}{518}
+\indexentry{return value of bad\T1\textunderscore array\T1\textunderscore new\T1\textunderscore length::what@return value of \texttt  {bad_array_new_length::what}|hyperpage}{518}
+\indexentry{return value of type\T1\textunderscore info::name()@return value of \texttt  {type_info::name()}|hyperpage}{520}
+\indexentry{return value of bad\T1\textunderscore cast::what@return value of \texttt  {bad_cast::what}|hyperpage}{520}
+\indexentry{return value of bad\T1\textunderscore typeid::what@return value of \texttt  {bad_typeid::what}|hyperpage}{521}
+\indexentry{return value of source\T1\textunderscore location::current@return value of \texttt  {source_location::current}|hyperpage}{522}
+\indexentry{column value of source\T1\textunderscore location::current@column value of \texttt  {source_location::current}|hyperpage}{522}
+\indexentry{return value of exception::what@return value of \texttt  {exception::what}|hyperpage}{524}
+\indexentry{return value of bad\T1\textunderscore exception::what@return value of \texttt  {bad_exception::what}|hyperpage}{524}
+\indexentry{resuming a coroutine on a different execution agent@resuming a coroutine on a different execution agent|hyperpage}{538}
+\indexentry{stacktrace\T1\textunderscore entry::native\T1\textunderscore handle\T1\textunderscore type@\texttt  {stacktrace_entry::native_handle_type}|hyperpage}{572}
+\indexentry{semantics of stacktrace\T1\textunderscore entry::native\T1\textunderscore handle@semantics of \texttt  {stacktrace_entry::native_handle}|hyperpage}{573}
+\indexentry{type of basic\T1\textunderscore stacktrace::const\T1\textunderscore iterator@type of \texttt  {basic_stacktrace::const_iterator}|hyperpage}{573}
+\indexentry{type of basic\T1\textunderscore stacktrace::difference\T1\textunderscore type@type of \texttt  {basic_stacktrace::difference_type}|hyperpage}{573}
+\indexentry{type of basic\T1\textunderscore stacktrace::size\T1\textunderscore type@type of \texttt  {basic_stacktrace::size_type}|hyperpage}{573}
+\indexentry{return value of bad\T1\textunderscore weak\T1\textunderscore ptr::what@return value of \texttt  {bad_weak_ptr::what}|hyperpage}{603}
+\indexentry{exception type when shared\T1\textunderscore ptr constructor fails@exception type when \texttt  {shared_ptr} constructor fails|hyperpage}{606}
+\indexentry{exception type when shared\T1\textunderscore ptr constructor fails@exception type when \texttt  {shared_ptr} constructor fails|hyperpage}{606}
+\indexentry{largest supported value to configure the maximum number of blocks to replenish a pool@largest supported value to configure the maximum number of blocks to replenish a pool|hyperpage}{627}
+\indexentry{largest supported value to configure the largest allocation satisfied directly by a pool@largest supported value to configure the largest allocation satisfied directly by a pool|hyperpage}{627}
+\indexentry{default configuration of a pool@default configuration of a pool|hyperpage}{628}
+\indexentry{default next\T1\textunderscore buffer\T1\textunderscore size for a monotonic\T1\textunderscore buffer\T1\textunderscore resource@default \texttt  {next_buffer_size} for a \texttt  {monotonic_buffer_resource}|hyperpage}{629}
+\indexentry{growth factor for monotonic\T1\textunderscore buffer\T1\textunderscore resource@growth factor for \texttt  {monotonic_buffer_resource}|hyperpage}{629}
+\indexentry{growth factor for monotonic\T1\textunderscore buffer\T1\textunderscore resource@growth factor for \texttt  {monotonic_buffer_resource}|hyperpage}{629}
+\indexentry{which scalar types have unique object representations@which scalar types have unique object representations|hyperpage}{649}
+\indexentry{return value of bad\T1\textunderscore optional\T1\textunderscore access::what@return value of \texttt  {bad_optional_access::what}|hyperpage}{697}
+\indexentry{return value of bad\T1\textunderscore variant\T1\textunderscore access::what@return value of \texttt  {bad_variant_access::what}|hyperpage}{711}
+\indexentry{return value of bad\T1\textunderscore any\T1\textunderscore cast::what@return value of \texttt  {bad_any_cast::what}|hyperpage}{712}
+\indexentry{number of placeholders for bind expressions@number of placeholders for bind expressions|hyperpage}{739}
+\indexentry{number of placeholders for bind expressions@number of placeholders for bind expressions|hyperpage}{754}
+\indexentry{assignability of placeholder objects@assignability of placeholder objects|hyperpage}{755}
+\indexentry{return value of bad\T1\textunderscore function\T1\textunderscore call::what@return value of \texttt  {bad_function_call::what}|hyperpage}{755}
+\indexentry{additional execution policies supported by parallel algorithms@additional execution policies supported by parallel algorithms|hyperpage}{767}
+\indexentry{encoding assumption for format width computation@encoding assumption for \texttt  {format} width computation|hyperpage}{775}
+\indexentry{supported multibyte character encoding rules@supported multibyte character encoding rules|hyperpage}{796}
+\indexentry{return value of char\T1\textunderscore traits<char8\T1\textunderscore t>::eof@return value of \texttt  {char_traits<char8_t>::eof}|hyperpage}{796}
+\indexentry{return value of char\T1\textunderscore traits<char16\T1\textunderscore t>::eof@return value of \texttt  {char_traits<char16_t>::eof}|hyperpage}{797}
+\indexentry{return value of char\T1\textunderscore traits<char32\T1\textunderscore t>::eof@return value of \texttt  {char_traits<char32_t>::eof}|hyperpage}{797}
+\indexentry{type of basic\T1\textunderscore string\T1\textunderscore view::const\T1\textunderscore iterator@type of \texttt  {basic_string_view::const_iterator}|hyperpage}{799}
+\indexentry{type of basic\T1\textunderscore string\T1\textunderscore view::const\T1\textunderscore iterator@type of \texttt  {basic_string_view::const_iterator}|hyperpage}{802}
+\indexentry{type of basic\T1\textunderscore string::iterator@type of \texttt  {basic_string::iterator}|hyperpage}{812}
+\indexentry{type of basic\T1\textunderscore string::const\T1\textunderscore iterator@type of \texttt  {basic_string::const_iterator}|hyperpage}{812}
+\indexentry{type of array::iterator@type of \texttt  {array::iterator}|hyperpage}{879}
+\indexentry{type of array::const\T1\textunderscore iterator@type of \texttt  {array::const_iterator}|hyperpage}{879}
+\indexentry{type of deque::size\T1\textunderscore type@type of \texttt  {deque::size_type}|hyperpage}{881}
+\indexentry{type of deque::difference\T1\textunderscore type@type of \texttt  {deque::difference_type}|hyperpage}{881}
+\indexentry{type of deque::iterator@type of \texttt  {deque::iterator}|hyperpage}{882}
+\indexentry{type of deque::const\T1\textunderscore iterator@type of \texttt  {deque::const_iterator}|hyperpage}{882}
+\indexentry{type of forward\T1\textunderscore list::size\T1\textunderscore type@type of \texttt  {forward_list::size_type}|hyperpage}{886}
+\indexentry{type of forward\T1\textunderscore list::difference\T1\textunderscore type@type of \texttt  {forward_list::difference_type}|hyperpage}{886}
+\indexentry{type of forward\T1\textunderscore list::iterator@type of \texttt  {forward_list::iterator}|hyperpage}{886}
+\indexentry{type of forward\T1\textunderscore list::const\T1\textunderscore iterator@type of \texttt  {forward_list::const_iterator}|hyperpage}{886}
+\indexentry{type of list::size\T1\textunderscore type@type of \texttt  {list::size_type}|hyperpage}{893}
+\indexentry{type of list::difference\T1\textunderscore type@type of \texttt  {list::difference_type}|hyperpage}{893}
+\indexentry{type of list::iterator@type of \texttt  {list::iterator}|hyperpage}{893}
+\indexentry{type of list::const\T1\textunderscore iterator@type of \texttt  {list::const_iterator}|hyperpage}{893}
+\indexentry{type of vector::size\T1\textunderscore type@type of \texttt  {vector::size_type}|hyperpage}{899}
+\indexentry{type of vector::difference\T1\textunderscore type@type of \texttt  {vector::difference_type}|hyperpage}{899}
+\indexentry{type of vector::iterator@type of \texttt  {vector::iterator}|hyperpage}{899}
+\indexentry{type of vector::const\T1\textunderscore iterator@type of \texttt  {vector::const_iterator}|hyperpage}{899}
+\indexentry{type of vector<bool>::pointer@type of \texttt  {vector<bool>::pointer}|hyperpage}{903}
+\indexentry{type of vector<bool>::const\T1\textunderscore pointer@type of \texttt  {vector<bool>::const_pointer}|hyperpage}{903}
+\indexentry{type of vector<bool>::size\T1\textunderscore type@type of \texttt  {vector<bool>::size_type}|hyperpage}{903}
+\indexentry{type of vector<bool>::difference\T1\textunderscore type@type of \texttt  {vector<bool>::difference_type}|hyperpage}{903}
+\indexentry{type of vector<bool>::iterator@type of \texttt  {vector<bool>::iterator}|hyperpage}{903}
+\indexentry{type of vector<bool>::const\T1\textunderscore iterator@type of \texttt  {vector<bool>::const_iterator}|hyperpage}{904}
+\indexentry{type of map::size\T1\textunderscore type@type of \texttt  {map::size_type}|hyperpage}{908}
+\indexentry{type of map::difference\T1\textunderscore type@type of \texttt  {map::difference_type}|hyperpage}{908}
+\indexentry{type of map::iterator@type of \texttt  {map::iterator}|hyperpage}{908}
+\indexentry{type of map::const\T1\textunderscore iterator@type of \texttt  {map::const_iterator}|hyperpage}{908}
+\indexentry{type of multimap::size\T1\textunderscore type@type of \texttt  {multimap::size_type}|hyperpage}{914}
+\indexentry{type of multimap::difference\T1\textunderscore type@type of \texttt  {multimap::difference_type}|hyperpage}{914}
+\indexentry{type of multimap::iterator@type of \texttt  {multimap::iterator}|hyperpage}{914}
+\indexentry{type of multimap::const\T1\textunderscore iterator@type of \texttt  {multimap::const_iterator}|hyperpage}{914}
+\indexentry{type of set::size\T1\textunderscore type@type of \texttt  {set::size_type}|hyperpage}{918}
+\indexentry{type of set::difference\T1\textunderscore type@type of \texttt  {set::difference_type}|hyperpage}{918}
+\indexentry{type of set::iterator@type of \texttt  {set::iterator}|hyperpage}{918}
+\indexentry{type of set::const\T1\textunderscore iterator@type of \texttt  {set::const_iterator}|hyperpage}{918}
+\indexentry{type of multiset::size\T1\textunderscore type@type of \texttt  {multiset::size_type}|hyperpage}{921}
+\indexentry{type of multiset::difference\T1\textunderscore type@type of \texttt  {multiset::difference_type}|hyperpage}{921}
+\indexentry{type of multiset::iterator@type of \texttt  {multiset::iterator}|hyperpage}{922}
+\indexentry{type of multiset::const\T1\textunderscore iterator@type of \texttt  {multiset::const_iterator}|hyperpage}{922}
+\indexentry{type of unordered\T1\textunderscore map::size\T1\textunderscore type@type of \texttt  {unordered_map::size_type}|hyperpage}{927}
+\indexentry{type of unordered\T1\textunderscore map::difference\T1\textunderscore type@type of \texttt  {unordered_map::difference_type}|hyperpage}{927}
+\indexentry{type of unordered\T1\textunderscore map::iterator@type of \texttt  {unordered_map::iterator}|hyperpage}{927}
+\indexentry{type of unordered\T1\textunderscore map::const\T1\textunderscore iterator@type of \texttt  {unordered_map::const_iterator}|hyperpage}{927}
+\indexentry{type of unordered\T1\textunderscore map::local\T1\textunderscore iterator@type of \texttt  {unordered_map::local_iterator}|hyperpage}{927}
+\indexentry{type of unordered\T1\textunderscore map::const\T1\textunderscore local\T1\textunderscore iterator@type of \texttt  {unordered_map::const_local_iterator}|hyperpage}{927}
+\indexentry{default number of buckets in unordered\T1\textunderscore map@default number of buckets in \texttt  {unordered_map}|hyperpage}{932}
+\indexentry{default number of buckets in unordered\T1\textunderscore map@default number of buckets in \texttt  {unordered_map}|hyperpage}{932}
+\indexentry{type of unordered\T1\textunderscore multimap::size\T1\textunderscore type@type of \texttt  {unordered_multimap::size_type}|hyperpage}{934}
+\indexentry{type of unordered\T1\textunderscore multimap::difference\T1\textunderscore type@type of \texttt  {unordered_multimap::difference_type}|hyperpage}{934}
+\indexentry{type of unordered\T1\textunderscore multimap::iterator@type of \texttt  {unordered_multimap::iterator}|hyperpage}{934}
+\indexentry{type of unordered\T1\textunderscore multimap::const\T1\textunderscore iterator@type of \texttt  {unordered_multimap::const_iterator}|hyperpage}{934}
+\indexentry{type of unordered\T1\textunderscore multimap::local\T1\textunderscore iterator@type of \texttt  {unordered_multimap::local_iterator}|hyperpage}{934}
+\indexentry{type of unordered\T1\textunderscore multimap::const\T1\textunderscore local\T1\textunderscore it\discretionary {\char \defaulthyphenchar }{}{}erator@type of \texttt  {unordered_multimap::const_local_it\-erator}|hyperpage}{934}
+\indexentry{default number of buckets in unordered\T1\textunderscore multimap@default number of buckets in \texttt  {unordered_multimap}|hyperpage}{938}
+\indexentry{default number of buckets in unordered\T1\textunderscore multimap@default number of buckets in \texttt  {unordered_multimap}|hyperpage}{939}
+\indexentry{type of unordered\T1\textunderscore set::size\T1\textunderscore type@type of \texttt  {unordered_set::size_type}|hyperpage}{940}
+\indexentry{type of unordered\T1\textunderscore set::difference\T1\textunderscore type@type of \texttt  {unordered_set::difference_type}|hyperpage}{940}
+\indexentry{type of unordered\T1\textunderscore set::iterator@type of \texttt  {unordered_set::iterator}|hyperpage}{940}
+\indexentry{type of unordered\T1\textunderscore set::const\T1\textunderscore iterator@type of \texttt  {unordered_set::const_iterator}|hyperpage}{940}
+\indexentry{type of unordered\T1\textunderscore set::local\T1\textunderscore iterator@type of \texttt  {unordered_set::local_iterator}|hyperpage}{940}
+\indexentry{type of unordered\T1\textunderscore set::const\T1\textunderscore local\T1\textunderscore iterator@type of \texttt  {unordered_set::const_local_iterator}|hyperpage}{940}
+\indexentry{default number of buckets in unordered\T1\textunderscore set@default number of buckets in \texttt  {unordered_set}|hyperpage}{943}
+\indexentry{default number of buckets in unordered\T1\textunderscore set@default number of buckets in \texttt  {unordered_set}|hyperpage}{944}
+\indexentry{type of unordered\T1\textunderscore multiset::size\T1\textunderscore type@type of \texttt  {unordered_multiset::size_type}|hyperpage}{945}
+\indexentry{type of unordered\T1\textunderscore multiset::difference\T1\textunderscore type@type of \texttt  {unordered_multiset::difference_type}|hyperpage}{945}
+\indexentry{type of unordered\T1\textunderscore multiset::iterator@type of \texttt  {unordered_multiset::iterator}|hyperpage}{945}
+\indexentry{type of unordered\T1\textunderscore multiset::const\T1\textunderscore iterator@type of \texttt  {unordered_multiset::const_iterator}|hyperpage}{945}
+\indexentry{type of unordered\T1\textunderscore multiset::local\T1\textunderscore iterator@type of \texttt  {unordered_multiset::local_iterator}|hyperpage}{945}
+\indexentry{type of unordered\T1\textunderscore multiset::const\T1\textunderscore local\T1\textunderscore it\discretionary {\char \defaulthyphenchar }{}{}erator@type of \texttt  {unordered_multiset::const_local_it\-erator}|hyperpage}{945}
+\indexentry{default number of buckets in unordered\T1\textunderscore multiset@default number of buckets in \texttt  {unordered_multiset}|hyperpage}{948}
+\indexentry{default number of buckets in unordered\T1\textunderscore multiset@default number of buckets in \texttt  {unordered_multiset}|hyperpage}{949}
+\indexentry{type of span::iterator@type of \texttt  {span::iterator}|hyperpage}{961}
+\indexentry{type of span::iterator@type of \texttt  {span::iterator}|hyperpage}{966}
+\indexentry{integer-class type@integer-class type|hyperpage}{982}
+\indexentry{forward progress guarantees for implicit threads of parallel algorithms (if not defined for thread)@forward progress guarantees for implicit threads of parallel algorithms (if not defined for \texttt  {thread})|hyperpage}{1151}
+\indexentry{additional execution policies supported by parallel algorithms@additional execution policies supported by parallel algorithms|hyperpage}{1152}
+\indexentry{semantics of parallel algorithms invoked with imple\discretionary {\char \hyphenchar \font }{}{}men\discretionary {\char \hyphenchar \font }{}{}tation-defined execution policies@semantics of parallel algorithms invoked with imple\-men\-tation-defined execution policies|hyperpage}{1152}
+\indexentry{whether pragma FENV\T1\textunderscore ACCESS is supported@whether pragma \texttt  {FENV_ACCESS} is supported|hyperpage}{1269}
+\indexentry{whether <cfenv> functions can be used to manage floating-point status@whether \texttt  {<cfenv>} functions can be used to manage floating-point status|hyperpage}{1269}
+\indexentry{value of pow(0,0)@value of \texttt  {pow(0,0)}|hyperpage}{1276}
+\indexentry{type of default\T1\textunderscore random\T1\textunderscore engine@type of \texttt  {default_random_engine}|hyperpage}{1295}
+\indexentry{type of default\T1\textunderscore random\T1\textunderscore engine@type of \texttt  {default_random_engine}|hyperpage}{1295}
+\indexentry{exception type when random\T1\textunderscore device constructor fails@exception type when \texttt  {random_device} constructor fails|hyperpage}{1296}
+\indexentry{semantics of token parameter and default token value used by random\T1\textunderscore device constructors@semantics of \texttt  {token} parameter and default token value used by \texttt  {random_device} constructors|hyperpage}{1296}
+\indexentry{how random\T1\textunderscore device::operator() generates values@how \texttt  {random_device::operator()} generates values|hyperpage}{1296}
+\indexentry{exception type when random\T1\textunderscore device::operator() fails@exception type when \texttt  {random_device::operator()} fails|hyperpage}{1296}
+\indexentry{algorithms for producing the standard random number distributions@algorithms for producing the standard random number distributions|hyperpage}{1298}
+\indexentry{whether rand may introduce a data race@whether \texttt  {rand} may introduce a data race|hyperpage}{1319}
+\indexentry{effect of calling associated Laguerre polynomials with n >= 128 or m >= 128@effect of calling associated Laguerre polynomials with \texttt  {n >= 128} or \texttt  {m >= 128}|hyperpage}{1348}
+\indexentry{effect of calling associated Legendre polynomials with l >= 128@effect of calling associated Legendre polynomials with \texttt  {l >= 128}|hyperpage}{1348}
+\indexentry{effect of calling regular modified cylindrical Bessel functions with nu >= 128@effect of calling regular modified cylindrical Bessel functions with \texttt  {nu >= 128}|hyperpage}{1350}
+\indexentry{effect of calling cylindrical Bessel functions of the first kind with nu >= 128@effect of calling cylindrical Bessel functions of the first kind with \texttt  {nu >= 128}|hyperpage}{1350}
+\indexentry{effect of calling irregular modified cylindrical Bessel functions with nu >= 128@effect of calling irregular modified cylindrical Bessel functions with \texttt  {nu >= 128}|hyperpage}{1350}
+\indexentry{effect of calling cylindrical Neumann functions with nu >= 128@effect of calling cylindrical Neumann functions with \texttt  {nu >= 128}|hyperpage}{1350}
+\indexentry{effect of calling Hermite polynomials with n >= 128@effect of calling Hermite polynomials with \texttt  {n >= 128}|hyperpage}{1351}
+\indexentry{effect of calling Laguerre polynomials with n >= 128@effect of calling Laguerre polynomials with \texttt  {n >= 128}|hyperpage}{1352}
+\indexentry{effect of calling Legendre polynomials with l >= 128@effect of calling Legendre polynomials with \texttt  {l >= 128}|hyperpage}{1352}
+\indexentry{effect of calling spherical Bessel functions with n >= 128@effect of calling spherical Bessel functions with \texttt  {n >= 128}|hyperpage}{1352}
+\indexentry{effect of calling spherical associated Legendre functions with l >= 128@effect of calling spherical associated Legendre functions with \texttt  {l >= 128}|hyperpage}{1353}
+\indexentry{effect of calling spherical Neumann functions with n >= 128@effect of calling spherical Neumann functions with \texttt  {n >= 128}|hyperpage}{1353}
+\indexentry{unit suffix when Period::type is micro@unit suffix when \texttt  {Period::type} is \texttt  {micro}|hyperpage}{1377}
+\indexentry{whether values are rounded or truncated to the required precision when converting between time\T1\textunderscore t values and time\T1\textunderscore point objects@whether values are rounded or truncated to the required precision when converting between \texttt  {time_t} values and \texttt  {time_point} objects|hyperpage}{1381}
+\indexentry{whether values are rounded or truncated to the required precision when converting between time\T1\textunderscore t values and time\T1\textunderscore point objects@whether values are rounded or truncated to the required precision when converting between \texttt  {time_t} values and \texttt  {time_point} objects|hyperpage}{1381}
+\indexentry{whether locale object is global or per-thread@whether locale object is global or per-thread|hyperpage}{1449}
+\indexentry{set of character types that iostreams templates can be instantiated for@set of character types that iostreams templates can be instantiated for|hyperpage}{1450}
+\indexentry{locale names@locale names|hyperpage}{1451}
+\indexentry{effect on C locale of calling locale::global@effect on C locale of calling \texttt  {locale::global}|hyperpage}{1452}
+\indexentry{value of ctype<char>::table\T1\textunderscore size@value of \texttt  {ctype<char>::table_size}|hyperpage}{1457}
+\indexentry{additional formats for time\T1\textunderscore get::do\T1\textunderscore get\T1\textunderscore date@additional formats for \texttt  {time_get::do_get_date}|hyperpage}{1476}
+\indexentry{whether time\T1\textunderscore get::do\T1\textunderscore get\T1\textunderscore year accepts two-digit year numbers@whether \texttt  {time_get::do_get_year} accepts two-digit year numbers|hyperpage}{1476}
+\indexentry{formatted character sequence generated by time\T1\textunderscore put::do\T1\textunderscore put in C locale@formatted character sequence generated by \texttt  {time_put::do_put} in C locale|hyperpage}{1478}
+\indexentry{mapping from name to catalog when calling mes\discretionary {\char \hyphenchar \font }{}{}sages::do\T1\textunderscore open@mapping from name to catalog when calling \texttt  {mes\-sages::do_open}|hyperpage}{1484}
+\indexentry{mapping to message when calling messages::do\T1\textunderscore get@mapping to message when calling \texttt  {messages::do_get}|hyperpage}{1484}
+\indexentry{resource limits on a message catalog@resource limits on a message catalog|hyperpage}{1485}
+\indexentry{type of streamoff@type of \texttt  {streamoff}|hyperpage}{1486}
+\indexentry{behavior of iostream classes when traits::pos\T1\textunderscore type is not streampos or when traits::\discretionary {}{}{}{}off\T1\textunderscore type is not streamoff@behavior of iostream classes when \texttt  {traits::pos_type} is not \texttt  {streampos} or when \texttt  {traits::\discretionary {}{}{}{}off_type} is not \texttt  {streamoff}|hyperpage}{1486}
+\indexentry{set of character types that iostreams templates can be instantiated for@set of character types that iostreams templates can be instantiated for|hyperpage}{1486}
+\indexentry{effect of calling ios\T1\textunderscore base::sync\T1\textunderscore with\T1\textunderscore stdio after any input or output operation on standard streams@effect of calling \texttt  {ios_base::sync_with_stdio} after any input or output operation on standard streams|hyperpage}{1497}
+\indexentry{argument values to construct ios\T1\textunderscore base::failure@argument values to construct \texttt  {ios_base::failure}|hyperpage}{1503}
+\indexentry{NTCTS in basic\T1\textunderscore ostream<charT, traits>\& op\discretionary {\char \hyphenchar \font }{}{}er\discretionary {\char \hyphenchar \font }{}{}ator<<(nullptr\T1\textunderscore t)@NTCTS in \texttt  {basic_ostream<charT, traits>\& op\-er\-ator<<(nullptr_t)}|hyperpage}{1531}
+\indexentry{whether sequence pointers are initialized to null pointers@whether sequence pointers are initialized to null pointers|hyperpage}{1540}
+\indexentry{whether sequence pointers are copied by basic\T1\textunderscore stringbuf move constructor@whether sequence pointers are copied by \texttt  {basic_stringbuf} move constructor|hyperpage}{1541}
+\indexentry{effect of calling basic\T1\textunderscore streambuf::setbuf with nonzero arguments@effect of calling \texttt  {basic_streambuf::setbuf} with nonzero arguments|hyperpage}{1544}
+\indexentry{whether basic\T1\textunderscore spanbuf's move source is empty after a move@whether \texttt  {basic_spanbuf}'s move source is empty after a move|hyperpage}{1554}
+\indexentry{whether sequence pointers are copied by basic\T1\textunderscore filebuf move constructor@whether sequence pointers are copied by \texttt  {basic_filebuf} move constructor|hyperpage}{1561}
+\indexentry{effect of calling basic\T1\textunderscore filebuf::setbuf with nonzero arguments@effect of calling \texttt  {basic_filebuf::setbuf} with nonzero arguments|hyperpage}{1564}
+\indexentry{effect of calling basic\T1\textunderscore filebuf::sync when a get area exists@effect of calling \texttt  {basic_filebuf::sync} when a get area exists|hyperpage}{1565}
+\indexentry{operating system on which implementation depends@operating system on which implementation depends|hyperpage}{1577}
+\indexentry{supported root-name{s} in addition to any operating system dependent root-name{s}@supported \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s} in addition to any operating system dependent \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s}|hyperpage}{1584}
+\indexentry{meaning of dot-dot in root-directory@meaning of dot-dot in \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-directory}}}|hyperpage}{1585}
+\indexentry{supported root-name{s} in addition to any operating system dependent root-name{s}@supported \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s} in addition to any operating system dependent \leavevmode {\color  {grammar-gray}\textsf  {\textit  {root-name}}}{s}|hyperpage}{1585}
+\indexentry{interpretation of the path character sequence with format path::auto\T1\textunderscore format@interpretation of the path character sequence with format \texttt  {path::auto_format}|hyperpage}{1597}
+\indexentry{additional file\T1\textunderscore type enumerators for file systems supporting additional types of file@additional \texttt  {file_type} enumerators for file systems supporting additional types of file|hyperpage}{1598}
+\indexentry{additional file\T1\textunderscore type enumerators for file systems supporting additional types of file@additional \texttt  {file_type} enumerators for file systems supporting additional types of file|hyperpage}{1598}
+\indexentry{type of a directory-like file@type of a directory-like file|hyperpage}{1605}
+\indexentry{type of a directory-like file@type of a directory-like file|hyperpage}{1606}
+\indexentry{effect of filesystem::copy@effect of \texttt  {filesystem::copy}|hyperpage}{1610}
+\indexentry{result of filesystem::file\T1\textunderscore size@result of \texttt  {filesystem::file_size}|hyperpage}{1615}
+\indexentry{file type of the file argument of filesystem::status@file type of the file argument of \texttt  {filesystem::status}|hyperpage}{1620}
+\indexentry{type of syntax\T1\textunderscore option\T1\textunderscore type@type of \texttt  {syntax_option_type}|hyperpage}{1631}
+\indexentry{type of regex\T1\textunderscore constants::match\T1\textunderscore flag\T1\textunderscore type@type of \texttt  {regex_constants::match_flag_type}|hyperpage}{1631}
+\indexentry{type of regex\T1\textunderscore constants::error\T1\textunderscore type@type of \texttt  {regex_constants::error_type}|hyperpage}{1633}
+\indexentry{presence and meaning of native\T1\textunderscore handle\T1\textunderscore type and native\T1\textunderscore handle@presence and meaning of \texttt  {native_handle_type} and \texttt  {native_handle}|hyperpage}{1659}
+\indexentry{values of various ATOMIC\T1\textunderscore ...\T1\textunderscore LOCK\T1\textunderscore FREE macros@values of various \texttt  {ATOMIC_..._LOCK_FREE} macros|hyperpage}{1680}
+\indexentry{required alignment for atomic\T1\textunderscore ref type's operations@required alignment for \texttt  {atomic_ref} type's operations|hyperpage}{1682}
+\indexentry{whether a given atomic\T1\textunderscore ref type's operations are always lock free@whether a given \texttt  {atomic_ref} type's operations are always lock free|hyperpage}{1682}
+\indexentry{required alignment for atomic\T1\textunderscore ref type's operations@required alignment for \texttt  {atomic_ref} type's operations|hyperpage}{1684}
+\indexentry{whether a given atomic\T1\textunderscore ref type's operations are always lock free@whether a given \texttt  {atomic_ref} type's operations are always lock free|hyperpage}{1684}
+\indexentry{required alignment for atomic\T1\textunderscore ref type's operations@required alignment for \texttt  {atomic_ref} type's operations|hyperpage}{1686}
+\indexentry{whether a given atomic\T1\textunderscore ref type's operations are always lock free@whether a given \texttt  {atomic_ref} type's operations are always lock free|hyperpage}{1686}
+\indexentry{required alignment for atomic\T1\textunderscore ref type's operations@required alignment for \texttt  {atomic_ref} type's operations|hyperpage}{1687}
+\indexentry{whether a given atomic\T1\textunderscore ref type's operations are always lock free@whether a given \texttt  {atomic_ref} type's operations are always lock free|hyperpage}{1687}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1688}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1689}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1692}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1694}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1696}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1699}
+\indexentry{whether a given atomic type's operations are always lock free@whether a given \texttt  {atomic} type's operations are always lock free|hyperpage}{1701}
+\indexentry{default value for least\T1\textunderscore max\T1\textunderscore value template parameter of counting\T1\textunderscore semaphore@default value for \texttt  {least_max_value} template parameter of \texttt  {counting_semaphore}|hyperpage}{1733}
+\indexentry{value of future\T1\textunderscore errc::broken\T1\textunderscore promise@value of \texttt  {future_errc::broken_promise}|hyperpage}{1738}
+\indexentry{value of future\T1\textunderscore errc::future\T1\textunderscore already\T1\textunderscore retrieved@value of \texttt  {future_errc::future_already_retrieved}|hyperpage}{1738}
+\indexentry{value of future\T1\textunderscore errc::promise\T1\textunderscore already\T1\textunderscore satisfied@value of \texttt  {future_errc::promise_already_satisfied}|hyperpage}{1738}
+\indexentry{value of future\T1\textunderscore errc::no\T1\textunderscore state@value of \texttt  {future_errc::no_state}|hyperpage}{1738}
+\indexentry{last enumerator of launch@last enumerator of \texttt  {launch}|hyperpage}{1738}
+\indexentry{mapping physical source file characters to translation character set@mapping physical source file characters to translation character set|hyperpage}{1785}
+\indexentry{definition and meaning of \T1\textunderscore \T1\textunderscore STDC\T1\textunderscore \T1\textunderscore @definition and meaning of \texttt  {\textunderscore \kern .5pt\textunderscore \kern .5ptSTDC\kern .5pt\textunderscore \kern .5pt\textunderscore }|hyperpage}{1803}
+\indexentry{definition of NULL@definition of \texttt  {NULL}|hyperpage}{1804}
+\indexentry{behavior of strstreambuf::setbuf@behavior of \texttt  {strstreambuf::setbuf}|hyperpage}{1813}

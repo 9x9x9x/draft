@@ -1,0 +1,353 @@
+\begin{theindex}
+
+  \item \texttt  {<algorithm>}, \hyperpage{500, 501}, 
+		\hyperindexformat{\idxbfpage}{1153}, \hyperpage{1793}
+  \item \texttt  {<any>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{711}, \hyperpage{1787}
+  \item \texttt  {<array>}, \hyperpage{499}, \hyperpage{501}, 
+		\hyperpage{684}, \hyperindexformat{\idxbfpage}{876}, 
+		\hyperpage{876}, \hyperpage{879}, \hyperpage{1024}, 
+		\hyperpage{1793}, \hyperpage{1818}
+  \item \texttt  {<assert.h>}, \hyperpage{476}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{561}, 
+		\hyperpage{1804}
+  \item \texttt  {<atomic>}, \hyperpage{475}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1674}, \hyperpage{1707}, 
+		\hyperpage{1793}, \hyperpage{1827}
+
+  \indexspace
+
+  \item \texttt  {<barrier>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1736}, \hyperpage{1783}
+  \item \texttt  {<bit>}, \hyperpage{499, 500}, 
+		\hyperindexformat{\idxbfpage}{788}, \hyperpage{1783}
+  \item \texttt  {<bitset>}, \hyperindexformat{\idxbfpage}{732}
+
+  \indexspace
+
+  \item \texttt  {<cassert>}, \hyperpage{476}, 
+		\hyperindexformat{\idxbfpage}{561}, \hyperpage{1804}
+  \item \texttt  {<cctype>}, \hyperindexformat{\idxbfpage}{836}, 
+		\hyperpage{1455}
+  \item \texttt  {<cerrno>}, \hyperpage{488}, 
+		\hyperindexformat{\idxbfpage}{561}, \hyperpage{565}
+  \item \texttt  {<cfenv>}, \hyperindexformat{\idxbfpage}{1268}, 
+		\hyperpage{1269}, \hyperpage{1793}
+  \item \texttt  {<cfloat>}, \hyperpage{75}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{509}, \hyperpage{510}
+  \item \texttt  {<charconv>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{768}, \hyperpage{1783}, 
+		\hyperpage{1787}
+  \item \texttt  {<chrono>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1355}, \hyperpage{1793}
+  \item \texttt  {<cinttypes>}, \hyperindexformat{\idxbfpage}{1623}, 
+		\hyperpage{1624}, \hyperpage{1793}
+  \item \texttt  {<climits>}, \hyperpage{59}, \hyperpage{75}, 
+		\hyperpage{499}, \hyperindexformat{\idxbfpage}{509}, 
+		\hyperpage{509}, \hyperpage{1811}
+  \item \texttt  {<clocale>}, \hyperindexformat{\idxbfpage}{1485}, 
+		\hyperpage{1804}
+  \item \texttt  {<cmath>}, \hyperpage{500, 501}, \hyperpage{543}, 
+		\hyperindexformat{\idxbfpage}{1338}, \hyperpage{1347}, 
+		\hyperpage{1783}
+  \item \texttt  {<codecvt>}, \hyperpage{1793}, 
+		\hyperindexformat{\idxbfpage}{1821}
+  \item \texttt  {<compare>}, \hyperpage{142}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{528}, \hyperpage{1783}
+  \item \texttt  {<complex>}, \hyperpage{500}, \hyperpage{543}, 
+		\hyperindexformat{\idxbfpage}{1269}, \hyperpage{1269}, 
+		\hyperpage{1783}
+  \item \texttt  {<complex.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{543}, \hyperpage{1804}
+  \item \texttt  {<concepts>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{546}, \hyperpage{1783}
+  \item \texttt  {<condition_variable>}, 
+		\hyperindexformat{\idxbfpage}{1726}, \hyperpage{1793}
+  \item \texttt  {<coroutine>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{536}, \hyperpage{536}, 
+		\hyperpage{1783}
+  \item \texttt  {<csetjmp>}, \hyperpage{488}, 
+		\hyperindexformat{\idxbfpage}{541}, \hyperpage{541}, 
+		\hyperpage{1805}
+  \item \texttt  {<csignal>}, \hyperpage{541}, 
+		\hyperindexformat{\idxbfpage}{542}
+  \item \texttt  {<cstdarg>}, \hyperpage{194}, \hyperpage{488}, 
+		\hyperindexformat{\idxbfpage}{541}, \hyperpage{541}
+  \item \texttt  {<cstddef>}, \hyperpage{131}, \hyperpage{141}, 
+		\hyperindexformat{\idxbfpage}{496}, \hyperpage{499}, 
+		\hyperpage{1804, 1805}
+  \item \texttt  {<cstdint>}, \hyperpage{75}, 
+		\hyperindexformat{\idxbfpage}{510}, \hyperpage{510}, 
+		\hyperpage{1624}, \hyperpage{1684}, \hyperpage{1692}, 
+		\hyperpage{1793}
+  \item \texttt  {<cstdio>}, \hyperpage{512}, \hyperpage{1489--1491}, 
+		\hyperpage{1496}, \hyperpage{1562}, 
+		\hyperindexformat{\idxbfpage}{1621}, \hyperpage{1622}, 
+		\hyperpage{1804}
+  \item \texttt  {<cstdlib>}, \hyperpage{89}, \hyperpage{475}, 
+		\hyperindexformat{\idxbfpage}{496}, \hyperpage{497}, 
+		\hyperpage{500}, \hyperpage{511, 512}, \hyperpage{515}, 
+		\hyperpage{541}, \hyperpage{544}, \hyperpage{578}, 
+		\hyperpage{594}, \hyperpage{839}, \hyperpage{1266}, 
+		\hyperpage{1319}, \hyperpage{1347}, \hyperpage{1466}, 
+		\hyperpage{1804, 1805}
+  \item \texttt  {<cstring>}, \hyperpage{267}, \hyperpage{471}, 
+		\hyperindexformat{\idxbfpage}{837}, \hyperpage{1804}, 
+		\hyperpage{1811}, \hyperpage{1814}
+  \item \texttt  {<ctime>}, \hyperindexformat{\idxbfpage}{1444}, 
+		\hyperpage{1444}, \hyperpage{1447}, \hyperpage{1804}
+  \item \texttt  {<ctype.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{836}
+  \item \texttt  {<cuchar>}, \hyperpage{489}, 
+		\hyperindexformat{\idxbfpage}{839}, \hyperpage{839}, 
+		\hyperpage{1793}, \hyperpage{1804}
+  \item \texttt  {<cwchar>}, \hyperpage{489}, \hyperpage{796}, 
+		\hyperindexformat{\idxbfpage}{837}, 
+		\hyperpage{838, 839}, \hyperpage{1804, 1805}
+  \item \texttt  {<cwctype>}, \hyperpage{489}, 
+		\hyperindexformat{\idxbfpage}{836}
+
+  \indexspace
+
+  \item \texttt  {<deque>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{876}, \hyperpage{876}, 
+		\hyperpage{1024}
+
+  \indexspace
+
+  \item \texttt  {<errno.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{561}
+  \item \texttt  {<exception>}, \hyperpage{502}, 
+		\hyperindexformat{\idxbfpage}{523}
+  \item \texttt  {<execution>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{766}, \hyperpage{767}, 
+		\hyperpage{1787}
+  \item \texttt  {<expected>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{716}, \hyperpage{1777}
+
+  \indexspace
+
+  \item \texttt  {<fenv.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1269}
+  \item \texttt  {<filesystem>}, \hyperpage{499, 500}, 
+		\hyperindexformat{\idxbfpage}{1577}, \hyperpage{1787}
+  \item \texttt  {<float.h>}, \hyperpage{510}, 
+		\hyperindexformat{\idxbfpage}{543}
+  \item \texttt  {<format>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{770}, \hyperpage{1783}
+  \item \texttt  {<forward_list>}, \hyperpage{499--501}, 
+		\hyperpage{876}, \hyperindexformat{\idxbfpage}{877}, 
+		\hyperpage{1024}, \hyperpage{1793}
+  \item \texttt  {<fstream>}, \hyperindexformat{\idxbfpage}{1559}, 
+		\hyperpage{1560}, \hyperpage{1620}
+  \item \texttt  {<functional>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{738}
+  \item \texttt  {<future>}, \hyperindexformat{\idxbfpage}{1738}, 
+		\hyperpage{1793}
+
+  \indexspace
+
+  \item \texttt  {<initializer_list>}, 
+		\hyperindexformat{\idxbfpage}{527}, \hyperpage{1793}
+  \item \texttt  {<inttypes.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1624}
+  \item \texttt  {<iomanip>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1514}, 
+		\hyperpage{1534, 1535}
+  \item \texttt  {<ios>}, \hyperindexformat{\idxbfpage}{1491}
+  \item \texttt  {<iosfwd>}, \hyperpage{5}, 
+		\hyperindexformat{\idxbfpage}{1487}, \hyperpage{1489}
+  \item \texttt  {<iostream>}, \hyperindexformat{\idxbfpage}{1489}, 
+		\hyperpage{1489, 1490}, \hyperpage{1496}
+  \item \texttt  {<iso646.h>}, \hyperpage{474}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{543}, 
+		\hyperpage{1804}
+  \item \texttt  {<istream>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1514}, \hyperpage{1515}
+  \item \texttt  {<iterator>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{967}, \hyperpage{1024}, 
+		\hyperpage{1034}, \hyperpage{1818}
+
+  \indexspace
+
+  \item \texttt  {<latch>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{1735}, \hyperpage{1783}
+  \item \texttt  {<limits>}, \hyperpage{75}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{502}
+  \item \texttt  {<limits.h>}, \hyperpage{509}, 
+		\hyperindexformat{\idxbfpage}{543}
+  \item \texttt  {<list>}, \hyperpage{499--501}, \hyperpage{876}, 
+		\hyperindexformat{\idxbfpage}{877}, \hyperpage{1024}
+  \item \texttt  {<locale>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1446}, \hyperpage{1447}, 
+		\hyperpage{1822}
+  \item \texttt  {<locale.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1485}
+
+  \indexspace
+
+  \item \texttt  {<map>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{906}, \hyperpage{906}, 
+		\hyperpage{1024}
+  \item \texttt  {<math.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1347}
+  \item \texttt  {<memory>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{578}, \hyperpage{578}, 
+		\hyperpage{1261}, \hyperpage{1698}, \hyperpage{1819}
+  \item \texttt  {<memory_resource>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{621}, \hyperpage{1787}
+  \item \texttt  {<mutex>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1707}, \hyperpage{1793}
+
+  \indexspace
+
+  \item \texttt  {<new>}, \hyperpage{66}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{513}
+  \item \texttt  {<numbers>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1353}, \hyperpage{1783}
+  \item \texttt  {<numeric>}, \hyperpage{500, 501}, 
+		\hyperindexformat{\idxbfpage}{1247}
+
+  \indexspace
+
+  \item \texttt  {<optional>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{686}, \hyperpage{1787}
+  \item \texttt  {<ostream>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{1514}, \hyperpage{1526}
+
+  \indexspace
+
+  \item \texttt  {<queue>}, \hyperpage{499, 500}, \hyperpage{949}, 
+		\hyperindexformat{\idxbfpage}{950}
+
+  \indexspace
+
+  \item \texttt  {<random>}, \hyperindexformat{\idxbfpage}{1278}, 
+		\hyperpage{1793}
+  \item \texttt  {<ranges>}, \hyperpage{501}, \hyperpage{684}, 
+		\hyperindexformat{\idxbfpage}{1027}, \hyperpage{1034}, 
+		\hyperpage{1783}, \hyperpage{1818}
+  \item \texttt  {<ratio>}, \hyperindexformat{\idxbfpage}{660}, 
+		\hyperpage{1793}
+  \item \texttt  {<regex>}, \hyperpage{501}, \hyperpage{1024}, 
+		\hyperindexformat{\idxbfpage}{1627}, \hyperpage{1627}, 
+		\hyperpage{1793}
+
+  \indexspace
+
+  \item \texttt  {<scoped_allocator>}, \hyperpage{499}, 
+		\hyperindexformat{\idxbfpage}{630}, \hyperpage{1793}
+  \item \texttt  {<semaphore>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1733}, \hyperpage{1783}
+  \item \texttt  {<set>}, \hyperpage{499--501}, \hyperpage{906}, 
+		\hyperindexformat{\idxbfpage}{907}, \hyperpage{1024}
+  \item \texttt  {<setjmp.h>}, \hyperpage{541}, 
+		\hyperindexformat{\idxbfpage}{543}
+  \item \texttt  {<shared_mutex>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1708}, \hyperpage{1790}
+  \item \texttt  {<signal.h>}, \hyperpage{542}, 
+		\hyperindexformat{\idxbfpage}{543}
+  \item \texttt  {<source_location>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{521}, \hyperpage{1783}
+  \item \texttt  {<span>}, \hyperpage{501}, \hyperpage{960}, 
+		\hyperindexformat{\idxbfpage}{961}, \hyperpage{1024}, 
+		\hyperpage{1783}
+  \item \texttt  {<spanstream>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1552}, \hyperpage{1777}
+  \item \texttt  {<sstream>}, \hyperindexformat{\idxbfpage}{1538}, 
+		\hyperpage{1538}
+  \item \texttt  {<stack>}, \hyperpage{499, 500}, \hyperpage{949}, 
+		\hyperindexformat{\idxbfpage}{950}
+  \item \texttt  {<stacktrace>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{571}, \hyperpage{1777}
+  \item \texttt  {<stdalign.h>}, \hyperpage{542}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{543}, 
+		\hyperpage{1804}
+  \item \texttt  {<stdarg.h>}, \hyperpage{541}, 
+		\hyperindexformat{\idxbfpage}{543}
+  \item \texttt  {<stdatomic.h>}, \hyperpage{501}, \hyperpage{543}, 
+		\hyperindexformat{\idxbfpage}{1705}, \hyperpage{1707}, 
+		\hyperpage{1777}
+  \item \texttt  {<stdbool.h>}, \hyperpage{542}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{543}, 
+		\hyperpage{1798}, \hyperpage{1804}
+  \item \texttt  {<stddef.h>}, \hyperpage{496, 497}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{1805}
+  \item \texttt  {<stdexcept>}, \hyperindexformat{\idxbfpage}{558}
+  \item \texttt  {<stdint.h>}, \hyperpage{511}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{1624}
+  \item \texttt  {<stdio.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1622}
+  \item \texttt  {<stdlib.h>}, \hyperpage{497}, 
+		\hyperindexformat{\idxbfpage}{543}, \hyperpage{544}
+  \item \texttt  {<stop_token>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{1663}, \hyperpage{1783}
+  \item \texttt  {<streambuf>}, \hyperindexformat{\idxbfpage}{1506}, 
+		\hyperpage{1506}
+  \item \texttt  {<string>}, \hyperpage{499--501}, \hyperpage{795}, 
+		\hyperindexformat{\idxbfpage}{808}, \hyperpage{1024}
+  \item \texttt  {<string.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{837}
+  \item \texttt  {<string_view>}, \hyperpage{499--501}, 
+		\hyperindexformat{\idxbfpage}{798}, \hyperpage{1024}, 
+		\hyperpage{1787}
+  \item \texttt  {<strstream>}, \hyperindexformat{\idxbfpage}{1808}
+  \item \texttt  {<syncstream>}, \hyperpage{501}, 
+		\hyperindexformat{\idxbfpage}{1571}, \hyperpage{1571}, 
+		\hyperpage{1783}
+  \item \texttt  {<system_error>}, \hyperindexformat{\idxbfpage}{563}, 
+		\hyperpage{565}, \hyperpage{1793}
+
+  \indexspace
+
+  \item \texttt  {<tgmath.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{543}, \hyperpage{1804}
+  \item \texttt  {<thread>}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{1667}, \hyperpage{1793}
+  \item \texttt  {<time.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{1444}
+  \item \texttt  {<tuple>}, \hyperpage{499--501}, \hyperpage{665}, 
+		\hyperindexformat{\idxbfpage}{674}, \hyperpage{684}, 
+		\hyperpage{1793}, \hyperpage{1817, 1818}
+  \item \texttt  {<type\-index>}, \hyperpage{1793}
+  \item \texttt  {<type_traits>}, \hyperpage{499--502}, 
+		\hyperindexformat{\idxbfpage}{635}, \hyperpage{1793}, 
+		\hyperpage{1816}
+  \item \texttt  {<typeindex>}, \hyperindexformat{\idxbfpage}{764}
+  \item \texttt  {<typeinfo>}, \hyperpage{123}, \hyperpage{500}, 
+		\hyperindexformat{\idxbfpage}{519}
+
+  \indexspace
+
+  \item \texttt  {<uchar.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{839}
+  \item \texttt  {<unordered_map>}, \hyperpage{499--502}, 
+		\hyperindexformat{\idxbfpage}{925}, \hyperpage{925}, 
+		\hyperpage{1024}, \hyperpage{1793}
+  \item \texttt  {<unordered_set>}, \hyperpage{499--501}, 
+		\hyperpage{925}, \hyperindexformat{\idxbfpage}{926}, 
+		\hyperpage{1024}, \hyperpage{1793}
+  \item \texttt  {<utility>}, \hyperpage{478}, \hyperpage{499--502}, 
+		\hyperindexformat{\idxbfpage}{663}, \hyperpage{684}, 
+		\hyperpage{1793}, \hyperpage{1808}, \hyperpage{1818}
+
+  \indexspace
+
+  \item \texttt  {<valarray>}, \hyperindexformat{\idxbfpage}{1319}, 
+		\hyperpage{1322}
+  \item \texttt  {<variant>}, \hyperpage{502}, 
+		\hyperindexformat{\idxbfpage}{700}, \hyperpage{1787}, 
+		\hyperpage{1818}
+  \item \texttt  {<vector>}, \hyperpage{499--501}, \hyperpage{876}, 
+		\hyperindexformat{\idxbfpage}{878}, \hyperpage{1024}
+  \item \texttt  {<version>}, \hyperindexformat{\idxbfpage}{499}, 
+		\hyperpage{499}, \hyperpage{1783}
+
+  \indexspace
+
+  \item \texttt  {<wchar.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{838}
+  \item \texttt  {<wctype.h>}, \hyperindexformat{\idxbfpage}{543}, 
+		\hyperpage{836}
+
+\end{theindex}

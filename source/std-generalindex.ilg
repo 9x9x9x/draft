@@ -1,0 +1,37 @@
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning style file ./generalindex.ist...done (3 attributes redefined, 0 ignored).
+Scanning input file std-generalindex.idx..........done (6474 entries accepted, 0 rejected).
+Sorting entries................................................................done (91363 comparisons).
+Generating output file std-generalindex.ind....
+## Warning (input = std-generalindex.idx, line = 3728; output = std-generalindex.ind, line = 872):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+..
+## Warning (input = std-generalindex.idx, line = 2040; output = std-generalindex.ind, line = 2045):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 2720; output = std-generalindex.ind, line = 2069):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 2719; output = std-generalindex.ind, line = 2070):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 2721; output = std-generalindex.ind, line = 2071):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 803; output = std-generalindex.ind, line = 2351):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 2792; output = std-generalindex.ind, line = 2440):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 3764; output = std-generalindex.ind, line = 2540):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-generalindex.idx, line = 2042; output = std-generalindex.ind, line = 2788):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+..
+## Warning (input = std-generalindex.idx, line = 2044; output = std-generalindex.ind, line = 4074):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+.done (4831 lines written, 10 warnings).
+Output written in std-generalindex.ind.
+Transcript written in std-generalindex.ilg.

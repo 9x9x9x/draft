@@ -1,0 +1,78 @@
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning input file std-headerindex.idx....done (686 entries accepted, 0 rejected).
+Sorting entries........done (7350 comparisons).
+Generating output file std-headerindex.ind....
+## Warning (input = std-headerindex.idx, line = 435; output = std-headerindex.ind, line = 8):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 280; output = std-headerindex.ind, line = 46):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 485; output = std-headerindex.ind, line = 58):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 345; output = std-headerindex.ind, line = 60):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 299; output = std-headerindex.ind, line = 67):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 300; output = std-headerindex.ind, line = 70):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 302; output = std-headerindex.ind, line = 75):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 284; output = std-headerindex.ind, line = 80):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 500; output = std-headerindex.ind, line = 97):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 433; output = std-headerindex.ind, line = 102):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 436; output = std-headerindex.ind, line = 113):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 514; output = std-headerindex.ind, line = 160):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 347; output = std-headerindex.ind, line = 163):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 446; output = std-headerindex.ind, line = 190):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 385; output = std-headerindex.ind, line = 195):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 559; output = std-headerindex.ind, line = 233):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 540; output = std-headerindex.ind, line = 257):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 349; output = std-headerindex.ind, line = 264):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 355; output = std-headerindex.ind, line = 272):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 531; output = std-headerindex.ind, line = 285):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 546; output = std-headerindex.ind, line = 296):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 365; output = std-headerindex.ind, line = 303):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 450; output = std-headerindex.ind, line = 325):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = std-headerindex.idx, line = 42; output = std-headerindex.ind, line = 343):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (353 lines written, 24 warnings).
+Output written in std-headerindex.ind.
+Transcript written in std-headerindex.ilg.

@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning style file /usr/share/texlive/texmf-dist/makeindex/memoir/basic.gst.......done (7 attributes redefined, 0 ignored).
+Scanning input file xrefdelta.glo....done (53 entries accepted, 0 rejected).
+Sorting entries....done (307 comparisons).
+Generating output file xrefdelta.gls....done (128 lines written, 0 warnings).
+Output written in xrefdelta.gls.
+Transcript written in xrefdelta.ilg.

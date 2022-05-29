@@ -1,0 +1,53 @@
+\glossaryentry{re.def@ {\memgloterm{re.def}}{\memglodesc{\textit  {see} \hyperref  [intro.refs]{intro.refs}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{basic.scope.declarative@ {\memgloterm{basic.scope.declarative}}{\memglodesc{\textit  {see} \hyperref  [basic.scope.scope]{basic.scope.scope}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{basic.funscope@ {\memgloterm{basic.funscope}}{\memglodesc{\textit  {see} \hyperref  [stmt.label]{stmt.label}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{basic.scope.hiding@ {\memgloterm{basic.scope.hiding}}{\memglodesc{\textit  {see} \hyperref  [basic.lookup]{basic.lookup}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{basic.lookup.classref@ {\memgloterm{basic.lookup.classref}}{\memglodesc{\textit  {see} \hyperref  [basic.lookup.qual]{basic.lookup.qual}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{namespace.memdef@ {\memgloterm{namespace.memdef}}{\memglodesc{\textit  {see} \hyperref  [namespace.def]{namespace.def}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{class.this@ {\memgloterm{class.this}}{\memglodesc{\textit  {see} \hyperref  [expr.prim.this]{expr.prim.this}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{class.mfct.non-static.general@ {\memgloterm{class.mfct.non-static.general}}{\memglodesc{\textit  {see} \hyperref  [class.mfct.non.static]{class.mfct.non.static}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{class.nested.type@ {\memgloterm{class.nested.type}}{\memglodesc{\textit  {see} \hyperref  [diff.basic]{diff.basic}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{over.load@ {\memgloterm{over.load}}{\memglodesc{\textit  {see} \hyperref  [basic.scope.scope]{basic.scope.scope}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{over.dcl@ {\memgloterm{over.dcl}}{\memglodesc{\textit  {see} \hyperref  [basic.link]{basic.link}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.nondep@ {\memgloterm{temp.nondep}}{\memglodesc{\textit  {see} \hyperref  [temp.res]{temp.res}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.inject@ {\memgloterm{temp.inject}}{\memglodesc{\textit  {see} \hyperref  [temp.friend]{temp.friend}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.class.spec@ {\memgloterm{temp.class.spec}}{\memglodesc{\textit  {see} \hyperref  [temp.spec.partial]{temp.spec.partial}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.class.spec.general@ {\memgloterm{temp.class.spec.general}}{\memglodesc{\textit  {see} \hyperref  [temp.spec.partial.general]{temp.spec.partial.general}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.class.spec.match@ {\memgloterm{temp.class.spec.match}}{\memglodesc{\textit  {see} \hyperref  [temp.spec.partial.match]{temp.spec.partial.match}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.class.order@ {\memgloterm{temp.class.order}}{\memglodesc{\textit  {see} \hyperref  [temp.spec.partial.order]{temp.spec.partial.order}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{temp.class.spec.mfunc@ {\memgloterm{temp.class.spec.mfunc}}{\memglodesc{\textit  {see} \hyperref  [temp.spec.partial.member]{temp.spec.partial.member}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist@ {\memgloterm{forwardlist}}{\memglodesc{\textit  {see} \hyperref  [forward.list]{forward.list}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.overview@ {\memgloterm{forwardlist.overview}}{\memglodesc{\textit  {see} \hyperref  [forward.list.overview]{forward.list.overview}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.cons@ {\memgloterm{forwardlist.cons}}{\memglodesc{\textit  {see} \hyperref  [forward.list.cons]{forward.list.cons}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.iter@ {\memgloterm{forwardlist.iter}}{\memglodesc{\textit  {see} \hyperref  [forward.list.iter]{forward.list.iter}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.access@ {\memgloterm{forwardlist.access}}{\memglodesc{\textit  {see} \hyperref  [forward.list.access]{forward.list.access}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.modifiers@ {\memgloterm{forwardlist.modifiers}}{\memglodesc{\textit  {see} \hyperref  [forward.list.modifiers]{forward.list.modifiers}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{forwardlist.ops@ {\memgloterm{forwardlist.ops}}{\memglodesc{\textit  {see} \hyperref  [forward.list.ops]{forward.list.ops}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{basic.stc.dynamic.safety@ {\memgloterm{basic.stc.dynamic.safety}}{\memglodesc{\textit  {removed}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{util.dynamic.safety@ {\memgloterm{util.dynamic.safety}}{\memglodesc{\textit  {removed}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{res.on.pointer.storage@ {\memgloterm{res.on.pointer.storage}}{\memglodesc{\textit  {removed}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{fs.req.namespace@ {\memgloterm{fs.req.namespace}}{\memglodesc{\textit  {removed}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{fs.req.general@ {\memgloterm{fs.req.general}}{\memglodesc{\textit  {see} \hyperref  [fs.req]{fs.req}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{range.semi.wrap@ {\memgloterm{range.semi.wrap}}{\memglodesc{\textit  {see} \hyperref  [range.copy.wrap]{range.copy.wrap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{range.split.outer@ {\memgloterm{range.split.outer}}{\memglodesc{\textit  {see} \hyperref  [range.lazy.split.outer]{range.lazy.split.outer}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{range.split.outer.value@ {\memgloterm{range.split.outer.value}}{\memglodesc{\textit  {see} \hyperref  [range.lazy.split.outer.value]{range.lazy.split.outer.value}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{range.split.inner@ {\memgloterm{range.split.inner}}{\memglodesc{\textit  {see} \hyperref  [range.lazy.split.inner]{range.lazy.split.inner}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.comma.subscript@ {\memgloterm{depr.comma.subscript}}{\memglodesc{\textit  {removed}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.c.headers@ {\memgloterm{depr.c.headers}}{\memglodesc{\textit  {see} \hyperref  [support.c.headers]{support.c.headers}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.c.headers.general@ {\memgloterm{depr.c.headers.general}}{\memglodesc{\textit  {see} \hyperref  [support.c.headers.general]{support.c.headers.general}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.c.headers.other@ {\memgloterm{depr.c.headers.other}}{\memglodesc{\textit  {see} \hyperref  [support.c.headers.other]{support.c.headers.other}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.complex.h.syn@ {\memgloterm{depr.complex.h.syn}}{\memglodesc{\textit  {see} \hyperref  [complex.h.syn]{complex.h.syn}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.iso646.h.syn@ {\memgloterm{depr.iso646.h.syn}}{\memglodesc{\textit  {see} \hyperref  [iso646.h.syn]{iso646.h.syn}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.stdalign.h.syn@ {\memgloterm{depr.stdalign.h.syn}}{\memglodesc{\textit  {see} \hyperref  [stdalign.h.syn]{stdalign.h.syn}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.stdbool.h.syn@ {\memgloterm{depr.stdbool.h.syn}}{\memglodesc{\textit  {see} \hyperref  [stdbool.h.syn]{stdbool.h.syn}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{depr.tgmath.h.syn@ {\memgloterm{depr.tgmath.h.syn}}{\memglodesc{\textit  {see} \hyperref  [tgmath.h.syn]{tgmath.h.syn}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{istringstream.assign@ {\memgloterm{istringstream.assign}}{\memglodesc{\textit  {see} \hyperref  [istringstream.swap]{istringstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{ostringstream.assign@ {\memgloterm{ostringstream.assign}}{\memglodesc{\textit  {see} \hyperref  [ostringstream.swap]{ostringstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{stringstream.assign@ {\memgloterm{stringstream.assign}}{\memglodesc{\textit  {see} \hyperref  [stringstream.swap]{stringstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{ifstream.assign@ {\memgloterm{ifstream.assign}}{\memglodesc{\textit  {see} \hyperref  [ifstream.swap]{ifstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{ofstream.assign@ {\memgloterm{ofstream.assign}}{\memglodesc{\textit  {see} \hyperref  [ofstream.swap]{ofstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{fstream.assign@ {\memgloterm{fstream.assign}}{\memglodesc{\textit  {see} \hyperref  [fstream.swap]{fstream.swap}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{func.bind.front@ {\memgloterm{func.bind.front}}{\memglodesc{\textit  {see} \hyperref  [func.bind.partial]{func.bind.partial}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{class.mfct.non-static@ {\memgloterm{class.mfct.non-static}}{\memglodesc{\textit  {see} \hyperref  [class.mfct.non.static]{class.mfct.non.static}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{defns.direct-non-list-init@ {\memgloterm{defns.direct-non-list-init}}{\memglodesc{\textit  {see} \hyperref  [defns.direct.non.list.init]{defns.direct.non.list.init}}} {\memgloref{}}|swallow}{1858}
+\glossaryentry{defns.expression-equivalent@ {\memgloterm{defns.expression-equivalent}}{\memglodesc{\textit  {see} \hyperref  [defns.expression.equivalent]{defns.expression.equivalent}}} {\memgloref{}}|swallow}{1858}
